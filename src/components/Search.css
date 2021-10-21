@@ -1,0 +1,25 @@
+.search {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.search-box {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-color: white;
+  border-bottom: blueviolet 3px solid;
+  width: 220px;
+}
+.search-button {
+  padding: 10px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: blueviolet;
+  color: aliceblue;
+}
+*:focus {
+  outline: none;
+}

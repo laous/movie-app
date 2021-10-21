@@ -1,0 +1,24 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background-color: blueviolet;
+  padding: 0.5rem 1rem;
+  color: azure;
+}
+
+ul {
+  display: inline-block;
+  list-style: none;
+}
+li {
+  display: inline-block;
+  padding: 0.3rem 1rem;
+  cursor: pointer;
+  transition: all ease 0.4s;
+}
+li:hover {
+  transform: scale(1.1);
+  text-decoration: underline;
+}
