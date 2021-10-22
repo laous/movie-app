@@ -22,11 +22,13 @@ function CardList(props) {
     <>
       <div className="card-list">{displayMovies}</div>
 
-      <ReactPaginate
-        pageCount={pageCount}
-        onPageChange={onPageChange}
-        containerClassName="center"
-      />
+      {pageCount > 1 && (
+        <ReactPaginate
+          pageCount={pageCount}
+          onPageChange={onPageChange}
+          containerClassName="center"
+        />
+      )}
     </>
   );
 }
