@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import { data } from "../data";
 import Card from "./Card";
 import "./Card.css";
 import ReactPaginate from "react-paginate";
 
-function CardList() {
-  const [movies, setMovies] = useState(data.slice(0, data.length));
+function CardList(props) {
+  const movies = props.list;
+
   const [pageNumber, setPageNumber] = useState(0);
   const moviePerPage = 9;
   const pagesVisited = pageNumber * moviePerPage;
@@ -19,10 +19,15 @@ function CardList() {
     setPageNumber(selected);
   };
   return (
-    <div className="card-list">
-      {displayMovies}
-      <ReactPaginate pageCount={pageCount} onPageChange={onPageChange} />
-    </div>
+    <>
+      <div className="card-list">{displayMovies}</div>
+
+      <ReactPaginate
+        pageCount={pageCount}
+        onPageChange={onPageChange}
+        containerClassName="center"
+      />
+    </>
   );
 }
 

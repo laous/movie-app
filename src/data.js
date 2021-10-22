@@ -1,3069 +1,2153 @@
-export const data = [
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2Fb2%2F38%2Fforrest-gump.jpg&crop=center&size=180",
-      "name": "Forrest Gump",
-      "rating": 8.29,
-      "votes": 11454,
-      "year": 1994,
-      "description": "Historia Forresta Gumpa od początku jest niezwykła. Forrest urodził się w latach 50-tych, a jego IQ to 75 czyli poniżej normy, jednak to nie stanowi dla niego kłopotu, łatwo nawiązuje znajomości i nie zraża się do ludzi. Już od dzieciństwa przyjaźni się z Jenny, która zostaje na długo jego jedynym przyjacielem. Forrest Gump dzięki temu, że niezwykle szybko biega dostaje ...",
-      "tags": [
-        "bieg",
-        "dramat",
-        "komedia",
-        "lata 60.",
-        "lata 70.",
-        "niepełnosprawność",
-        "obyczajowy",
-        "ping pong",
-        "romans",
-        "rybak",
-        "tragikomedia",
-        "wietnam"
-      ],
-      "actors": [
-        "Tom Hanks",
-        "Robin Wright",
-        "Gary Sinise",
-        "Mykelti Williamson",
-        "Sally Field",
-        "Rebecca Williams",
-        "Michael Conner Humphreys",
-        "Harold G. Herthum",
-        "George Kelly",
-        "Bob Penny"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F02%2F08%2Fthe-matrix.jpg&crop=center&size=180",
-      "name": "Matrix",
-      "rating": 8.13,
-      "votes": 11306,
-      "year": 1999,
-      "description": "Thomas Anderson - na codzień pracownik firmy komputerowej, &quot;po godzinach&quot; haker o pseudonimie, Neo. Pewnego dnia, nawiązuje kontakt z Morfeuszem - człowiekiem, który jak twierdzi, pomoże Thomasowi poznać prawdziwy świat. Neo zaintrygowany, opowieściami Morfeusza, o tym że świat jaki widzi na codzień to Matrix - program wygenerowany przez maszyny by omamić człowieka, przytaje do jego grupy. Tak trafia na Nabuchodonozora ...",
-      "tags": [
-        "antyutopia",
-        "cyberpunk",
-        "dreszczowiec",
-        "filozofia",
-        "matrix",
-        "mindfuck",
-        "pokoleniowy",
-        "przygodowy",
-        "robot",
-        "science-fiction",
-        "sensacyjny",
-        "sztuczna inteligencja",
-        "wirtualna rzeczywistość"
-      ],
-      "actors": [
-        "Keanu Reeves",
-        "Laurence Fishburne",
-        "Carrie-Anne Moss",
-        "Hugo Weaving",
-        "Gloria Foster",
-        "Joe Pantoliano",
-        "Marcus Chong",
-        "Julian Arahanga",
-        "Matt Doran",
-        "Belinda McClory"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F2e%2F36%2Ffight-club.jpg&crop=center&size=180",
-      "name": "Podziemny krąg",
-      "rating": 8.3,
-      "votes": 11231,
-      "year": 1999,
-      "description": "Jack (Norton) cierpi na chroniczną bezsenność i jest całkowicie znudzony swym dotychczasowym życiem. Do czasu, gdy spotyka charyzmatycznego Tylera Durdena (Pitt) - sprzedawcę mydła o dość pokrętnej filozofii życia... Uważa on bowiem, że samo-doskonalenie jest dla słabeuszy, a to co rzeczywiście sprawia, że warto żyć to samo-destrukcja. Kiedy mieszkanie Jacka zostaje kompletnie zniszczone w wyniku tajemniczego wybuchu, Tyler oferuje mu ...",
-      "tags": [
-        "agresja",
-        "chuck polahniuk",
-        "dramat",
-        "dreszczowiec",
-        "ekranizacja",
-        "mindfuck",
-        "pokoleniowy",
-        "przemoc",
-        "psychologiczny",
-        "sensacyjny",
-        "tajemnica"
-      ],
-      "actors": [
-        "Edward Norton",
-        "Brad Pitt",
-        "Helena Bonham Carter",
-        "Meat Loaf",
-        "Zach Grenier",
-        "Richmond Arquette",
-        "David Andrews",
-        "George Maguire",
-        "Eugenie Bondurant",
-        "Christina Cabot"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2Fd3%2F35%2Fleon.jpg&crop=center&size=180",
-      "name": "Leon zawodowiec",
-      "rating": 8.23,
-      "votes": 10589,
-      "year": 1994,
-      "description": "Leon to płatny morderca z kodeksem honorowym. Jest najlepszy, jednak pewnego dnia łamie swoje reguły i otwiera drzwi Matyldzie, dziewczynce, której skorumpowani policjanci pod wodzą szalonego Stansfielda z DEA zabili całą rodzinę. Chcąc nie chcąc, ci dwoje zostają skazani na siebie. Leon uczy Matyldę &quot;fachu&quot;, a ta w zamian uczy Leona czytać. Między nimi rodzi się więź, która powoduje, że ...",
-      "tags": [
-        "dramat",
-        "dreszczowiec",
-        "dziecko",
-        "kryminalny",
-        "płatny morderca",
-        "przyjaźń z dzieckiem",
-        "sensacyjny",
-        "zawodowy zabójca",
-        "złydobry"
-      ],
-      "actors": [
-        "Jean Reno",
-        "Gary Oldman",
-        "Natalie Portman",
-        "Danny Aiello",
-        "Peter Appel",
-        "Willi One Blood",
-        "Don Creech",
-        "Keith A. Glascoe",
-        "Randolph Scott (II)",
-        "Michael Badalucco"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F5f%2F35%2Fpulp-fiction.jpg&crop=center&size=180",
-      "name": "Pulp Fiction",
-      "rating": 8.44,
-      "votes": 10566,
-      "year": 1994,
-      "description": "Kultowe dzieło Quentina Tarantino. Czarna komedia opowiada o losach Vincenta i Julesa, płatnych morderców, którzy oprócz konieczności odzyskania ważnej walizki muszą zaopiekować się również żoną szefa mafii. Jeden z klasyków lat 90tych.",
-      "tags": [
-        "charaktery",
-        "czarny humor",
-        "dramat",
-        "gangsterski",
-        "komedia",
-        "kryminalny",
-        "kultowy",
-        "mafia",
-        "musical",
-        "napad",
-        "narkotyki",
-        "pastisz",
-        "pech",
-        "pokoleniowy",
-        "sensacyjny"
-      ],
-      "actors": [
-        "John Travolta",
-        "Samuel L. Jackson",
-        "Tim Roth",
-        "Uma Thurman",
-        "Amanda Plummer",
-        "Eric Stoltz",
-        "Bruce Willis",
-        "Ving Rhames",
-        "Phil LaMarr",
-        "Maria de Medeiros"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=uploads%2Ft%2FtmpzaiBYv.jpg&crop=center&size=180",
-      "name": "Skazani na Shawshank",
-      "rating": 8.59,
-      "votes": 8901,
-      "year": 1994,
-      "description": "Skazani na ciężkie więzienie w Shawshank marzą o tym co będą robić jak uda im się uzyskać przedterminowe zwolnienie. Nadzieja umożliwia im przetrwanie.",
-      "tags": [
-        "dramat",
-        "ekranizacja",
-        "literatura",
-        "morderstwo",
-        "nadzieja",
-        "przyjaźń",
-        "psychologiczny",
-        "społeczeństwo",
-        "stephen king",
-        "więzienie"
-      ],
-      "actors": [
-        "Tim Robbins",
-        "Morgan Freeman",
-        "Bob Gunton",
-        "William Sadler",
-        "Clancy Brown",
-        "Gil Bellows",
-        "Mark Rolston",
-        "James Whitmore",
-        "Jeffrey DeMunn",
-        "Larry Brandenburg"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F23%2F35%2Fthe-lord-of-the-rings-the-fellowship-of-the-ring.jpg&crop=center&size=180",
-      "name": "Władca pierścieni: Drużyna pierścienia",
-      "rating": 7.87,
-      "votes": 8673,
-      "year": 2001,
-      "description": "Ekranizacja pierwszej części trylogii Tolkiena, &quot;Drużyna pierścienia&quot; zapoznaje widzów z czarodziejskim światem Śródziemia i jego mieszkańcami - ludźmi, hobbitami, elfami, krasnoludami, czarodziejami, trollami i orkami. W tej części trylogii młody i nieśmiały hobbit Frodo Baggins odziedzicza pierścień - Jedyny Pierścień, narzędzie władzy absolutnej, które pozwoliłoby Sauronowi, mrocznemu Władcy Mordoru, rządzić Śródziemiem i zniewolić zamieszkujące je ludy. Frodo, wraz z lojalną ...",
-      "tags": [
-        "ekranizacja",
-        "fantasy",
-        "magia",
-        "przygodowy",
-        "sensacyjny",
-        "tolkien"
-      ],
-      "actors": [
-        "Alan Howard",
-        "Noel Appleby",
-        "Sean Astin",
-        "Sala Baker",
-        "Sean Bean",
-        "Cate Blanchett",
-        "Orlando Bloom",
-        "Billy Boyd",
-        "Marton Csokas",
-        "Megan Edwards"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F0f%2F33%2Fshrek.jpg&crop=center&size=180",
-      "name": "Shrek",
-      "rating": 7.55,
-      "votes": 8131,
-      "year": 2001,
-      "description": "Shrek, na pozór mało sympatyczny ogr z bagien, bawi całe rodziny. To bajka dla dorosłych i dla dzieci. Każdy znajdzie tu coś dla siebie. Smieszna opowieśc o ogrze, który na pozór stroni od ludzi, a który przez jedno przypadkowe spotkanie zyskuję przyjaciela i miłośc sowjego życia:)",
-      "tags": [
-        "animowany",
-        "baśń",
-        "dreamworks",
-        "familijny",
-        "fantasy",
-        "komedia",
-        "potwór",
-        "przygodowy",
-        "romans",
-        "shrek"
-      ],
-      "actors": [
-        "Mike Myers",
-        "Eddie Murphy",
-        "Cameron Diaz",
-        "John Lithgow",
-        "Vincent Cassel",
-        "Peter Dennis",
-        "Clive Pearse",
-        "Jim Cummings",
-        "Bobby Block",
-        "Chris Miller"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F75%2F43%2Fice-age.jpg&crop=center&size=180",
-      "name": "Epoka lodowcowa",
-      "rating": 7.16,
-      "votes": 8029,
-      "year": 2002,
-      "description": "Przyłączcie się do Sida, gadatliwego, zabawnego leniwca; Manny'ego, olbrzymiego mamuta obdarzonego ironicznym poczuciem humoru; i Diego, dwulicowego tygrysa szablozębego. Ta niedobrana trójka bohaterów wyrusza z ważną i niebezpieczną misją w czasie, gdy świat staje w obliczu nadchodzącej Epoki Lodowcowej",
-      "tags": [
-        "animowany",
-        "blue sky studios",
-        "epoka lodowcowa",
-        "familijny",
-        "komedia",
-        "przygodowy",
-        "przyjaźń",
-        "scrat",
-        "zwierzęta"
-      ],
-      "actors": [
-        "Ray Romano",
-        "John Leguizamo",
-        "Denis Leary",
-        "Goran Visnjic",
-        "Jack Black",
-        "Cedric the Entertainer",
-        "Stephen Root",
-        "Diedrich Bader",
-        "Alan Tudyk",
-        "Lorri Bagley"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F5e%2Fcc%2Fthe-dark-knight.jpg&crop=center&size=180",
-      "name": "Mroczny rycerz",
-      "rating": 8.03,
-      "votes": 7913,
-      "year": 2008,
-      "description": "Batman (Christian Bale) i jego sprzymierzeńcy w walce z przestępczością, porucznik Jim Gordon (Gary Oldman) oraz nowy Prokurator Okręgowy Harvey Dent (Aaron Eckhart) muszą zmierzyć się z nowym wrogiem, geniuszem zbrodni znanym jako Joker (Heath Ledger).",
-      "tags": [
-        "bank",
-        "batman",
-        "brudne pieniądze",
-        "dc comics",
-        "dreszczowiec",
-        "ekranizacja komiksu",
-        "kryminalny",
-        "przestępca",
-        "przygodowy",
-        "science-fiction",
-        "sensacyjny",
-        "superbohater"
-      ],
-      "actors": [
-        "Christian Bale",
-        "Heath Ledger",
-        "Aaron Eckhart",
-        "Michael Caine",
-        "Maggie Gyllenhaal",
-        "Gary Oldman",
-        "Morgan Freeman",
-        "Monique Curnen",
-        "Ron Dean",
-        "Cillian Murphy"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2Fc6%2F16%2Ftitanic.jpg&crop=center&size=180",
-      "name": "Titanic",
-      "rating": 6.32,
-      "votes": 7728,
-      "year": 1997,
-      "description": "Żaden film nie może się równać z niezwykłym, zapierającym dech w piersiach widowiskiem, jakim bez wątpienia jest &quot;Titanic&quot;. Ta nagrodzona 11 Oscarami, a w tym dla najlepszego filmu, historia miłosna, wzruszająca widzów na całym świecie, jest najbardziej kasowym filmem wszech czasów. Najpopularnieszy obecnie aktor młodego pokolenia Leonardo Di Caprio i nominowana do Oscara Kate Winslet tworzą wspaniałe, niezapomniane kreacje aktorskie ...",
-      "tags": [
-        "dramat",
-        "historyczny",
-        "katastrofa",
-        "katastroficzny",
-        "morze",
-        "romans",
-        "wielkie przedsięwzięcie",
-        "żegluga"
-      ],
-      "actors": [
-        "Leonardo DiCaprio",
-        "Kate Winslet",
-        "Billy Zane",
-        "Kathy Bates",
-        "Frances Fisher",
-        "Gloria Stuart",
-        "Bill Paxton",
-        "Bernard Hill",
-        "David Warner",
-        "Victor Garber"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F83%2F39%2Fgladiator.jpg&crop=center&size=180",
-      "name": "Gladiator",
-      "rating": 7.64,
-      "votes": 7602,
-      "year": 2000,
-      "description": "Rzymski generał Maximus powraca do domu po kolejnej udanej wyprawie wojennej. Zazdrosny o jego wpływy u cesarza, dziedzic tronu, Commodus, zleca egzekucję generała i jego rodziny. Cudem unikając śmierci, Maximus zostaje wzięty w niewolę i jest szkolony na gladiatora, co przysparza mu rosnącą popularność. Wraca do Rzymu, chcąc pomścić morderstwa syna i żony. [Opis dystrybutora]",
-      "tags": [
-        "dramat",
-        "gladiator",
-        "historyczny",
-        "igrzyska",
-        "przygodowy",
-        "rzym",
-        "sensacyjny",
-        "starożytność",
-        "ukryta tożsamość",
-        "wojenny",
-        "zemsta"
-      ],
-      "actors": [
-        "Russell Crowe",
-        "Joaquin Phoenix",
-        "Connie Nielsen",
-        "Oliver Reed",
-        "Richard Harris",
-        "Derek Jacobi",
-        "Djimon Hounsou",
-        "David Schofield",
-        "John Shrapnel",
-        "Tomas Arana"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F0e%2Fd4%2Fse7en.jpg&crop=center&size=180",
-      "name": "Siedem",
-      "rating": 8.22,
-      "votes": 7590,
-      "year": 1995,
-      "description": "Brad Pitt i Morgan Freeman występują w thrillerze psychologicznym jako detektywi tropiący Johna Doe, seryjnego mordercę, który wybiera swe ofiary według siedmiu grzechów głównych. Dokładnie, metodycznie i z groteskowym wręcz artyzmem, zabójca zaplanował każde morderstwo w najdrobniejszych szczegółach. W miarę, jak śledztwo posuwa się naprzód, John Doe cierpliwie czeka na finałową konfrontację, zdecydowany doprowadzić swe mordercze arcydzieło do końca.",
-      "tags": [
-        "dreszczowiec",
-        "grzech",
-        "kryminalny",
-        "morderca",
-        "psychopata",
-        "sensacyjny",
-        "seryjny morderca",
-        "tajemnica"
-      ],
-      "actors": [
-        "Brad Pitt",
-        "Morgan Freeman",
-        "Gwyneth Paltrow",
-        "R. Lee Ermey",
-        "Andrew Kevin Walker",
-        "Daniel Zacapa",
-        "John Cassini",
-        "Bob Mack",
-        "Peter Crombie",
-        "Reg E. Cathey"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=uploads%2Ft%2Ftmpfk6nKU.jpg&crop=center&size=180",
-      "name": "Ojciec chrzestny",
-      "rating": 8.54,
-      "votes": 7172,
-      "year": 1972,
-      "description": "Coppola kreśli portret sycylijskiego klanu w Ameryce, w chwilach wzlotów i upadków, ukazując zarówno prywatne życie rodziny, jak i ciemne interesy, w jakie się zaangażowała. Oparty na bestsellerowej powieści Mario Puzo, film z kreacjami Ala Pacino, Jamesa Caana i Roberta Duvalla.",
-      "tags": [
-        "dramat",
-        "dreszczowiec",
-        "ekranizacja",
-        "gangsterski",
-        "kryminalny",
-        "mafia",
-        "mario puzo",
-        "sensacyjny"
-      ],
-      "actors": [
-        "Marlon Brando",
-        "Al Pacino",
-        "James Caan",
-        "Richard S. Castellano",
-        "Robert Duvall",
-        "Sterling Hayden",
-        "John Marley",
-        "Richard Conte",
-        "Al Lettieri",
-        "Diane Keaton"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F5e%2Fff%2Fthe-truman-show.jpg&crop=center&size=180",
-      "name": "Truman Show",
-      "rating": 7.49,
-      "votes": 7118,
-      "year": 1998,
-      "description": "Film opowiada historię Trumana Burbanka (Jim Carrey), agenta ubezpieczeniowego, który wiedzie spokojne życie w cichym, małym miasteczku nadcie przez całą dobę mogą oglądać ludzie z całego świata. Jednak z czasem zauważa niepokojące szczegóły, które poprowadzą go do odkrycia prawdy...",
-      "tags": [
-        "dramat",
-        "komedia",
-        "komediodramat",
-        "reality show",
-        "science-fiction"
-      ],
-      "actors": [
-        "Jim Carrey",
-        "Laura Linney",
-        "Noah Emmerich",
-        "Natascha McElhone",
-        "Holland Taylor",
-        "Brian Delate",
-        "Blair Slater",
-        "Peter Krause",
-        "Heidi Schanz",
-        "Ron Taylor"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=uploads%2Ft%2Ftmpyw_8CW.jpg&crop=center&size=180",
-      "name": "Zielona mila",
-      "rating": 8.17,
-      "votes": 7077,
-      "year": 1999,
-      "description": "Film jest opowiadaniem szefa strażników więziennych, który zajmował się m.in. wykonywaniem egzekucji na krześle elektrycznym. Pewnego dnia do jego bloku śmierci (zwanym 'Zieloną Milą') przyjeżdża skazany za zabicie dwóch małych dziewczynek, olbrzymi, czarnoskóry mężczyzna, obdarzony niesamowitą mocą.",
-      "tags": [
-        "dramat",
-        "ekranizacja",
-        "fantasy",
-        "kara śmierci",
-        "kryminalny",
-        "obyczajowy",
-        "psychologiczny",
-        "rasizm",
-        "sensacyjny",
-        "stephen king",
-        "więzienie"
-      ],
-      "actors": [
-        "Tom Hanks",
-        "David Morse",
-        "Bonnie Hunt",
-        "Michael Clarke Duncan",
-        "James Cromwell",
-        "Michael Jeter",
-        "Graham Greene",
-        "Doug Hutchison",
-        "Sam Rockwell",
-        "Barry Pepper"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F2c%2F30%2Fkill-bill-vol-1.jpg&crop=center&size=180",
-      "name": "Kill Bill: Cz. 1",
-      "rating": 7.37,
-      "votes": 6955,
-      "year": 2003,
-      "description": "Czarna Mamba (Thurman) po przebudzeniu się ze śpiączki wyrusza w podróż, której celem jest wymordowanie bandy Billa, swoich dawnych kompanów, których opuściła by urodzić dziecko. Jatka w tarantinowskim stylu.",
-      "tags": [
-        "dreszczowiec",
-        "kill bill",
-        "kryminalny",
-        "mściciel",
-        "sensacyjny",
-        "silna kobieta"
-      ],
-      "actors": [
-        "Uma Thurman",
-        "Lucy Liu",
-        "Vivica A. Fox",
-        "Daryl Hannah",
-        "David Carradine",
-        "Michael Madsen",
-        "Julie Dreyfus",
-        "Chiaki Kuriyama",
-        "Sonny Chiba",
-        "Chia Hui Liu"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=uploads%2Ft%2FtmpMS1Y4E_1.jpg&crop=center&size=180",
-      "name": "Incepcja",
-      "rating": 8.05,
-      "votes": 6904,
-      "year": 2010,
-      "description": "Światowej sławy filmowiec Christopher Nolan wyreżyserował film z gwiazdorską obsadą, który zabiera widzów w podróż dookoła ziemskiego globu oraz wgłąb intymnego i nieskończonego świata snów. Dom Cobb (Leonardo DiCaprio) jest niezwykle sprawnym złodziejem, mistrzem w wydobywaniu wartościowych sekretów ukrytych głęboko w świadomości podczas fazy snu, kiedy umysł jest najbardziej wrażliwy. Wyjątkowe umiejętności Cobba uczyniły z niego ważnego gracza w świecie ...",
-      "tags": [
-        "dramat",
-        "dreszczowiec",
-        "mindfuck",
-        "science-fiction",
-        "sen",
-        "sensacyjny",
-        "szpiegowski",
-        "tożsamość",
-        "wirtualna rzeczywistość"
-      ],
-      "actors": [
-        "Leonardo DiCaprio",
-        "Joseph Gordon-Levitt",
-        "Marion Cotillard",
-        "Ellen Page",
-        "Cillian Murphy",
-        "Michael Caine",
-        "Tom Hardy",
-        "Tom Berenger",
-        "Lukas Haas",
-        "Ken Watanabe"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2Fb4%2F8a%2Fpirates-of-the-caribbean-the-curse-of-the-black-pearl.jpg&crop=center&size=180",
-      "name": "Piraci z Karaibów: Klątwa Czarnej Perły",
-      "rating": 7.24,
-      "votes": 6879,
-      "year": 2003,
-      "description": "Pierwsza część sagi o Piratach z Karaibów z kapitanem Jackiem Sparrowem w roli głównej. Miłość / zdrada / walka na śmierć i życie oraz kupa śmiechu.",
-      "tags": [
-        "ciepły kraj",
-        "fantasy",
-        "komedia",
-        "morze",
-        "piraci",
-        "przygodowy",
-        "sensacyjny",
-        "żegluga"
-      ],
-      "actors": [
-        "Johnny Depp",
-        "Geoffrey Rush",
-        "Orlando Bloom",
-        "Keira Knightley",
-        "Jack Davenport",
-        "Jonathan Pryce",
-        "Lee Arenberg",
-        "Mackenzie Crook",
-        "Damian O'Hare",
-        "Giles New"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2Fe9%2F86%2Fi-am-legend.jpg&crop=center&size=180",
-      "name": "Jestem legendą",
-      "rating": 6.91,
-      "votes": 6538,
-      "year": 2007,
-      "description": "Robert Neville to ostatni człowiek w strefie zamkniętej, objętej kwarantanną w związku z tajemniczą epidemią, która zamieniła ludzi w krwiożercze bestie. Stale odpierając ataki potworów, wytrwale pracuje nad lekarstwem.",
-      "tags": [
-        "dramat",
-        "dreszczowiec",
-        "ekranizacja komiksu",
-        "epidemia",
-        "horror",
-        "izolacja",
-        "mutant",
-        "samotność",
-        "science-fiction",
-        "sensacyjny",
-        "wampir",
-        "zagłada",
-        "zombie"
-      ],
-      "actors": [
-        "Will Smith",
-        "Alice Braga",
-        "Charlie Tahan",
-        "Salli Richardson",
-        "Willow Smith",
-        "Darrell Foster",
-        "April Grace",
-        "Dash Mihok",
-        "Joanna Numata",
-        "Abbey Abbey"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2Fe7%2Ff8%2Fback-to-the-future.jpg&crop=center&size=180",
-      "name": "Powrót do przyszłości",
-      "rating": 7.53,
-      "votes": 6436,
-      "year": 1985,
-      "description": "Michael J. Fox wciela się w postać Marty'ego McFly'a, typowego amerykańskiego nastolatka lat 80-tych, przypadkowo wysłanego w przeszłość, do roku 1955, za pomocą napędzanego plutonem &quot;wehikułu czasu&quot; DeLorean, skonstruowanego przez trochę szalonego naukowca, Christophera Lloyda. Podczas swej zdumiewającej podróży, Marty, by móc powrócić do przyszłości, musi upewnić się, że jego przyszli, obecnie nastoletni, rodzice, Crispin Glover i Lea Thompson, poznają ...",
-      "tags": [
-        "czas",
-        "familijny",
-        "fantasy",
-        "komedia",
-        "podróż w czasie",
-        "przygodowy",
-        "science-fiction",
-        "sensacyjny"
-      ],
-      "actors": [
-        "Michael J. Fox",
-        "Christopher Lloyd",
-        "Lea Thompson",
-        "Crispin Glover",
-        "Thomas F. Wilson",
-        "Claudia Wells",
-        "Marc McClure",
-        "Wendie Jo Sperber",
-        "George DiCenzo",
-        "Frances Lee McCain"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F66%2F68%2Fthe-fifth-element.jpg&crop=center&size=180",
-      "name": "Piąty element",
-      "rating": 7.19,
-      "votes": 6401,
-      "year": 1997,
-      "description": "W ciągu każdych 5000. lat Zło Absolutne nawiedza Wszechświat w celu zniszczenia wszystkiego, co żyje. Przed wiekami w obronie wszechświata stawali Mondoshawanowie - dobroczynni kosmici, którzy wynaleźli skuteczną broń przeciw Złu i ukryli ją na Ziemi, w egipskiej świątyni, gdzie przeleżała całe stulecia. Broń ta składa się z pięciu elementów, z których cztery są przechowywanymi w specjalnych pojemnikach żywiołami natury: ...",
-      "tags": [
-        "dreszczowiec",
-        "przygodowy",
-        "ratowanie świata",
-        "romans",
-        "science-fiction",
-        "sensacyjny"
-      ],
-      "actors": [
-        "Bruce Willis",
-        "Gary Oldman",
-        "Ian Holm",
-        "Milla Jovovich",
-        "Chris Tucker",
-        "Luke Perry",
-        "Brion James",
-        "Tommy 'Tiny' Lister",
-        "Lee Evans",
-        "Charlie Creed-Miles"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F9d%2Fbc%2Fshrek-2.jpg&crop=center&size=180",
-      "name": "Shrek 2",
-      "rating": 6.53,
-      "votes": 6400,
-      "year": 2004,
-      "description": "Druga część przygód Shreka, gdzie do akcji niespodziewanie wkrada się dzięki Ojcu Fiony nasz kochany kiciuś Kot w Butach, z pocztaku jest on nieprzychylne Shrelosu sprawia kowi jednak zrzadzenie losu sprawia, że zaprzyjaxniaja się i tutaj zaczyna sie przygoda.;)",
-      "tags": [
-        "animowany",
-        "dreamworks",
-        "familijny",
-        "fantasy",
-        "komedia",
-        "przygodowy",
-        "sequel",
-        "shrek"
-      ],
-      "actors": [
-        "Mike Myers",
-        "Eddie Murphy",
-        "Cameron Diaz",
-        "Julie Andrews",
-        "Antonio Banderas",
-        "John Cleese",
-        "Rupert Everett",
-        "Jennifer Saunders",
-        "Aron Warner",
-        "Kelly Asbury"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F94%2F7a%2Favatar.jpg&crop=center&size=180",
-      "name": "Avatar",
-      "rating": 7.28,
-      "votes": 6161,
-      "year": 2009,
-      "description": "Kaleki żołnierz zostaje wysłany do układu Alfa Centauri. To układ trzech gwiazd, będących najbliższymi gwiazdami Ziemi po Słońcu. Bierze tam udział w podboju księżyca olbrzyma gazowego zwanego Pandorą, bogatego w cenny surowiec. To świat przepełniony różnego rodzaju florą i fauną, w którym żyją istoty rozumne Na`vi. Komandos ma za zadanie obsługę kontrolowanego za pomocą umysłu Avatara, którym jest hybryda człowieka ...",
-      "tags": [
-        "3d",
-        "alien",
-        "dramat",
-        "dreszczowiec",
-        "ekologia",
-        "fantasy",
-        "konflikt",
-        "obcy",
-        "przybysz",
-        "przygodowy",
-        "przyroda",
-        "romans",
-        "różnice kulturowe",
-        "science-fiction",
-        "sensacyjny"
-      ],
-      "actors": [
-        "Michelle Rodriguez",
-        "Zoe Saldana",
-        "Sam Worthington",
-        "Laz Alonso",
-        "Giovanni Ribisi",
-        "Sigourney Weaver",
-        "Wes Studi",
-        "Stephen Lang",
-        "Joel Moore",
-        "CCH Pounder"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F30%2Fae%2Frequiem-for-a-dream.jpg&crop=center&size=180",
-      "name": "Requiem dla snu",
-      "rating": 8.09,
-      "votes": 6055,
-      "year": 2000,
-      "description": "Film opowiada historię czworga bohaterów z Coney Island: drobnego dealera narkotyków, jego połykającej pigułki matki, dziewczyny i najlepszego przyjaciela. Wszyscy oni marzą o lepszym świecie i za wszelką cenę pragną uciec od otaczającej ich rzeczywistości. Dążąc ślepo do zrealizowania swojej wizji szczęścia, nie zauważają, kiedy ich marzenia przemieniają się w coś, co doprowadza ich do samotności, a w rezultacie - ...",
-      "tags": [
-        "dramat",
-        "kryminalny",
-        "nałóg",
-        "narkotyki",
-        "sensacyjny"
-      ],
-      "actors": [
-        "Ellen Burstyn",
-        "Jared Leto",
-        "Jennifer Connelly",
-        "Marlon Wayans",
-        "Christopher McDonald",
-        "Louise Lasser",
-        "Marcia Jean Kurtz",
-        "Janet Sarno",
-        "Suzanne Shepherd",
-        "Joanne Gordon"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2Fad%2F3a%2Fthe-silence-of-the-lambs.jpg&crop=center&size=180",
-      "name": "Milczenie owiec",
-      "rating": 8.19,
-      "votes": 5833,
-      "year": 1991,
-      "description": "Psychopata porywa i morduje młode kobiety na środkowym zachodzie. Wierząc, że w ujęciu tego mordercy dopomoże tylko inny przestępca, F.B.I. wysyła Agentkę Clarice Starling Foster na wywiad z obłąkanym więźniem, który może dostarczyć psychologicznych przesłanek i tropów do kolejnych działań zabójcy. Więzień, psychiatra, Dr Hannibal Lecter Hopkins jest genialnym mordercą-ludożercą, który pomoże Agentce Starling, jeżeli ona będzie karmić jego chorą ...",
-      "tags": [
-        "dreszczowiec",
-        "ekranizacja",
-        "hannibal",
-        "kryminalny",
-        "sensacyjny",
-        "seryjny morderca",
-        "silna kobieta"
-      ],
-      "actors": [
-        "Jodie Foster",
-        "Anthony Hopkins",
-        "Scott Glenn",
-        "Anthony Heald",
-        "Ted Levine",
-        "Frankie Faison",
-        "Kasi Lemmons",
-        "Brooke Smith",
-        "Paul Lazar",
-        "Dan Butler"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2Fee%2Fb2%2Fthe-shining.jpg&crop=center&size=180",
-      "name": "Lśnienie",
-      "rating": 7.91,
-      "votes": 5822,
-      "year": 1980,
-      "description": "Jack przyjmuje posadę zimowego stróża w odciętym od świata eleganckim hotelu Overlook, dokąd przenosi się z żoną i synem. Jack nigdy tam nie był - a może jest inaczej? Odpowiedź na to pytanie przynosi mrożący krew w żyłach finał, w którym poznajemy niesamowitą tajemnicę hotelu.",
-      "tags": [
-        "dreszczowiec",
-        "fantasy",
-        "horror",
-        "nawiedzony dom",
-        "stephen king"
-      ],
-      "actors": [
-        "Jack Nicholson",
-        "Shelley Duvall",
-        "Danny Lloyd",
-        "Scatman Crothers",
-        "Barry Nelson",
-        "Philip Stone",
-        "Joe Turkel",
-        "Anne Jackson",
-        "Tony Burton",
-        "Lia Beldam"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F1d%2F59%2Fmen-in-black.jpg&crop=center&size=180",
-      "name": "Faceci w czerni",
-      "rating": 6.63,
-      "votes": 5764,
-      "year": 1997,
-      "description": "In 1997, Agent K (Tommy Lee Jones) is a member of the Men in Black (MIB), a secret agency without ties to any government, whose goal is to maintain Earth as a \"neutral zone\" for extraterrestrial aliens, whom they disguise as humans around New York City. The agency maintains its secrecy by using a neuralyzer to wipe the memories of ...",
-      "tags": [
-        "alien",
-        "inwazja",
-        "komedia",
-        "kosmici",
-        "miasto",
-        "obcy",
-        "pastisz",
-        "science-fiction",
-        "sensacyjny",
-        "świat"
-      ],
-      "actors": [
-        "Tommy Lee Jones",
-        "Will Smith",
-        "Linda Fiorentino",
-        "Vincent D'Onofrio",
-        "Rip Torn",
-        "Tony Shalhoub",
-        "Siobhan Fallon",
-        "Mike Nussbaum",
-        "Jon Gries",
-        "Sergio Calderón"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2Fd8%2F3f%2Fthe-lord-of-the-rings-the-return-of-the-king.jpg&crop=center&size=180",
-      "name": "Władca pierścieni: Powrót króla",
-      "rating": 7.93,
-      "votes": 5726,
-      "year": 2003,
-      "description": "Ostatnia część filmowej adaptacji trylogii Tolkiena. Frodo i Sam są coraz bliżej Góry Przeznaczenia. Trwają przygotowania do Wielkiej Wojny o Pierścień. Czy Rohan i Gondor będą w stanie przeciwstawić się niezliczonym zastępom Nieprzyjaciela, a król powróci na należny mu tron?",
-      "tags": [
-        "ekranizacja",
-        "fantasy",
-        "magia",
-        "przygodowy",
-        "sensacyjny",
-        "tolkien",
-        "wielkie przedsięwzięcie"
-      ],
-      "actors": [
-        "Noel Appleby",
-        "Alexandra Astin",
-        "Sean Astin",
-        "David Aston",
-        "John Bach",
-        "Sean Bean",
-        "Cate Blanchett",
-        "Orlando Bloom",
-        "Billy Boyd",
-        "Sadwyn Brophy"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F0b%2F46%2Fthe-matrix-reloaded.jpg&crop=center&size=180",
-      "name": "Matrix Reaktywacja",
-      "rating": 6.59,
-      "votes": 5714,
-      "year": 2003,
-      "description": "Wokół Zionu zamyka się pierścień Armii Maszyn. Jedynie godziny dzielą ostatnią enklawę ludzi na Ziemi przed losem, jaki zgotuje im armia 250000 Strażników zaprogramowanych na zniszczenie ludzkości. Mieszkańcy miasta, natchnieni wiarą Morfeusza w Wybrańca, który wypełni przepowiednię Wyroczni i zakończy wojnę z Maszynami, wszystkie swoje nadzieje i oczekiwania pokładają w Neo. On sam szuka rozwiązania, nękają go niepokojące wizje.",
-      "tags": [
-        "antyutopia",
-        "cyberpunk",
-        "dreszczowiec",
-        "matrix",
-        "mindfuck",
-        "przygodowy",
-        "science-fiction",
-        "sensacyjny",
-        "wirtualna rzeczywistość"
-      ],
-      "actors": [
-        "Ray Anthony",
-        "Christine Anu",
-        "Andy Arness",
-        "Alima Ashton-Sheibu",
-        "Helmut Bakaitis",
-        "Steve Bastoni",
-        "Don Battee",
-        "Monica Bellucci",
-        "Daniel Bernhardt",
-        "Valerie Berry"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F1e%2F2f%2Famerican-beauty.jpg&crop=center&size=180",
-      "name": "American Beauty",
-      "rating": 7.86,
-      "votes": 5689,
-      "year": 1999,
-      "description": "Głównym bohaterem American Beauty i narratorem zarazem jest 42-letni Lester Burnham (Kevin Spacey). Oto facet, który po dwudziestu latach letargu budzi się do prawdziwego życia. Impulsem do zmian staje się koleżanka córki, w typie lolitki, rozbudzająca jego zmysły. Pod jej wpływem przewartościowuje swoje życie – ćwiczy i powraca do formy fizycznej, rzuca pracę, staje się szczery i bezkompromisowy. Powraca do ...",
-      "tags": [
-        "amerykański sen",
-        "bilans życiowy",
-        "dramat",
-        "obyczajowy",
-        "przedmieścia",
-        "wolność",
-        "wszystko przeciwko niemu",
-        "wybory",
-        "zdrada",
-        "życie"
-      ],
-      "actors": [
-        "Kevin Spacey",
-        "Annette Bening",
-        "Thora Birch",
-        "Wes Bentley",
-        "Mena Suvari",
-        "Chris Cooper",
-        "Peter Gallagher",
-        "Allison Janney",
-        "Scott Bakula",
-        "Sam Robards"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F18%2F7e%2Fseksmisja_1.jpg&crop=center&size=180",
-      "name": "Seksmisja",
-      "rating": 8.05,
-      "votes": 5633,
-      "year": 1984,
-      "description": "Akcja filmu rozpoczyna się w sierpniu 1991 roku. Telewizja transmituje epokowy eksperyment. Maks i Albert, dwaj śmiałkowie dobrowolnie poddają się hibernacji. Budzą się dopiero w roku 2044. Od opiekującej się nimi doktor Lamii dowiadują się, że w czsie ich snu wybuchła na Ziemi wojna nuklearna. Jednym z jej efektów było całkowite zniszczenie genów męskich, w związku z czym są obecnie ...",
-      "tags": [
-        "feminizm",
-        "hibernacja",
-        "komedia",
-        "pastisz",
-        "podróż w czasie",
-        "przygodowy",
-        "science-fiction",
-        "totalitaryzm",
-        "wszystko przeciwko niemu"
-      ],
-      "actors": [
-        "Olgierd Lukaszewicz",
-        "Jerzy Stuhr",
-        "Bozena Stryjkówna",
-        "Boguslawa Pawelec",
-        "Hanna Stankówna",
-        "Beata Tyszkiewicz",
-        "Ryszarda Hanin",
-        "Barbara Ludwizanka",
-        "Miroslawa Marcheluk",
-        "Hanna Mikuc"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F32%2F8a%2Fstar-wars.jpg&crop=center&size=180",
-      "name": "Gwiezdne Wojny: Część IV - Nowa nadzieja",
-      "rating": 7.76,
-      "votes": 5631,
-      "year": 1977,
-      "description": "Rycerze Jedi zostali wytępieni, a Imperium żelazną ręka sprawuje rządy nad całą galaktyką. Mała grupa Rebeliantów podejmuje walkę, kradnąc tajne plany najpotężniejszej broni Imperium - tzw. Gwiazdy Śmierci. Najbardziej zaufany sługa Imperatora - Darth Vader musi odzyskać plany i odnaleźć ukrytą bazę buntowników. Księżniczka Leia - wzięta do niewoli przywódczyni Rebeliantów, wysyła sygnał z wezwaniem pomocy, który zostaje przechwycony przez ...",
-      "tags": [
-        "fantasy",
-        "gwiezdne wojny",
-        "przygodowy",
-        "science-fiction",
-        "sensacyjny",
-        "space opera"
-      ],
-      "actors": [
-        "Mark Hamill",
-        "Harrison Ford",
-        "Carrie Fisher",
-        "Peter Cushing",
-        "Alec Guinness",
-        "Anthony Daniels",
-        "Kenny Baker",
-        "Peter Mayhew",
-        "David Prowse",
-        "James Earl Jones"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2Fd2%2Fc5%2Fsin-city.jpg&crop=center&size=180",
-      "name": "Sin City - Miasto grzechu",
-      "rating": 7.4,
-      "votes": 5574,
-      "year": 2005,
-      "description": "Witaj w Sin City. To miasto przyciąga ludzi bezwzględnych, zdeprawowanych i ze złamanym sercem. Niektórzy nazywają je mrocznym. Inni nazywają je domem. Skorumpowani gliniarze. Seksowne ulicznice. Zdesperowani samozwańczy obrońcy prawa. Niektórzy pragną zemsty. Inni – odkupienia. Jeszcze inni chcą po trochu i tego, i tego. Zbieranina nieprawdopodobnych i działających nieco wbrew samym sobie bohaterów, którzy mimo wszystko próbują zrobić to ...",
-      "tags": [
-        "dark horse",
-        "dreszczowiec",
-        "ekranizacja komiksu",
-        "kryminalny",
-        "neo-noir",
-        "sensacyjny"
-      ],
-      "actors": [
-        "Jessica Alba",
-        "Devon Aoki",
-        "Alexis Bledel",
-        "Powers Boothe",
-        "Cara D. Briggs",
-        "Jude Ciccolella",
-        "Jeffrey J. Dashnaw",
-        "Rosario Dawson",
-        "Jesse De Luna",
-        "Benicio Del Toro"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2Fd4%2Ff6%2Fhome-alone.jpg&crop=center&size=180",
-      "name": "Kevin sam w domu",
-      "rating": 5.75,
-      "votes": 5541,
-      "year": 1990,
-      "description": "8-letni Kevin McCalister Macauley Culkin staje się &quot;panem na włościach&quot;, gdy jego rodzina w ferworze pakowania zapomina go zabrać na świąteczne ferie.To co z pozoru wydawało się być spełnieniem marzeń: nie ma rodziców, nie ma strofowania, jest pełna swoboda i żadnych awantur, stało się prawdziwym utrapieniem. Kevin musi ochronić dom przed włamywaczami Joe Pesci i Daniel Stern używając całej swej ...",
-      "tags": [
-        "boże narodzenie",
-        "dziecko",
-        "familijny",
-        "kevin",
-        "komedia",
-        "kryminalny",
-        "paryż",
-        "przygodowy",
-        "sensacyjny",
-        "włamanie"
-      ],
-      "actors": [
-        "Macaulay Culkin",
-        "Joe Pesci",
-        "Daniel Stern",
-        "John Heard",
-        "Roberts Blossom",
-        "Catherine O'Hara",
-        "Angela Goethals",
-        "Devin Ratray",
-        "Gerry Bamman",
-        "Hillary Wolf"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=uploads%2Ft%2Ftmpnq8fZ_.jpg&crop=center&size=180",
-      "name": "Szeregowiec Ryan",
-      "rating": 7.9,
-      "votes": 5494,
-      "year": 1998,
-      "description": "Francja, rok 1944. Podczas akcji desantowej w Normandii ginie trzech braci Ryan. Władze wojskowe Stanów Zjednoczonych postanawiają zmniejszyć ból ich matki, sprowadzając do domu jej najmłodszego syna - Jamesa (Matt Damon). Niestety nie wiadomo, gdzie chłopak jest a nawet czy jeszcze żyje. Misję jego odnalezienia i bezpiecznego wyprowadzenia z terenów okupowanych przez wroga otrzymuje kapitan John Miller (Tom Hanks). Mężczyzna ...",
-      "tags": [
-        "dramat",
-        "ii wojna światowa",
-        "oparty na faktach",
-        "sensacyjny",
-        "wojenny"
-      ],
-      "actors": [
-        "Tom Hanks",
-        "Tom Sizemore",
-        "Edward Burns",
-        "Barry Pepper",
-        "Adam Goldberg",
-        "Vin Diesel",
-        "Giovanni Ribisi",
-        "Jeremy Davies",
-        "Matt Damon",
-        "Ted Danson"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2Fe5%2F6c%2Finglourious-basterds.jpg&crop=center&size=180",
-      "name": "Bękarty wojny",
-      "rating": 7.94,
-      "votes": 5475,
-      "year": 2009,
-      "description": "Żydowska kompania Aldo Raine'a stawia czoła żołnierzom oficera SS Hansa Landa. Rozkazy są proste: mordować nazistów w najbardziej bestialski sposób. Najnowszy film Quentina Tarantino wzbudził wiele dyskusji w Cannes.",
-      "tags": [
-        "dramat",
-        "ii wojna światowa",
-        "przygodowy",
-        "sensacyjny",
-        "wojenny",
-        "żyd"
-      ],
-      "actors": [
-        "Brad Pitt",
-        "Mélanie Laurent",
-        "Christoph Waltz",
-        "Michael Fassbender",
-        "Eli Roth",
-        "Til Schweiger",
-        "Gedeon Burkhard",
-        "Diane Kruger",
-        "Daniel Brühl",
-        "Mike Myers"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2Fd7%2Fa0%2Fthe-lord-of-the-rings-the-two-towers.jpg&crop=center&size=180",
-      "name": "Władca pierścieni: Dwie wieże",
-      "rating": 7.84,
-      "votes": 5474,
-      "year": 2002,
-      "description": "Drużyna została rozbita, ale wyprawa, która ma na celu zniszczenie Pierścienia Władzy, trwa nadal. Frodo i Sam aby znaleźć drogę do Mordoru muszą powierzyć swoje życie Gollumowi. Pozostali członkowie Drużyny, wraz z sojusznikami ze Śródziemia, przygotowują się do bitwy z armią Sarumana. Wojna o Pierścień rozpoczęła się.",
-      "tags": [
-        "ekranizacja",
-        "fantasy",
-        "magia",
-        "przygodowy",
-        "sensacyjny",
-        "sequel",
-        "tolkien"
-      ],
-      "actors": [
-        "Bruce Allpress",
-        "Sean Astin",
-        "John Bach",
-        "Sala Baker",
-        "Cate Blanchett",
-        "Orlando Bloom",
-        "Billy Boyd",
-        "Jed Brophy",
-        "Sam Comery",
-        "Brad Dourif"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F95%2F31%2Fjurassic-park.jpg&crop=center&size=180",
-      "name": "Park Jurajski",
-      "rating": 6.67,
-      "votes": 5433,
-      "year": 1993,
-      "description": "Rodzina uwięziona w ożywionym Parku Jurajskim. Popis efektów komputerowych, dzięki którym dinozaury wyglądają \"jak w realu\".",
-      "tags": [
-        "archeologia",
-        "dinozaur",
-        "dreszczowiec",
-        "fantasy",
-        "przygodowy",
-        "science-fiction",
-        "sensacyjny"
-      ],
-      "actors": [
-        "Sam Neill",
-        "Laura Dern",
-        "Jeff Goldblum",
-        "Richard Attenborough",
-        "Bob Peck",
-        "Martin Ferrero",
-        "Joseph Mazzello",
-        "Ariana Richards",
-        "Samuel L. Jackson",
-        "B.D. Wong"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2Fbc%2F0c%2Ffinding-nemo.jpg&crop=center&size=180",
-      "name": "Gdzie jest Nemo?",
-      "rating": 7.12,
-      "votes": 5263,
-      "year": 2003,
-      "description": "Rybka Merlin, wdowiec, opiekuje się swoim jedynym potomkiem Nemo. Niesforny syn, ciekawy świata, postanawia uciec ze szkoły, lecz zostaje złapany przez nurka. Merlin postanawia wyruszyć w podróż, by odnaleźć i uratować Nemo.",
-      "tags": [
-        "animowany",
-        "familijny",
-        "komedia",
-        "morze",
-        "ojciec i syn",
-        "pixar",
-        "poszukiwanie",
-        "przygodowy",
-        "ryby",
-        "wyprawa",
-        "zwierzęta"
-      ],
-      "actors": [
-        "Albert Brooks",
-        "Ellen DeGeneres",
-        "Alexander Gould",
-        "Willem Dafoe",
-        "Brad Garrett",
-        "Allison Janney",
-        "Austin Pendleton",
-        "Stephen Root",
-        "Vicki Lewis",
-        "Joe Ranft"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=uploads%2Ft%2FtmpOqgYt2_11.jpg&crop=center&size=180",
-      "name": "Lot nad kukułczym gniazdem",
-      "rating": 8.37,
-      "votes": 5231,
-      "year": 1975,
-      "description": "Akcja filmu toczy się w szpitalu psychiatrycznym. Randle Patrick McMurphy (Jack Nicholson) zostaje skazany za pobicie, chcąc uniknąć więzienia, symuluje chorobę umysłową i trafia na obserwację do kliniki psychiatrycznej. Okazuje się, że szpital jest bardzo rygorystyczny w stosunku do przebywających na odziale pacjentów. Są oni bowiem zastraszani, pozbawiani godności i całkowicie zależni od siostry Ratched (Louise Fletcher). Wkrótce McMurphy zaczyna ...",
-      "tags": [
-        "ameryka",
-        "charaktery",
-        "choroba psychiczna",
-        "dramat",
-        "izolacja",
-        "ken kesey",
-        "obłęd",
-        "psychologiczny",
-        "szpital psychiatryczny",
-        "wolność"
-      ],
-      "actors": [
-        "Jack Nicholson",
-        "Louise Fletcher",
-        "William Redfield",
-        "Sydney Lassick",
-        "Brad Dourif",
-        "Christopher Lloyd",
-        "Will Sampson",
-        "Danny DeVito",
-        "Dean R. Brooks",
-        "Scatman Crothers"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F09%2F13%2Fthe-matrix-revolutions.jpg&crop=center&size=180",
-      "name": "Matrix Rewolucje",
-      "rating": 6.52,
-      "votes": 5210,
-      "year": 2003,
-      "description": "Siły wojskowe Zionu rozpaczliwie walczą z inwazją Strażników i armią Maszyn, która drąży tunel wprost do ostatniej twierdzy ludzi. Agent Smith, który z każdą sekundą rośnie w siłę, grozi zniszczeniem ich imperium, realnego świata i Matrixa. Z pomocą Niobe, Neo i Trinity decydują się na podróż, jakiej nie odbył wcześniej żaden człowiek – wychodzą na zdradziecką powierzchnię, wędrują poprzez spaloną ...",
-      "tags": [
-        "antyutopia",
-        "cyberpunk",
-        "dreszczowiec",
-        "matrix",
-        "mindfuck",
-        "przygodowy",
-        "science-fiction",
-        "sensacyjny"
-      ],
-      "actors": [
-        "Mary Alice",
-        "Tanveer K. Atwal",
-        "Helmut Bakaitis",
-        "Kate Beahan",
-        "Francine Bell",
-        "Monica Bellucci",
-        "Rachel Blackman",
-        "Henry Blasingame",
-        "Ian Bliss",
-        "David Bowers"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F7d%2F89%2Fdzien-swira.jpg&crop=center&size=180",
-      "name": "Dzień świra",
-      "rating": 7.88,
-      "votes": 5159,
-      "year": 2002,
-      "description": "Adaś Miauczyński, lat 44, leży w nadrannym półśnie, półjawie. Boi się wstać. Boi się dnia. Klnie i żegna się. Gimnastykuje się do siedmiu: jest numeromanem. Pociąga siedem łyków mineralnej. Twarz obmywa do siedmiu. Podciera tyłek - do siedmiu lub trzynastu bądź dwudziestu jeden. Podmywa się: trzy razy tyłek, cztery - krocze; razem - siedem. Wsypuje do miseczki siedem garstek płatków. ...",
-      "tags": [
-        "absurd",
-        "adaś miauczyński",
-        "bezradność",
-        "bunt",
-        "dramat",
-        "komedia",
-        "komediodramat",
-        "kompleksy",
-        "nauczyciel",
-        "neurotyczność"
-      ],
-      "actors": [
-        "Marek Kondrat",
-        "Janina Traczykówna",
-        "Andrzej Grabowski",
-        "Michal Koterski",
-        "Joanna Sienkiewicz",
-        "Monika Donner-Trelinska",
-        "Aleksander Bednarz",
-        "Zbigniew Buczkowski",
-        "Dorota Chotecka",
-        "Maria Ciunelis"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F3d%2Fb7%2Fa-beautiful-mind.jpg&crop=center&size=180",
-      "name": "Piękny umysł",
-      "rating": 7.89,
-      "votes": 5151,
-      "year": 2001,
-      "description": "Biografia Johna Forbesa Nasha Jr. - amerykańskiego geniusza matematycznego, który przez całe życie zmagał się ze schizofrenią. Uznanie zdobył zajmując się m.in. teorią gier niezespołowych. W latach 50. jego wiedzę i umiejętności chciał wykorzystać wywiad wojskowy. W latach 90. udało mu się wreszcie pokonać chorobę. W 1994 roku otrzymał za swoje osiągnięcia naukowe Nagrodę Nobla.",
-      "tags": [
-        "biograficzny",
-        "choroba psychiczna",
-        "dramat",
-        "matematyka",
-        "naukowiec",
-        "obłęd",
-        "obyczajowy",
-        "schizofrenia"
-      ],
-      "actors": [
-        "Russell Crowe",
-        "Ed Harris",
-        "Jennifer Connelly",
-        "Christopher Plummer",
-        "Paul Bettany",
-        "Adam Goldberg",
-        "Josh Lucas",
-        "Anthony Rapp",
-        "Jason Gray-Stanford",
-        "Judd Hirsch"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F3a%2Fa6%2Fle-fabuleux-destin-damelie-poulain.jpg&crop=center&size=180",
-      "name": "Amelia",
-      "rating": 7.67,
-      "votes": 5093,
-      "year": 2001,
-      "description": "Amelia jest nieśmiała. Pracuje w kawiarni i wynajmuje mieszkanie w dzielnicy Montmartre. Chcąc sprawić, by inni poczuli się bardziej szczęśliwi, wymyśla wiele misternych intryg, np. próbuje odnaleźć dorosłego właściciela pudełka z dziecięcymi zabawkami, które znajduje w swoim mieszkaniu, obmyśla genialny plan, by rozbawić ojca, kradnąc jego ulubionego krasnala ogrodowego… Przyjdzie jednak moment, kiedy Amelia będzie musiała zająć się własnym losem ...",
-      "tags": [
-        "dramat",
-        "kino francuskie",
-        "kobieta",
-        "komedia",
-        "komedia romantyczna",
-        "paryż",
-        "realizm magiczny",
-        "romans"
-      ],
-      "actors": [
-        "Audrey Tautou",
-        "Mathieu Kassovitz",
-        "Rufus Rufus",
-        "Lorella Cravotta",
-        "Serge Merlin",
-        "Jamel Debbouze",
-        "Clotilde Mollet",
-        "Claire Maurier",
-        "Isabelle Nanty",
-        "Dominique Pinon"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F0a%2F66%2Fthe-pianist.jpg&crop=center&size=180",
-      "name": "Pianista",
-      "rating": 7.82,
-      "votes": 4964,
-      "year": 2002,
-      "description": "Ekranizacja wspomnień wojennych wybitnego pianisty żydowskiego pochodzenia, Władysława Szpilmana. Film opowiada o jego życiu od wybuchu wojny w 1939 roku, aż do momentu wyzwolenia. Kiedy Szpilman razem z rodziną trafia do warszawskiego getta, wydaje się, że podzieli los własnego narodu, tym bardziej, że Niemcy zaczynają masowo wywozić Żydów do obozów koncentracyjnych. Udaje mu się jednak wydostać z transportu, by potem ...",
-      "tags": [
-        "biograficzny",
-        "docudrama",
-        "dramat",
-        "ekranizacja",
-        "getto",
-        "hitleryzm",
-        "holokaust",
-        "ii wojna światowa",
-        "literatura",
-        "nazizm",
-        "wojenny",
-        "żyd"
-      ],
-      "actors": [
-        "Adrien Brody",
-        "Thomas Kretschmann",
-        "Frank Finlay",
-        "Maureen Lipman",
-        "Emilia Fox",
-        "Ed Stoppard",
-        "Julia Rayner",
-        "Jessica Kate Meyer",
-        "Michal Zebrowski",
-        "Wanja Mues"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F91%2F0b%2Fwalle.jpg&crop=center&size=180",
-      "name": "WALL.E",
-      "rating": 7.59,
-      "votes": 4911,
-      "year": 2008,
-      "description": "Co się stanie, jeżeli ludzie opuszczą kiedyś Ziemię i pozostanie na niej jedynie mały robot? WALL.E (Wysypiskowy Automat Likwidująco Lewarujący. E-klasa) przez siedemset lat w samotności oczyszcza Ziemię z odpadów pozostawionych przez ludzi. Pewnego dnia na planetę przybywa EVE – nowoczesna, przepiękna, myśląca maszyna. Tego dnia życie WALL.E’ego zupełnie się zmienia i nabiera nowego sensu. Jego podróż przez galaktykę, przyjaźń ...",
-      "tags": [
-        "animowany",
-        "disney",
-        "ekologia",
-        "familijny",
-        "komedia",
-        "komedia romantyczna",
-        "pixar",
-        "przygodowy",
-        "przyroda",
-        "ratowanie świata",
-        "robot",
-        "romans",
-        "science-fiction",
-        "sztuczna inteligencja",
-        "zbieractwo"
-      ],
-      "actors": [
-        "Ben Burtt",
-        "Elissa Knight",
-        "Jeff Garlin",
-        "Fred Willard",
-        "MacInTalk MacInTalk",
-        "John Ratzenberger",
-        "Kathy Najimy",
-        "Sigourney Weaver",
-        "Kim Kopf",
-        "Garrett Palmer"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F45%2F18%2Fthe-butterfly-effect.jpg&crop=center&size=180",
-      "name": "Efekt motyla",
-      "rating": 7.21,
-      "votes": 4841,
-      "year": 2004,
-      "description": "Czy ruch motylego skrzydełka w Nowym Jorku może spowodować huragan w Japonii? Losy Evana Treborna (Ashton Kutcher) są ilustracją tej niezwykłej teorii. Młody człowiek odkrywa, że, wykorzystując odziedziczone po ojcu szczególne zdolności, w niewytłumaczalny sposób może przenieść się do świata własnych wspomnień i, ingerując w nie, odwrócić bieg swojego niezbyt udanego życia. Drobne zmiany, jakich dokonuje Evan w przeszłości wpływają ...",
-      "tags": [
-        "amnezja",
-        "czas",
-        "dramat",
-        "dreszczowiec",
-        "fantasy",
-        "science-fiction"
-      ],
-      "actors": [
-        "Ashton Kutcher",
-        "Melora Walters",
-        "Amy Smart",
-        "Elden Henson",
-        "William Lee Scott",
-        "John Patrick Amedori",
-        "Irene Gorovaia",
-        "Kevin Schmidt",
-        "Jesse James",
-        "Logan Lerman"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F46%2F84%2Fthe-terminator.jpg&crop=center&size=180",
-      "name": "Terminator",
-      "rating": 7.19,
-      "votes": 4716,
-      "year": 1984,
-      "description": "W roku 2029 Ziemię opanowują gigantyczne super-komputery, dążące do zagłady całego rodzaju ludzkiego. Wysyłają w przeszłość niezniszczalnego cyborga - Terminatora, by zabił Sarę Connor, kobietę, której nienarodzony jeszcze syn ma stać się jedyną nadzieją na przetrwanie ludzkości. Czy Sarah zdoła uchronić się przed grożącym jej niebezpieczeństwem, by ocalić życie swego syna?",
-      "tags": [
-        "android",
-        "cyborg",
-        "dramat",
-        "dreszczowiec",
-        "fantasy",
-        "podróż w czasie",
-        "przyszłość",
-        "science-fiction",
-        "sensacyjny"
-      ],
-      "actors": [
-        "Arnold Schwarzenegger",
-        "Michael Biehn",
-        "Linda Hamilton",
-        "Paul Winfield",
-        "Lance Henriksen",
-        "Bess Motta",
-        "Earl Boen",
-        "Rick Rossovich",
-        "Dick Miller",
-        "Shawn Schepps"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F05%2Faf%2Fthe-sixth-sense.jpg&crop=center&size=180",
-      "name": "Szósty zmysł",
-      "rating": 7.63,
-      "votes": 4664,
-      "year": 1999,
-      "description": "Do domu mieszkającego w Filadelfii psychiatry, dr Malcolma Crowe (Bruce Willis) i jego żony Anny (Olivia Williams) włamuje się niezrównoważony psychicznie pacjent Vincent Gray (Donnie Wahlberg), który oskarża doktora o to, że nie potrafił udzielić mu pomocy. Strzela do niego, po czym odbiera sobie życie... Malcolm powoli dochodzi do siebie po zamachu. Jego uwagę zwraca przypadek Cole'a Seara (Haley Joel ...",
-      "tags": [
-        "dramat",
-        "dreszczowiec",
-        "psychoterapia",
-        "tajemnica"
-      ],
-      "actors": [
-        "Bruce Willis",
-        "Haley Joel Osment",
-        "Toni Collette",
-        "Olivia Williams",
-        "Donnie Wahlberg",
-        "Peter Anthony Tambakis",
-        "Jeffrey Zubernis",
-        "Bruce Norris",
-        "Glenn Fitzgerald",
-        "Greg Wood"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F86%2F3f%2Fkill-bill-vol-2.jpg&crop=center&size=180",
-      "name": "Kill Bill: Cz. 2",
-      "rating": 7.31,
-      "votes": 4592,
-      "year": 2004,
-      "description": "Druga część polowania na Billa i jego kompanów w wydaniu Czarnej Mamby. Mniej akcji, więcej dialogów. Ale ciagle mnóstwo jatki i humoru, jak to u Tarantino,",
-      "tags": [
-        "dreszczowiec",
-        "kill bill",
-        "kryminalny",
-        "sensacyjny",
-        "silna kobieta",
-        "sztuki walki"
-      ],
-      "actors": [
-        "Uma Thurman",
-        "David Carradine",
-        "Lucy Liu",
-        "Vivica A. Fox",
-        "Chia Hui Liu",
-        "Michael Madsen",
-        "Daryl Hannah",
-        "Michael Parks",
-        "Bo Svenson",
-        "Jeannie Epper"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2Fdf%2F31%2Fmadagascar.jpg&crop=center&size=180",
-      "name": "Madagaskar",
-      "rating": 6.99,
-      "votes": 4502,
-      "year": 2005,
-      "description": "Opowieść o lwie, zebrze, żyrafie i hipopotamie, którzy uwolnieni zostają z klatek w ZOO i odesłani statkiem do swoich rodzinnych krajów. Statek, którym płyną zwierzaki, tonie i cała czwórka ląduje na Madagaskarze.",
-      "tags": [
-        "afryka",
-        "animowany",
-        "dreamworks",
-        "familijny",
-        "komedia",
-        "przygodowy",
-        "przyjaźń",
-        "zwierzęta"
-      ],
-      "actors": [
-        "Ben Stiller",
-        "Chris Rock",
-        "David Schwimmer",
-        "Jada Pinkett Smith",
-        "Sacha Baron Cohen",
-        "Cedric the Entertainer",
-        "Andy Richter",
-        "Tom McGrath",
-        "Christopher Knights",
-        "Chris Miller"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F08%2F8c%2Fcube.jpg&crop=center&size=180",
-      "name": "Cube",
-      "rating": 6.73,
-      "votes": 4500,
-      "year": 1997,
-      "description": "Niskobudżetowy film o siódemce bohaterów zamkniętych w sześcianie pełnym niebezpieczeństw. Aby uratować się trzeba współpracować, co nie zawsze okazuje się proste.",
-      "tags": [
-        "dramat",
-        "dreszczowiec",
-        "horror",
-        "science-fiction",
-        "tajemnica"
-      ],
-      "actors": [
-        "Nicole de Boer",
-        "Nicky Guadagni",
-        "David Hewlett",
-        "Andrew Miller",
-        "Julian Richings",
-        "Wayne Robson",
-        "Maurice Dean Wint"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F4a%2F91%2Fmemento.jpg&crop=center&size=180",
-      "name": "Memento",
-      "rating": 7.87,
-      "votes": 4493,
-      "year": 2000,
-      "description": "Czasem nie trzeba szukać daleko. Wystarczy głęboko się sobie przyjrzeć, przebrnąć przez pokłady wypartych emocji i własnoręcznie pogrzebanych kawałków życia. Rozwiązanie zagadki jest tak blisko, a tak trudno do niego dotrzeć. Zaskakujące jak czasem nasz umysł każe cierpieć duszy. Cierpiący na zaniki pamięci Leonard wyrusza w poszukiwanie zabójcy swojej żony. Nie poddając się chorobie, której jest świadomy, stara się ją ...",
-      "tags": [
-        "dramat",
-        "dreszczowiec",
-        "kryminalny",
-        "mindfuck",
-        "mściciel",
-        "pamięć",
-        "sensacyjny",
-        "tajemnica",
-        "tatuaż"
-      ],
-      "actors": [
-        "Guy Pearce",
-        "Carrie-Anne Moss",
-        "Joe Pantoliano",
-        "Mark Boone Junior",
-        "Russ Fega",
-        "Jorja Fox",
-        "Stephen Tobolowsky",
-        "Harriet Sansom Harris",
-        "Thomas Lennon",
-        "Callum Keith Rennie"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F53%2F46%2Fthe-prestige.jpg&crop=center&size=180",
-      "name": "Prestiż",
-      "rating": 7.78,
-      "votes": 4420,
-      "year": 2006,
-      "description": "Rupert i Alfred są rywalizującymi ze sobą magikami. Kiedy Alfred przedstawia nowy niesamowity trick, Rupert za wszelką cenę stara się dotrzeć do tajemnicy jego wykonania. Jednakże wtedy zaczyna zdawać sobie sprawę, że to wcale nie musi być tylko sztuczką.",
-      "tags": [
-        "dramat",
-        "dreszczowiec",
-        "fantasy",
-        "iluzjonista",
-        "magia",
-        "psychologiczny",
-        "rywalizacja",
-        "science-fiction",
-        "sztuczka",
-        "tajemnica",
-        "zazdrość"
-      ],
-      "actors": [
-        "Hugh Jackman",
-        "Christian Bale",
-        "Michael Caine",
-        "Piper Perabo",
-        "Rebecca Hall",
-        "Scarlett Johansson",
-        "Samantha Mahurin",
-        "David Bowie",
-        "Andy Serkis",
-        "Daniel Davis"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2Ffc%2F33%2Fdie-hard.jpg&crop=center&size=180",
-      "name": "Szklana pułapka",
-      "rating": 7.39,
-      "votes": 4409,
-      "year": 1988,
-      "description": "Nakatomi Plaza, Los Angeles. Trwa gwiazdkowe przyjęcie dla pracowników Nakatomi Corporation. Radosny nastrój zmienia się w paraliżujący strach, kiedy w ciągu kilku minut budynek zostaje opanowany przez grupę terrorystów. W &quot;Szklanej Pułapce&quot; tylko jedna osoba umknęła uwadze przestępców. John McClane wspaniała, niezapomniana kreacja Bruce'a Willisa, nowojorski detektyw, znalazł się tam właściwie przypadkowo. Jest zmęczony. Ma przy sobie tylko mały pistolet. ...",
-      "tags": [
-        "boże narodzenie",
-        "dreszczowiec",
-        "sensacyjny"
-      ],
-      "actors": [
-        "Bruce Willis",
-        "Bonnie Bedelia",
-        "Reginald VelJohnson",
-        "Paul Gleason",
-        "De'voreaux White",
-        "William Atherton",
-        "Hart Bochner",
-        "James Shigeta",
-        "Alan Rickman",
-        "Alexander Godunov"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2Fc2%2F91%2Fslumdog-millionaire.jpg&crop=center&size=180",
-      "name": "Slumdog. Milioner z ulicy",
-      "rating": 7.26,
-      "votes": 4390,
-      "year": 2008,
-      "description": "Jamal, mieszkaniec slumsów Bombaju, w wieku 18 lat bierze udział w hinduskiej wersji &quot;Milionerów&quot;. Od finałowej wygranej dzieli go ostatnie pytanie, jednak zanim zdąży na nie odpowiedzieć, aresztuje go policja. Funkcjonariusze chcą się dowiedzieć jak chłopak - analfabeta może wiedzieć tak dużo. Jamal opowiada prawdziwą historię dzieciństwa, przemocy i miłości swojego życia. To ulica była jego szkołą. Szkołą przetrwania...",
-      "tags": [
-        "dramat",
-        "indie",
-        "kryminalny",
-        "obyczajowy",
-        "platoniczna miłość",
-        "psychologiczny",
-        "romans",
-        "sensacyjny",
-        "slumsy",
-        "telewizja"
-      ],
-      "actors": [
-        "Dev Patel",
-        "Anil Kapoor",
-        "Saurabh Shukla",
-        "Rajendranath Zutshi",
-        "Jeneva Talwar",
-        "Freida Pinto",
-        "Irrfan Khan",
-        "Azharuddin Mohammed Ismail",
-        "Ayush Mahesh Khedekar",
-        "Sunil Kumar Agrawal"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F8d%2Fb6%2Fstar-wars-episode-v-the-empire-strikes-back.jpg&crop=center&size=180",
-      "name": "Gwiezdne Wojny: Część V - Imperium kontratakuje",
-      "rating": 8.06,
-      "votes": 4366,
-      "year": 1980,
-      "description": "Nadeszły mroczne czasy dla Rebelii. Po niszczycielskim ataku na bazę na zimowej planecie Hoth, ścigani przez Imperium Rebelianci rozdzielają się. Luke Skywalker rusza na poszukiwania tajemniczego Mistrza Jedi - Yody na bagnistej planecie Dagobah. W tym czasie Han Solo i Księżniczka Leia wymykają się gwiezdnej flocie Imperium i trafiają do Bespin - pięknego Miasta w Chmurach. Starając się przeciągnąć Luke'a ...",
-      "tags": [
-        "dreszczowiec",
-        "fantasy",
-        "gwiezdne wojny",
-        "przygodowy",
-        "science-fiction",
-        "sensacyjny",
-        "sequel",
-        "space opera"
-      ],
-      "actors": [
-        "Mark Hamill",
-        "Harrison Ford",
-        "Carrie Fisher",
-        "Billy Dee Williams",
-        "Anthony Daniels",
-        "David Prowse",
-        "Peter Mayhew",
-        "Kenny Baker",
-        "Frank Oz",
-        "Alec Guinness"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F2e%2Fcf%2F300.jpg&crop=center&size=180",
-      "name": "300",
-      "rating": 7.1,
-      "votes": 4361,
-      "year": 2006,
-      "description": "Okrutny obraz starożytnej Grecji i bitwy pod Termopilami w 480 roku p.n.e. Król Spartan Leonidas i jego 300 wojowników walczy do ostatniej kropli krwi z przeważającymi wojskami perskimi. Doskonała adaptacja komiksu Franka Millera. (opis dystrybutora)",
-      "tags": [
-        "dark horse",
-        "dramat",
-        "ekranizacja komiksu",
-        "historyczny",
-        "sensacyjny",
-        "sparta",
-        "starożytność",
-        "wojenny"
-      ],
-      "actors": [
-        "Gerard Butler",
-        "Lena Headey",
-        "Dominic West",
-        "David Wenham",
-        "Vincent Regan",
-        "Michael Fassbender",
-        "Tom Wisdom",
-        "Andrew Pleavin",
-        "Andrew Tiernan",
-        "Rodrigo Santoro"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=uploads%2Ft%2FtmpnvMtgK.jpg&crop=center&size=180",
-      "name": "Obcy - Ósmy pasażer Nostromo",
-      "rating": 7.82,
-      "votes": 4311,
-      "year": 1979,
-      "description": "Załoga statku kosmicznego Nostromo, zaintrygowana tajemniczymi sygnałami z opustoszałej planety, odkrywa na miejscu dziwną formę życia. Nie wiedzą, że jedynym jej celem jest całkowita destrukcja rodzaju ludzkiego. Jeden za drugim, po kolei, wszyscy członkowie załogi giną zamordowani przez Obcego. Zostaje tylko Ripley, która doprowadza do wybuchowego finału.",
-      "tags": [
-        "alien",
-        "dark horse",
-        "dreszczowiec",
-        "ekranizacja komiksu",
-        "horror",
-        "kobieta",
-        "kosmici",
-        "kosmos",
-        "obcy",
-        "science-fiction",
-        "silna kobieta",
-        "statek kosmiczny"
-      ],
-      "actors": [
-        "Tom Skerritt",
-        "Sigourney Weaver",
-        "Veronica Cartwright",
-        "Harry Dean Stanton",
-        "John Hurt",
-        "Ian Holm",
-        "Yaphet Kotto",
-        "Bolaji Badejo",
-        "Helen Horton",
-        "Eddie Powell"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F66%2F28%2Fminority-report.jpg&crop=center&size=180",
-      "name": "Raport mniejszości",
-      "rating": 7.25,
-      "votes": 4283,
-      "year": 2002,
-      "description": "Wszyscy uciekają... Gdy ścigający staje się ściganym... Super gwiazda Tom Cruise w jednym ze swoich najmocniejszych, kipiącym akcją filmie w reżyserii Stevena Spielberga. Raport Mniejszości to trzymający w nieustannym napięciu thriller, który na długo pozostaje w pamięci ze swymi spektakularnymi efektami i popisami kaskaderskimi. Waszyngton roku 2054 - futurystyczny świat, w którym nie ma zbrodni, przyszłość można przewidzieć, a winnych ...",
-      "tags": [
-        "dreszczowiec",
-        "inwigilacja",
-        "kryminalny",
-        "philip k. dick",
-        "science-fiction",
-        "sensacyjny",
-        "tajemnica"
-      ],
-      "actors": [
-        "Tom Cruise",
-        "Max von Sydow",
-        "Steve Harris",
-        "Neal McDonough",
-        "Patrick Kilpatrick",
-        "Jessica Capshaw",
-        "Richard Coca",
-        "Keith Campbell",
-        "Kirk B.R. Woller",
-        "Klea Scott"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F5d%2F5b%2Fbraveheart.jpg&crop=center&size=180",
-      "name": "Braveheart: Waleczne serce",
-      "rating": 7.61,
-      "votes": 4150,
-      "year": 1995,
-      "description": "William Wallace zostaje przywódcą szkockiego powstania przeciwko okrutnym rządom angielskiego króla Edwarda. Kiedy Will był małym chłopcem, jego ojciec i brat zginęli w walce o wolność kraju swoich przodków. Kiedy traci kolejną ukochaną osobę, rozpoczyna długą kampanię o niepodległość Szkocji.",
-      "tags": [
-        "biograficzny",
-        "dramat",
-        "historyczny",
-        "sensacyjny",
-        "wojenny"
-      ],
-      "actors": [
-        "Mel Gibson",
-        "James Robinson",
-        "Sean Lawlor",
-        "Sandy Nelson",
-        "James Cosmo",
-        "Sean McGinley",
-        "Alan Tall",
-        "Andrew Weir",
-        "Gerda Stevenson",
-        "Ralph Riach"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2Fba%2Fa0%2Fpirates-of-the-caribbean-dead-mans-chest.jpg&crop=center&size=180",
-      "name": "Piraci z Karaibów: Skrzynia umarlaka",
-      "rating": 6.93,
-      "votes": 4148,
-      "year": 2006,
-      "description": "Kapitan Jack Sparrow spłaca dług, zaciągnięty w dawnych czasach u upiornego Davy'ego Jonesa, porywacza ludzkich dusz. Musi odnaleźć tajemniczą Skrzynię Umarlaka, wyrusza więc ze swoją wierną załogą na poszukiwania. Pomocą służą mu też młodzi zakochani: Elizabeth Swann i Will Turner. Czasu nie ma zbyt wiele, bo siejący popłoch Jones do cierpliwych nie należy. Jackowi zagraża także lord Cuttler, zaprzysięgły wróg ...",
-      "tags": [
-        "fantasy",
-        "komedia",
-        "morze",
-        "piraci",
-        "przygodowy",
-        "sensacyjny",
-        "sequel",
-        "skarb",
-        "żegluga"
-      ],
-      "actors": [
-        "Johnny Depp",
-        "Orlando Bloom",
-        "Keira Knightley",
-        "Jack Davenport",
-        "Bill Nighy",
-        "Jonathan Pryce",
-        "Lee Arenberg",
-        "Mackenzie Crook",
-        "Kevin McNally",
-        "David Bailie"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F7c%2F3b%2Fa-clockwork-orange.jpg&crop=center&size=180",
-      "name": "Mechaniczna pomarańcza",
-      "rating": 7.85,
-      "votes": 4083,
-      "year": 1971,
-      "description": "Ekranizacja futurystycznej powieści A. Burgessa opowiada o amoralnym punku, który poddany zostaje praniu mózgu i zmienia się w porządnego obywatela, by w finale znów stać się tym, kim był na początku. Kubrick zrealizował porywającą przypowieść moralną opartą na niezapomnianych obrazach, niezwykłych zbitkach muzycznych i fascynującej nowomowie, którą posługują się Alex i jego kumple.",
-      "tags": [
-        "antyutopia",
-        "dramat",
-        "dreszczowiec",
-        "ekranizacja",
-        "eksperyment medyczny",
-        "fantasy",
-        "kryminalny",
-        "premiera",
-        "resocjalizacja",
-        "science-fiction",
-        "sensacyjny"
-      ],
-      "actors": [
-        "Malcolm McDowell",
-        "Patrick Magee",
-        "Michael Bates",
-        "Warren Clarke",
-        "John Clive",
-        "Adrienne Corri",
-        "Carl Duering",
-        "Paul Farrell",
-        "Clive Francis",
-        "Michael Gover"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2Fb2%2Ffd%2Fmonsters-inc.jpg&crop=center&size=180",
-      "name": "Potwory i spółka",
-      "rating": 7.67,
-      "votes": 4002,
-      "year": 2001,
-      "description": "Przez drzwi garderoby w dziecięcej sypialni prowadzi droga do Monstropolis - świata potworów. W centrum miasta mieści się fabryka &quot;Potwory i spółka&quot;, z której co noc wyruszają elitarne oddziały potworów i wkraczają do świata ludzi, by straszyć dzieci i kolekcjonować ich krzyki, które są głównym źródłem energii w tym potworzym świecie. Jest to bardzo ciężka praca, bowiem dzieci nie jest ...",
-      "tags": [
-        "animowany",
-        "familijny",
-        "fantasy",
-        "komedia",
-        "pixar",
-        "przyjaźń"
-      ],
-      "actors": [
-        "John Goodman",
-        "Billy Crystal",
-        "Mary Gibbs",
-        "Steve Buscemi",
-        "James Coburn",
-        "Jennifer Tilly",
-        "Bob Peterson",
-        "John Ratzenberger",
-        "Frank Oz",
-        "Daniel Gerson"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=uploads%2Fu%2Fuploads%2Ft%2FtmpT5f3kI.jpg&crop=center&size=180",
-      "name": "Łowca androidów",
-      "rating": 8.1,
-      "votes": 3971,
-      "year": 1982,
-      "description": "Los Angeles, listopad 2019 roku. Na Ziemię przybywa grupa replikantów typu Nexus 6 - humanoidalnych androidów, które po krwawym buncie na pozaziemskiej kolonii starają się dotrzeć do swojego konstruktora. Nie mają zbyt wiele czasu. Ich czas życia wynosi zaledwie cztery lata, a okres ten przedłużyć może jedynie ich stwórca. Replikanci mają jednak zakaz przebywania na Ziemi. Kiedy jeden z nich ...",
-      "tags": [
-        "aids",
-        "android",
-        "antyutopia",
-        "cyberpunk",
-        "dreszczowiec",
-        "neo-noir",
-        "philip k. dick",
-        "robot",
-        "science-fiction",
-        "sensacyjny",
-        "sztuczna inteligencja"
-      ],
-      "actors": [
-        "Harrison Ford",
-        "Rutger Hauer",
-        "Sean Young",
-        "Edward James Olmos",
-        "M. Emmet Walsh",
-        "Daryl Hannah",
-        "William Sanderson",
-        "Brion James",
-        "Joe Turkel",
-        "Joanna Cassidy"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F84%2F8e%2Fthe-lion-king.jpg&crop=center&size=180",
-      "name": "Król lew",
-      "rating": 7.81,
-      "votes": 3959,
-      "year": 1994,
-      "description": "Król Lew to opowieść o Simbie lwiątku, dziedzicu Lwiej Krainy. Za sprawą knowań złego stryja Skazy, Simba musi opuścić rodzinne strony. Samotny i porzucony, trafia pod opiekę wesołych i beztroskich kompanów Timona i Pumby. Dorasta, wiodąc wraz z nimi radosne, pełne przygód życie, zapominając o odpowiedzialności i królewskim dziedzictwie. Przeznaczenie jednak daje o sobie znać. Simba przekonuje się, że nadszedł ...",
-      "tags": [
-        "animowany",
-        "dramat",
-        "familijny",
-        "musical",
-        "przygodowy",
-        "romans"
-      ],
-      "actors": [
-        "Jonathan Taylor Thomas",
-        "Matthew Broderick",
-        "James Earl Jones",
-        "Jeremy Irons",
-        "Moira Kelly",
-        "Niketa Calame",
-        "Ernie Sabella",
-        "Nathan Lane",
-        "Robert Guillaume",
-        "Rowan Atkinson"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2Faa%2F94%2Findependence-day.jpg&crop=center&size=180",
-      "name": "Dzień Niepodległości",
-      "rating": 6.44,
-      "votes": 3883,
-      "year": 1996,
-      "description": "Cały rodzaj ludzki jest zagrożony zagładą, gdy monstrualne statki kosmiczne Obcych dosłownie zmiatają z powierzchni Ziemi największe, najgęściej zaludnione miasta na całym globie. Panika sięga zenitu. Przyszłość naszej planety zależy jedynie od brawurowej odwagi i poświęcenia dwójki gotowych na wszystko desperatów. W konfrontacji z ostatecznym zagrożeniem nikną światowe podziały i wrogość poszczególnych narodów. Wszystkie siły ducha i umysłu muszą być ...",
-      "tags": [
-        "dreszczowiec",
-        "inwazja",
-        "kosmici",
-        "obcy",
-        "przygodowy",
-        "science-fiction",
-        "sensacyjny",
-        "statek kosmiczny"
-      ],
-      "actors": [
-        "Will Smith",
-        "Bill Pullman",
-        "Jeff Goldblum",
-        "Mary McDonnell",
-        "Judd Hirsch",
-        "Robert Loggia",
-        "Randy Quaid",
-        "Margaret Colin",
-        "Vivica A. Fox",
-        "James Rebhorn"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F17%2F33%2Fkiler.jpg&crop=center&size=180",
-      "name": "Kiler",
-      "rating": 6.86,
-      "votes": 3856,
-      "year": 1997,
-      "description": "Bohaterem jest sympatyczny trzydziestoletni taksówkarz Jurek K. - człowiek pod wieloma względami przeciętny, mający jedynie nieprzeciętnego pecha. Zdarza się jednak coś, co zmienia całe jego życie - pewnego ranka Jurek zostaje aresztowany jako bezwzględny, profesjonalny zabójca o pseudonimie Kiler. Nieśmiały, zagubiony, niekiedy zabawny nieudacznik nagle zaczyna być uważany za zabójcę o międzynarodowej sławie. Zostaje otoczony podziwem i szacunkiem nie tylko ...",
-      "tags": [
-        "dziennikarz",
-        "gangster",
-        "komedia",
-        "kryminalny",
-        "mafia",
-        "płatny morderca",
-        "pomyłka",
-        "sensacyjny",
-        "zawodowy zabójca"
-      ],
-      "actors": [
-        "Cezary Pazura",
-        "Malgorzata Kozuchowska",
-        "Jerzy Stuhr",
-        "Janusz Rewinski",
-        "Katarzyna Figura",
-        "Jan Englert",
-        "Krzysztof Kiersznowski",
-        "Marek Kondrat",
-        "Jan Machulski",
-        "Alex Murphy"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F3f%2F28%2Fbatman-begins.jpg&crop=center&size=180",
-      "name": "Batman - Początek",
-      "rating": 7.52,
-      "votes": 3759,
-      "year": 2005,
-      "description": "W jaki sposób jeden człowiek może zmienić świat? To pytanie prześladuje Bruce'a Wayne'a. Gdy był dzieckiem, na jego oczach, na jednej z ulic miasta Gotham, zastrzelono mu rodziców. Ta noc na zawsze zmieniła jego życie. Dręczony poczuciem winy i gniewem dziedzic przemysłowego imperium znika z Gotham i w tajemnicy podróżuje po świecie, szukając sposobów walki z niesprawiedliwością. Po powrocie do ...",
-      "tags": [
-        "batman",
-        "bijatyka",
-        "choroba psychiczna",
-        "dc comics",
-        "dreszczowiec",
-        "ekranizacja komiksu",
-        "kryminalny",
-        "miasto",
-        "miasto nocą",
-        "ninja",
-        "przygodowy",
-        "romans",
-        "sensacyjny",
-        "strach",
-        "superbohater"
-      ],
-      "actors": [
-        "Christian Bale",
-        "Michael Caine",
-        "Liam Neeson",
-        "Katie Holmes",
-        "Gary Oldman",
-        "Cillian Murphy",
-        "Tom Wilkinson",
-        "Rutger Hauer",
-        "Ken Watanabe",
-        "Mark Boone Junior"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F86%2Fd7%2Finterview-with-the-vampire-the-vampire-chronicles.jpg&crop=center&size=180",
-      "name": "Wywiad z wampirem",
-      "rating": 7.25,
-      "votes": 3743,
-      "year": 1994,
-      "description": "Młody dziennikarz przeprowadza sensacyjny wywiad z wampirem. Ten wraca wspomnieniami do osiemnastego wieku, kiedy był bogatym plantatorem w Nowym Orleanie. Po śmierci żony i nienarodzonego dziecka, które umarły podczas porodu, zrozpaczony człowiek podpisuje pakt z siłami zła i staje się wampirem.",
-      "tags": [
-        "ameryka",
-        "anne rice",
-        "ekranizacja",
-        "fantasy",
-        "historyczny",
-        "horror",
-        "literatura",
-        "wampir"
-      ],
-      "actors": [
-        "Brad Pitt",
-        "Christian Slater",
-        "Virginia McCollam",
-        "John McConnell",
-        "Tom Cruise",
-        "Mike Seelig",
-        "Bellina Logan",
-        "Thandie Newton",
-        "Lyla Hay Owen",
-        "Lee E. Scharfstein"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2Fb8%2F41%2Fstar-wars-episode-i-the-phantom-menace.jpg&crop=center&size=180",
-      "name": "Gwiezdne Wojny: Część I - Mroczne widmo",
-      "rating": 6.46,
-      "votes": 3689,
-      "year": 1999,
-      "description": "Cofnijmy się w czasie i powróćmy do galaktyki w pierwszym rozdziale mitycznej sagi Gwiezdne Wojny. Akcja rozgrywa się trzydzieści lat wcześniej niż oryginalne &quot;Gwiezdne Wojny&quot;. W Części I poznajemy młodego Anakina Skywalkera, chłopca posiadającego niezwykłą moc, nieświadomego tego, że podróż, którą rozpoczyna przemieni go w złego Dartha Vadera. Obi-Wan Kenobi, stary, mądry Jedi, którego pamiętamy z trylogii jest tutaj młodym, ...",
-      "tags": [
-        "fantasy",
-        "gwiezdne wojny",
-        "przygodowy",
-        "science-fiction",
-        "sensacyjny",
-        "space opera"
-      ],
-      "actors": [
-        "Liam Neeson",
-        "Ewan McGregor",
-        "Natalie Portman",
-        "Jake Lloyd",
-        "Pernilla August",
-        "Frank Oz",
-        "Ian McDiarmid",
-        "Oliver Ford Davies",
-        "Ray Park",
-        "Hugh Quarshie"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F57%2F86%2Fstar-wars-episode-vi-return-of-the-jedi.jpg&crop=center&size=180",
-      "name": "Gwiezdne Wojny: Część VI - Powrót Jedi",
-      "rating": 7.99,
-      "votes": 3606,
-      "year": 1983,
-      "description": "W niezwykle widowiskowym, finałowym rozdziale sagi Gwiezdnych Wojen, Luke Skywalker i Księżniczka Leia ratują Hana Solo uwięzionego na Tatooine przez najbardziej odrażającego gangstera w galaktyce, zwanego Jabba the Hutt. Rebelianci wraz z plemieniem Ewoków walczą z siłami Imperium na zalesionym księżycu Endor. W tym samym czasie Imperator i Darth Vader próbują znaleźć sposób, by przeciągnąć Luke'a na ciemną stronę a ...",
-      "tags": [
-        "dreszczowiec",
-        "fantasy",
-        "gwiezdne wojny",
-        "przygodowy",
-        "ratowanie świata",
-        "science-fiction",
-        "sensacyjny",
-        "space opera"
-      ],
-      "actors": [
-        "Mark Hamill",
-        "Harrison Ford",
-        "Carrie Fisher",
-        "Billy Dee Williams",
-        "Anthony Daniels",
-        "Peter Mayhew",
-        "Sebastian Shaw",
-        "Ian McDiarmid",
-        "Frank Oz",
-        "James Earl Jones"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F64%2Fd9%2Fspider-man.jpg&crop=center&size=180",
-      "name": "Spider-Man",
-      "rating": 6.4,
-      "votes": 3598,
-      "year": 2002,
-      "description": "W trakcie szkolnej wycieczki jeden ze studentów - Peter Parker (Tobey Maguire) - zostaje ugryziony przez genetycznie zmodyfikowanego pająka. Wkrótce Peter odkrywa, że posiada niezwykłe moce. Jest silny i zręczny, posiada też swoisty &quot;szósty zmysł&quot; . Początkowo wykorzystuje on swe moce, aby zaimponować koleżance z klasy - Mary Jane Watson (Kirsten Dunst) - kiedy jednak spotyka go osobista tragedia postanawia, ...",
-      "tags": [
-        "dreszczowiec",
-        "ekranizacja komiksu",
-        "fantasy",
-        "kryminalny",
-        "marvel",
-        "mutant",
-        "science-fiction",
-        "sensacyjny",
-        "spider-man",
-        "superbohater"
-      ],
-      "actors": [
-        "Tobey Maguire",
-        "Willem Dafoe",
-        "Kirsten Dunst",
-        "James Franco",
-        "Cliff Robertson",
-        "Rosemary Harris",
-        "J.K. Simmons",
-        "Joe Manganiello",
-        "Gerry Becker",
-        "Bill Nunn"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2Fe1%2Fbf%2Fthe-curious-case-of-benjamin-button.jpg&crop=center&size=180",
-      "name": "Ciekawy przypadek Benjamina Buttona",
-      "rating": 7.1,
-      "votes": 3585,
-      "year": 2008,
-      "description": "&quot;Urodziłem się w okolicznościach niezwykłych.&quot; - i tak też zaczyna się &quot;Benjamin Button&quot;, adaptacja klasycznej noweli F. Scotta Fitzgeralda z lat dwudziestych XX wieku o człowieku, który przychodzi na świat jako osiemdziesięciolatek i stopniowo młodnieje. O człowieku, który – podobnie jak my wszyscy – nie potrafi zatrzymać upływu czasu. Jego osobistą historię, osadzoną w Nowym Orleanie, śledzimy od końca I ...",
-      "tags": [
-        "czas",
-        "dramat",
-        "fantasy",
-        "f. scott fitzgerald",
-        "melodramat",
-        "miłość ponad czasem",
-        "podróż",
-        "romans",
-        "tajemnica"
-      ],
-      "actors": [
-        "Cate Blanchett",
-        "Julia Ormond",
-        "Faune A. Chambers",
-        "Elias Koteas",
-        "Donna DuPlantier",
-        "Jacob Tolano",
-        "Ed Metzger",
-        "Jason Flemyng",
-        "Danny Vinson",
-        "David Jensen"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2Ff4%2Fe5%2Fk-pax.jpg&crop=center&size=180",
-      "name": "K-PAX",
-      "rating": 7.38,
-      "votes": 3581,
-      "year": 2001,
-      "description": "Prot, tajemniczy pacjent szpitala psychiatrycznego w Nowym Jorku, uważa, iż pochodzi z odległej planety K-Pax. Potrafi opisać nie tylko panującą tam strukturę społeczną, ale także rozwiązuje skomplikowane zadania, nad którymi głowią się najwięksi ziemscy astronomowie. Jego przypadkiem zajmuje się dr Mark Powell. Lekarz próbuje dojść prawdy. W pewnym momencie zaczyna wierzyć, iż Prot wcale nie zwariował.",
-      "tags": [
-        "choroba psychiczna",
-        "dramat",
-        "ekranizacja",
-        "fantasy",
-        "psychologiczny",
-        "science-fiction",
-        "szpital psychiatryczny",
-        "tajemnica"
-      ],
-      "actors": [
-        "Kevin Spacey",
-        "Jeff Bridges",
-        "Mary McCormack",
-        "Alfre Woodard",
-        "David Patrick Kelly",
-        "Saul Williams",
-        "Peter Gerety",
-        "Celia Weston",
-        "Ajay Naidu",
-        "Tracy Vilar"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F11%2F69%2Fla-vita-e-bella.jpg&crop=center&size=180",
-      "name": "Życie jest piękne",
-      "rating": 8.04,
-      "votes": 3577,
-      "year": 1997,
-      "description": "Jedna z nielicznych komedii o holocauście. Opowiada historię włoskiego wieśniaka Guido, który trafia wraz ze swoim 4-letnim synkiem i ukochaną żoną do obozu koncentracyjnego. Mężczyzna wykorzystuje swoją bujną wyobraźnię po to, aby jego syn nie przekonał się o okrucieństwie wojny i tłumaczy mu, że jest to gra, a do zdobycia jest 1000 punktów... Śmieszna i mądra komedia, doceniona na wielu ...",
-      "tags": [
-        "baśń",
-        "dramat",
-        "holokaust",
-        "ii wojna światowa",
-        "komedia",
-        "komediodramat",
-        "lata 30.",
-        "lata 40.",
-        "misterny plan",
-        "obóz",
-        "obóz koncentracyjny",
-        "obóz pracy",
-        "prześladowania",
-        "rasizm",
-        "romans",
-        "tragikomedia",
-        "wojenny",
-        "żyd"
-      ],
-      "actors": [
-        "Roberto Benigni",
-        "Nicoletta Braschi",
-        "Giorgio Cantarini",
-        "Giustino Durano",
-        "Sergio Bini Bustric",
-        "Marisa Paredes",
-        "Horst Buchholz",
-        "Lidia Alfonsi",
-        "Giuliana Lojodice",
-        "Amerigo Fontani"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=uploads%2Fc%2Fcasino_royale_xlg.jpg&crop=center&size=180",
-      "name": "Casino Royale",
-      "rating": 7.36,
-      "votes": 3540,
-      "year": 2006,
-      "description": "&quot;Casino Royale&quot; przedstawia Jamesa Bonda zanim stał się on posiadaczem licencji na zabijanie. Jednak Bond jest nie mniej niebezpieczny i po dwóch profesjonalnych egzekucjach w krótkim czasie awansuje do statusu &quot;00&quot;. Pierwsza misja Bonda jako 007 prowadzi go do Madagaskaru, gdzie ma on zadanie śledzić terrorystę Mollaka (Sebastien Foucan). Nie wszystko przebiega jednak zgodnie z planem i Bond decyduje się ...",
-      "tags": [
-        "dreszczowiec",
-        "james bond 007",
-        "przygodowy",
-        "sensacyjny"
-      ],
-      "actors": [
-        "Daniel Craig",
-        "Eva Green",
-        "Mads Mikkelsen",
-        "Judi Dench",
-        "Jeffrey Wright",
-        "Giancarlo Giannini",
-        "Caterina Murino",
-        "Simon Abkarian",
-        "Isaach De Bankolé",
-        "Jesper Christensen"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2Fb1%2F24%2Fterminator-2-judgment-day.jpg&crop=center&size=180",
-      "name": "Terminator 2: Dzień sądu",
-      "rating": 7.65,
-      "votes": 3462,
-      "year": 1991,
-      "description": "Jest rok 1991, wiele lat po krwawych wydarzeniach ukazanych w filmie &quot;Terminator&quot;. Sarah Connor znalazła się w szpitalu psychiatrycznym, skąd nie może chronić syna przed zagrożeniem z przyszłości. John Connor jest nastolatkiem wychowywanym w rodzinie zastępczej, zaczyna wchodzić w konflikty z prawem. Pewnej nocy w Los Angeles ponownie zjawia się dwóch mężczyzn. Jeden z nich ma zabić chłopca, drugi za ...",
-      "tags": [
-        "cyborg",
-        "dreszczowiec",
-        "dziecko",
-        "podróż w czasie",
-        "pościg",
-        "przyjaźń z dzieckiem",
-        "science-fiction",
-        "sensacyjny",
-        "silna kobieta",
-        "sztuczna inteligencja"
-      ],
-      "actors": [
-        "Arnold Schwarzenegger",
-        "Linda Hamilton",
-        "Edward Furlong",
-        "Robert Patrick",
-        "Earl Boen",
-        "Joe Morton",
-        "S. Epatha Merkerson",
-        "Castulo Guerra",
-        "Danny Cooksey",
-        "Jenette Goldstein"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2Fa8%2F33%2Fapocalypse-now.jpg&crop=center&size=180",
-      "name": "Czas apokalipsy",
-      "rating": 8.1,
-      "votes": 3461,
-      "year": 1979,
-      "description": "W końcowym okresie wojny wietnamskiej kapitan Willard zostaje wysłany z misją wytropienia w dżungli, na terenie Kambodży, pułkownika armii amerykańskiej, który stanął na czele zbuntowanego plemienia walczącego zarówno przeciw Amerykanom, jak i Wietnamczykom. Wyprawa niewielkiej załogi, przeprawiającej się w górę rzeki w coraz bardziej niedostępne rejony zielonego piekła, obfituje w wydarzenia dramatyczne i wstrząsające, ale także absurdalne, jak choćby występy ...",
-      "tags": [
-        "antywojenny",
-        "dramat",
-        "dżungla",
-        "misja",
-        "podróż",
-        "przygodowy",
-        "realizm magiczny",
-        "sensacyjny",
-        "wietnam",
-        "wojenny",
-        "wojna"
-      ],
-      "actors": [
-        "Marlon Brando",
-        "Martin Sheen",
-        "Robert Duvall",
-        "Frederic Forrest",
-        "Sam Bottoms",
-        "Laurence Fishburne",
-        "Albert Hall",
-        "Harrison Ford",
-        "Dennis Hopper",
-        "G.D. Spradlin"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=uploads%2Ft%2FtmpjDJuZ6.jpg&crop=center&size=180",
-      "name": "Lista Schindlera",
-      "rating": 8.14,
-      "votes": 3451,
-      "year": 1993,
-      "description": "Oskar Schindler, niemiecki przedsiębiorca, przyjeżdża do okupowanego Krakowa i tam zakłada fabrykę emaliowanych naczyń. Tanią siłę roboczą stanowią okoliczni Żydzi zmuszani do pracy przez hitlerowców. W 1943 roku wchodzi w życie plan Endlosung czyli ostateczne rozwiązanie kwestii żydowskiej. Krakowskie getto zostaje zlikwidowane, ludzie wyrzuceni na bruk i wywożeni do obozu do Płaszowa. Schindler widząc ten dramat postanawia uratować Żydów od ...",
-      "tags": [
-        "biograficzny",
-        "docudrama",
-        "dramat",
-        "getto",
-        "historyczny",
-        "holokaust",
-        "ii wojna światowa",
-        "ludobójstwo",
-        "masakra",
-        "nazizm",
-        "wojenny",
-        "żyd"
-      ],
-      "actors": [
-        "Liam Neeson",
-        "Ben Kingsley",
-        "Ralph Fiennes",
-        "Caroline Goodall",
-        "Jonathan Sagall",
-        "Embeth Davidtz",
-        "Malgoscha Gebel",
-        "Shmuel Levy",
-        "Mark Ivanir",
-        "Béatrice Macola"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F1c%2F6d%2Fdistrict-9.jpg&crop=center&size=180",
-      "name": "Dystrykt 9",
-      "rating": 7.24,
-      "votes": 3421,
-      "year": 2009,
-      "description": "W roku 1982 wprost na Johanessburgiem (RPA) zatrzymuje się statek kosmiczny. Rząd zatrzymuje obcych i umieszcza ich obozie nazwanym Dystryktem 9, będącym dzielnicą slumsów. Tam przybysze z kosmosu zmuszeni są zostać, aż światowe władze zdecydują, co z nimi zrobić. 28 lat później prywatnej firmie MNU zwierza się zadanie utrzymania porządku i przesiedlenie kosmitów do nowego obozu. Napięte stosunki między rasami ...",
-      "tags": [
-        "alien",
-        "bieda",
-        "broń",
-        "dyskryminacja",
-        "Johannesburg",
-        "kosmici",
-        "obcy",
-        "obóz",
-        "pościg",
-        "science-fiction",
-        "sensacyjny",
-        "statek kosmiczny",
-        "ufo",
-        "wielkie przedsięwzięcie"
-      ],
-      "actors": [
-        "Sharlto Copley",
-        "William Allen Young",
-        "Robert Hobbs",
-        "Jason Cope",
-        "Kenneth Nkosi",
-        "Vanessa Haywood",
-        "David James",
-        "Mandla Gaduka",
-        "Devlin Brown"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F9a%2F5e%2Fthe-others.jpg&crop=center&size=180",
-      "name": "Inni",
-      "rating": 6.93,
-      "votes": 3419,
-      "year": 2001,
-      "description": "Koniec II wojny światowej. Grace wraz z dwójką dzieci mieszka w pięknym witoriańskim dworze. Chłopiec i dziewczynka cierpią na rzadką chorobę, fotofobię - alergię na światło słoneczne. W ponurym domu obowiązują bezlitosne reguły: dom jest zawsze pogrążony w półmroku, a drzwi nie wolno otwierać nie zamknąwszy uprzednio wszystkich innych. Nagle dzieją się bardzo dziwne rzeczy. Czemu służba opuszcza dom w ...",
-      "tags": [
-        "anglia",
-        "dreszczowiec",
-        "duch",
-        "horror",
-        "nawiedzony dom",
-        "tajemnica",
-        "wojenny"
-      ],
-      "actors": [
-        "Nicole Kidman",
-        "Fionnula Flanagan",
-        "Christopher Eccleston",
-        "Alakina Mann",
-        "James Bentley",
-        "Eric Sykes",
-        "Elaine Cassidy",
-        "Renée Asherson",
-        "Gordon Reid",
-        "Keith Allen"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2Ffa%2F81%2Fel-laberinto-del-fauno.jpg&crop=center&size=180",
-      "name": "Labirynt fauna",
-      "rating": 7.45,
-      "votes": 3370,
-      "year": 2006,
-      "description": "Mała Ofelia przybywa do domu nowego męża jej matki, kapitana Vidala. Dziewczynce trudno znieść surowość ojczyma. Przez przypadek Ofelia odkrywa w ogrodzie tajemniczy labirynt. Tam spotka Fauna, baśniowego stwora, który rozpozna w niej księżniczkę magicznej krainy, której grozi zagłada. Przed dziewczynką stoją jednak 3 mordercze zadania, które sprawdzą jej nieśmiertelność. Z czasem okrucieństwo zapanuje nad całym rzeczywistym światem.",
-      "tags": [
-        "baśń",
-        "dramat",
-        "dreszczowiec",
-        "fantasy",
-        "kino latino",
-        "magia",
-        "okrucieństwo",
-        "oniryczny",
-        "tajemnica",
-        "wojenny",
-        "wojna"
-      ],
-      "actors": [
-        "Ivana Baquero",
-        "Sergi López",
-        "Maribel Verdú",
-        "Doug Jones",
-        "Ariadna Gil",
-        "Álex Angulo",
-        "Manolo Solo",
-        "César Vea",
-        "Roger Casamajor",
-        "Ivan Massagué"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F7b%2F91%2Fback-to-the-future-part-iii.jpg&crop=center&size=180",
-      "name": "Powrót do przyszłości III",
-      "rating": 6.94,
-      "votes": 3348,
-      "year": 1990,
-      "description": "Trzecia część, kultowej już, trylogii &quot;Powrót do przyszłości&quot;. Tym razem Dr Brown ląduje na Dzikim Zachodzie. Na pomoc rusza mu oczywiście jego przyjaciel Marty. Chłopak na miejscu popada w kłopoty z lokalnym zbirem. Marty i Dr Brown muszą powrócić do przyszłości, ale ich wehikuł czasu nie działa.",
-      "tags": [
-        "familijny",
-        "komedia",
-        "podróż w czasie",
-        "przygodowy",
-        "science-fiction",
-        "sensacyjny",
-        "western"
-      ],
-      "actors": [
-        "Michael J. Fox",
-        "Christopher Lloyd",
-        "Mary Steenburgen",
-        "Thomas F. Wilson",
-        "Lea Thompson",
-        "Elisabeth Shue",
-        "James Tolkan",
-        "Matt Clark",
-        "Dub Taylor",
-        "Harry Carey Jr."
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=uploads%2Ft%2FtmpnD6sCI.jpg&crop=center&size=180",
-      "name": "Wściekłe psy",
-      "rating": 7.97,
-      "votes": 3337,
-      "year": 1992,
-      "description": "Pierwszy pełnometrażowy film Quentina Tarantino. Gangsterzy. Napad. Kolory zamiast imion. Pełen profesjonalizm. Genialny plan. A jednak coś się nie udało. Pech? A może ktoś zawalił...",
-      "tags": [
-        "dramat",
-        "dreszczowiec",
-        "kryminalny",
-        "sensacyjny",
-        "zdrada"
-      ],
-      "actors": [
-        "Harvey Keitel",
-        "Tim Roth",
-        "Michael Madsen",
-        "Chris Penn",
-        "Steve Buscemi",
-        "Lawrence Tierney",
-        "Randy Brooks",
-        "Kirk Baltz",
-        "Edward Bunker",
-        "Quentin Tarantino"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F4e%2F4f%2Fthe-devils-advocate_1.jpg&crop=center&size=180",
-      "name": "Adwokat diabła",
-      "rating": 7.52,
-      "votes": 3317,
-      "year": 1997,
-      "description": "Dla wziętego adwokata Kevina Lomaxa sprawa numer 64, wiąże się z kuszącą ofertą złożoną przez elitarną nowojorską firmę. Diabeł jednak tkwi w szczegółach, zaś praca Lomaxa to raj na ziemi... który może go doprowadzić prosto do piekła.",
-      "tags": [
-        "dramat",
-        "dreszczowiec",
-        "dwór",
-        "horror",
-        "proces",
-        "społeczeństwo",
-        "szatan",
-        "tajemnica",
-        "ukryta tożsamość"
-      ],
-      "actors": [
-        "Keanu Reeves",
-        "Al Pacino",
-        "Charlize Theron",
-        "Jeffrey Jones",
-        "Judith Ivey",
-        "Connie Nielsen",
-        "Craig T. Nelson",
-        "Tamara Tunie",
-        "Ruben Santiago-Hudson",
-        "Debra Monk"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2Fe4%2F01%2Ftroy.jpg&crop=center&size=180",
-      "name": "Troja",
-      "rating": 6.45,
-      "votes": 3305,
-      "year": 2004,
-      "description": "Adaptacja &quot;Iliady&quot; Homera z dodatkowymi wątkami zaczerpniętymi z &quot;Odysei&quot; oraz &quot;Eneidy&quot; Wergiliusza. Kiedy książę Parys porywa piękną Helenę, królową Sparty, Grecy zaczynają trwajace dekadę oblężenie Troi. W wojnie tej najbardziej wsławił się Achilles, Hektor i Agamemnon.",
-      "tags": [
-        "dramat",
-        "grecja",
-        "historyczny",
-        "przygodowy",
-        "romans",
-        "sensacyjny",
-        "starożytność",
-        "troja",
-        "wojenny"
-      ],
-      "actors": [
-        "Julian Glover",
-        "Brian Cox",
-        "Nathan Jones",
-        "Adoni Maropis",
-        "Jacob Smith",
-        "Brad Pitt",
-        "John Shrapnel",
-        "Brendan Gleeson",
-        "Diane Kruger",
-        "Eric Bana"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2Fba%2Fad%2Fthe-godfather-part-ii.jpg&crop=center&size=180",
-      "name": "Ojciec chrzestny II",
-      "rating": 8.32,
-      "votes": 3304,
-      "year": 1974,
-      "description": "Kontynuacja przestępczej sagi rodziny Corleone. Akcja skupia się na dwóch postaciach: Vito Corleone, wychowywującym się na Sycylii i w Nowym Jorku, oraz na Michaelu Corleone, który usiłuje rozszerzyć rodzinny interes do Las Vegas, Hollywood i na Kubę.",
-      "tags": [
-        "dramat",
-        "dreszczowiec",
-        "kryminalny",
-        "mafia",
-        "mario puzo",
-        "sensacyjny"
-      ],
-      "actors": [
-        "Al Pacino",
-        "Robert Duvall",
-        "Diane Keaton",
-        "Robert De Niro",
-        "John Cazale",
-        "Talia Shire",
-        "Lee Strasberg",
-        "Michael V. Gazzo",
-        "G.D. Spradlin",
-        "Richard Bright"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F94%2F3d%2Fback-to-the-future-part-ii.jpg&crop=center&size=180",
-      "name": "Powrót do przyszłości II",
-      "rating": 7.23,
-      "votes": 3284,
-      "year": 1989,
-      "description": "Rok 1985. Po wydarzeniach jakie miały szczęśliwy koniec w poprzedniej części filmu, Dr Emmett Brown (Christopher Lloyd) powraca z przyszłości. Opowiada Marty'emu (Michael J. Fox), iż musi wrócić z nim w owe miejsce, jednakże bohater nie jest sam. Towarzyszy mu dziewczyna Lorraine Baines (Lea Thompson), doktor nienamyślając się zaprasza dwójkę do wehikułu czasu i podąża z nimi w przyszłość w ...",
-      "tags": [
-        "familijny",
-        "komedia",
-        "podróż w czasie",
-        "przygodowy",
-        "science-fiction",
-        "sensacyjny"
-      ],
-      "actors": [
-        "Michael J. Fox",
-        "Christopher Lloyd",
-        "Lea Thompson",
-        "Thomas F. Wilson",
-        "Elisabeth Shue",
-        "James Tolkan",
-        "Jeffrey Weissman",
-        "Casey Siemaszko",
-        "Billy Zane",
-        "J.J. Cohen"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F85%2Fd6%2Fthe-incredibles.jpg&crop=center&size=180",
-      "name": "Iniemamocni",
-      "rating": 7.24,
-      "votes": 3276,
-      "year": 2004,
-      "description": "Bob Parr i jego żona Helen byli kiedyś największymi pogromcami przestępców, ratowali czyjeś życie i walczyli ze złem dosłownie każdego dnia. Piętnaście lat później, zmuszeni do przeistoczenia się w zwykłych obywateli, mieszkają na przedmieściu, borykają się z przyziemną, codzienną egzystencją i wychowują trójkę dzieci: Violę, Maksa i najmłodszego Jack-Jacka. Bob ciągle marzy, by wrócić do dawnego życia superbohatera. I nagle ...",
-      "tags": [
-        "animowany",
-        "familijny",
-        "pixar",
-        "przygodowy",
-        "rodzina",
-        "science-fiction",
-        "superbohater"
-      ],
-      "actors": [
-        "Craig T. Nelson",
-        "Holly Hunter",
-        "Samuel L. Jackson",
-        "Jason Lee",
-        "Dominique Louis",
-        "Teddy Newton",
-        "Jean Sincere",
-        "Eli Fucile",
-        "Maeve Andrews",
-        "Wallace Shawn"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F9d%2Fe6%2Fedward-scissorhands.jpg&crop=center&size=180",
-      "name": "Edward Nożycoręki",
-      "rating": 7.43,
-      "votes": 3243,
-      "year": 1990,
-      "description": "Właściciel zamku na wzgórzu powołał do życia cyborga, Edwarda, któremu nie zdążył stworzyć rąk, gdyż umarł. Dlatego Edward ma zamiast rąk nożyczki, którymi umie się świetnie posługiwać. Gdy umarł jego stwórca, Edward został w zamczysku i nie wychodził nigdzie. Pewnego dnia, pewna akwizytorka kosmetyków, której się sprzedawanie nie udawało, poszła do zamku, który był puszczony od lat. Gdy go zobaczyła, ...",
-      "tags": [
-        "baśń",
-        "dramat",
-        "fantasy",
-        "komedia",
-        "kryminalny",
-        "romans",
-        "sensacyjny",
-        "sztuka"
-      ],
-      "actors": [
-        "Johnny Depp",
-        "Winona Ryder",
-        "Dianne Wiest",
-        "Anthony Michael Hall",
-        "Kathy Baker",
-        "Robert Oliveri",
-        "Conchata Ferrell",
-        "Caroline Aaron",
-        "Dick Anthony Williams",
-        "O-Lan Jones"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2Fc9%2Fc2%2Fdead-poets-society.jpg&crop=center&size=180",
-      "name": "Stowarzyszenie Umarłych Poetów",
-      "rating": 7.6,
-      "votes": 3214,
-      "year": 1989,
-      "description": "Do szkoły dla chłopców przybywa nowy nauczyciel angielskiego - charyzmatyczny John Keating (Robin Williams). Jego niekonwencjonalne metody prowadzenia zajęć wnoszą pewien powiew świeżości do skostniałych murów i... umysłów. Umiejętnie i mądrze Keating nakłania swoich uczniów do poddawania się własnym pasjom i po prostu cieszenia się z każdego nowego dnia, który może przecież przynieść coś niezwykłego. Stowarzyszenie umarłych poetów to jeden ...",
-      "tags": [
-        "dramat",
-        "fascynat",
-        "literatura",
-        "nastolatek",
-        "nauczyciel",
-        "poezja",
-        "szkoła dla chłopców",
-        "szkoła prywatna",
-        "tajemnica"
-      ],
-      "actors": [
-        "Robin Williams",
-        "Robert Sean Leonard",
-        "Ethan Hawke",
-        "Josh Charles",
-        "Gale Hansen",
-        "Dylan Kussman",
-        "Allelon Ruggiero",
-        "James Waterston",
-        "Norman Lloyd",
-        "Kurtwood Smith"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F53%2F02%2Fgroundhog-day.jpg&crop=center&size=180",
-      "name": "Dzień świstaka",
-      "rating": 7.19,
-      "votes": 3210,
-      "year": 1993,
-      "description": "Komedia romantyczna o prezenterze telewizyjnym, który wpada w pętlę czasu i musi wciąż na nowo przeżywać najgorszy dzień swego życia. W rolach głównych Bill Murray, któremu partneruje Andie MacDowell.",
-      "tags": [
-        "fantasy",
-        "komedia",
-        "komedia romantyczna",
-        "kryminalny",
-        "miasteczko",
-        "podróż w czasie",
-        "romans",
-        "sensacyjny",
-        "telewizja"
-      ],
-      "actors": [
-        "Bill Murray",
-        "Andie MacDowell",
-        "Chris Elliott",
-        "Stephen Tobolowsky",
-        "Brian Doyle-Murray",
-        "Marita Geraghty",
-        "Angela Paton",
-        "Rick Ducommun",
-        "Rick Overton",
-        "Robin Duke"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F16%2F3e%2Ftoy-story.jpg&crop=center&size=180",
-      "name": "Toy Story",
-      "rating": 7.64,
-      "votes": 3156,
-      "year": 1995,
-      "description": "Kiedy zarozumiały &quot;strażnik kosmosu&quot; Buzz Lightyear wkracza do świata kowboja Chudego, w sercu jego małego właściciela, staje się zagrożona... Wkrótce także życie obu rywali znajduje się w niebezpieczeństwie. Przypadek sprawia, że opuszczają bezpieczny dom i dostają się w łapy sąsiada-łobuziaka, psującego wszystkie zabawki. Muszą teraz zjednoczyć siły i razem szukać drogi ucieczki.",
-      "tags": [
-        "animowany",
-        "familijny",
-        "fantasy",
-        "komedia",
-        "pixar",
-        "przygodowy",
-        "zabawki"
-      ],
-      "actors": [
-        "Tom Hanks",
-        "Tim Allen",
-        "Don Rickles",
-        "Jim Varney",
-        "Wallace Shawn",
-        "John Ratzenberger",
-        "Annie Potts",
-        "John Morris",
-        "Erik von Detten",
-        "Laurie Metcalf"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F73%2F45%2Fgoodfellas.jpg&crop=center&size=180",
-      "name": "Chłopcy z ferajny",
-      "rating": 8.18,
-      "votes": 3153,
-      "year": 1990,
-      "description": "Film opowiadający historię Henry'ego Hilla (Ray Liotta), który już jako dzieciak chciał zostać gangsterem. Chłopak rozpoczyna swą karierę u boku Tommy'ego DeVito (Joe Pesci). Z czasem pnie się coraz wyżej, co pozwala mu poznać Jimmy'ego Conwaya (Robert De Niro). Zapragnie być taki jak on. Mieć pieniądze, przyjaciół, wpływy i popularność.",
-      "tags": [
-        "biograficzny",
-        "docudrama",
-        "dramat",
-        "dreszczowiec",
-        "gangsterski",
-        "kryminalny",
-        "mafia",
-        "sensacyjny"
-      ],
-      "actors": [
-        "Robert De Niro",
-        "Ray Liotta",
-        "Joe Pesci",
-        "Lorraine Bracco",
-        "Paul Sorvino",
-        "Frank Sivero",
-        "Tony Darrow",
-        "Mike Starr",
-        "Frank Vincent",
-        "Chuck Low"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2Ff3%2F33%2Foceans-eleven.jpg&crop=center&size=180",
-      "name": "Ocean's Eleven: Ryzykowna gra",
-      "rating": 7.22,
-      "votes": 3135,
-      "year": 2001,
-      "description": "Nie minęły jeszcze 24 godziny od chwili warunkowego zwolnienia z więzienia New Jersey, gdy Danny Ocean obmyśla już swój kolejny wielki skok. Jak zwykle, przestrzega trzech reguł – nikt nie zostaje ranny, kradnie tylko tym, którzy na to zasługują i działa tak, jakby nie miał nic do stracenia. Mówiąc krótko, Danny planuje najbardziej skomplikowany i wymyślny w historii skok na ...",
-      "tags": [
-        "dreszczowiec",
-        "gangsterski",
-        "komedia",
-        "kryminalny",
-        "misterny plan",
-        "napad",
-        "sensacyjny",
-        "zemsta",
-        "złodziej"
-      ],
-      "actors": [
-        "George Clooney",
-        "Cecelia Ann Birt",
-        "Paul L. Nolan",
-        "Carol Florence",
-        "Lori Galinski",
-        "Bernie Mac",
-        "Brad Pitt",
-        "Mark Gantt",
-        "Timothy Paul Perez",
-        "Elliott Gould"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=uploads%2Ft%2Ftmpa_WIsK.jpg&crop=center&size=180",
-      "name": "Przekręt",
-      "rating": 7.95,
-      "votes": 3112,
-      "year": 2000,
-      "description": "Złodziej i kurier brylantów Franky Cztery Palce leci do Nowego Jorku, by dostarczyć bezcenny diament jednemu z szefów tamtejszej mafii, Aviemu. Po drodze zatrzymuje się w Londynie, gdzie pada ofiarą oszustów, którzy kradną diament. Na wieść o kłopotach Frankyego, Avi wpada w szał i wraz ze swoimi gorylami wyrusza do Londynu. Po przybyciu na miejsce wynajmuje owianego aurą legendy Tonyego, ...",
-      "tags": [
-        "dreszczowiec",
-        "heist movie",
-        "komedia",
-        "kradzież",
-        "kryminalny",
-        "mafia",
-        "sensacyjny",
-        "złodziej"
-      ],
-      "actors": [
-        "Ade Ade",
-        "William Beck",
-        "Andy Beckwith",
-        "Ewen Bremner",
-        "Jason Buckham",
-        "Mickey Cantwell",
-        "Nikki Collins",
-        "Teena Collins",
-        "Charles Cork",
-        "James Cunningham"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F96%2Fe6%2Fgran-torino.jpg&crop=center&size=180",
-      "name": "Gran Torino",
-      "rating": 7.97,
-      "votes": 3084,
-      "year": 2008,
-      "description": "Emerytowany mechanik zabija czas majsterkowaniem, piciem piwa i comiesięcznymi wizytami u fryzjera. Zgorzkniały weteran wojny w Korei utrzymuje w stanie gotowości swoją lśniącą strzelbę typu M-1 i ufa tylko swojemu psu Daisy. Ludzie, których niegdyś nazywał sąsiadami, dawno już zmarli lub po prostu wyjechali. Ich miejsce zajęli imigranci z plemienia Hmong, których Kowalski chronicznie nie znosi. Zirytowany prawie wszystkim, co ...",
-      "tags": [
-        "dramat",
-        "dreszczowiec",
-        "gang",
-        "korea",
-        "obyczajowy",
-        "przyjaźń",
-        "przyjaźń z dzieckiem",
-        "rasizm",
-        "sąsiad",
-        "sensacyjny",
-        "społeczeństwo",
-        "tolerancja"
-      ],
-      "actors": [
-        "Clint Eastwood",
-        "Christopher Carley",
-        "Bee Vang",
-        "Ahney Her",
-        "Brian Haley",
-        "Geraldine Hughes",
-        "Dreama Walker",
-        "Brian Howe",
-        "John Carroll Lynch",
-        "William Hill"
-      ]
-    },
-    {
-      "image": "http://filmaster.pl/thumbnail/?path=img%2Fobj%2Ff%2F8e%2F25%2Fpirates-of-the-caribbean-at-worlds-end.jpg&crop=center&size=180",
-      "name": "Piraci z Karaibów: Na krańcu świata",
-      "rating": 7,
-      "votes": 3066,
-      "year": 2007,
-      "description": "Czasy piratów i ich zuchwałych wyczynów być może dobiegają końca? A to dzięki bezwzględnemu lordowi Cutlerowi Beckettowi, reprezentującemu interesy Kompanii Wschodnioindyjskiej, któremu udało się opanować Latającego Holendra. Statkiem-widmem dowodzi straszliwy kapitan Davy Jones, ale lord stał się jego zwierzchnikiem, ponieważ to w jego ręce trafiło serce kapitana, które kontroluje morza i oceany. Holender i wspierająca go armada pod dowództwem admirała ...",
-      "tags": [
-        "fantasy",
-        "komedia",
-        "morze",
-        "piraci",
-        "przygodowy",
-        "sensacyjny",
-        "sequel",
-        "żegluga"
-      ],
-      "actors": [
-        "Johnny Depp",
-        "Geoffrey Rush",
-        "Orlando Bloom",
-        "Keira Knightley",
-        "Jack Davenport",
-        "Bill Nighy",
-        "Jonathan Pryce",
-        "Lee Arenberg",
-        "Mackenzie Crook",
-        "Kevin McNally"
-      ]
-    }
+export const data = {
+  "genres": [
+      "Comedy",
+      "Fantasy",
+      "Crime",
+      "Drama",
+      "Music",
+      "Adventure",
+      "History",
+      "Thriller",
+      "Animation",
+      "Family",
+      "Mystery",
+      "Biography",
+      "Action",
+      "Film-Noir",
+      "Romance",
+      "Sci-Fi",
+      "War",
+      "Western",
+      "Horror",
+      "Musical",
+      "Sport"
+  ],
+  "movies": [
+      {
+          "id": 1,
+          "title": "Beetlejuice",
+          "year": "1988",
+          "runtime": "92",
+          "genres": [
+              "Comedy",
+              "Fantasy"
+          ],
+          "director": "Tim Burton",
+          "actors": "Alec Baldwin, Geena Davis, Annie McEnroe, Maurice Page",
+          "plot": "A couple of recently deceased ghosts contract the services of a \"bio-exorcist\" in order to remove the obnoxious new owners of their house.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTUwODE3MDE0MV5BMl5BanBnXkFtZTgwNTk1MjI4MzE@._V1_SX300.jpg"
+      },
+      {
+          "id": 2,
+          "title": "The Cotton Club",
+          "year": "1984",
+          "runtime": "127",
+          "genres": [
+              "Crime",
+              "Drama",
+              "Music"
+          ],
+          "director": "Francis Ford Coppola",
+          "actors": "Richard Gere, Gregory Hines, Diane Lane, Lonette McKee",
+          "plot": "The Cotton Club was a famous night club in Harlem. The story follows the people that visited the club, those that ran it, and is peppered with the Jazz music that made it so famous.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTU5ODAyNzA4OV5BMl5BanBnXkFtZTcwNzYwNTIzNA@@._V1_SX300.jpg"
+      },
+      {
+          "id": 3,
+          "title": "The Shawshank Redemption",
+          "year": "1994",
+          "runtime": "142",
+          "genres": [
+              "Crime",
+              "Drama"
+          ],
+          "director": "Frank Darabont",
+          "actors": "Tim Robbins, Morgan Freeman, Bob Gunton, William Sadler",
+          "plot": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BODU4MjU4NjIwNl5BMl5BanBnXkFtZTgwMDU2MjEyMDE@._V1_SX300.jpg"
+      },
+      {
+          "id": 4,
+          "title": "Crocodile Dundee",
+          "year": "1986",
+          "runtime": "97",
+          "genres": [
+              "Adventure",
+              "Comedy"
+          ],
+          "director": "Peter Faiman",
+          "actors": "Paul Hogan, Linda Kozlowski, John Meillon, David Gulpilil",
+          "plot": "An American reporter goes to the Australian outback to meet an eccentric crocodile poacher and invites him to New York City.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTg0MTU1MTg4NF5BMl5BanBnXkFtZTgwMDgzNzYxMTE@._V1_SX300.jpg"
+      },
+      {
+          "id": 5,
+          "title": "Valkyrie",
+          "year": "2008",
+          "runtime": "121",
+          "genres": [
+              "Drama",
+              "History",
+              "Thriller"
+          ],
+          "director": "Bryan Singer",
+          "actors": "Tom Cruise, Kenneth Branagh, Bill Nighy, Tom Wilkinson",
+          "plot": "A dramatization of the 20 July assassination and political coup plot by desperate renegade German Army officers against Hitler during World War II.",
+          "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMTg3Njc2ODEyN15BMl5BanBnXkFtZTcwNTAwMzc3NA@@._V1_SX300.jpg"
+      },
+      {
+          "id": 6,
+          "title": "Ratatouille",
+          "year": "2007",
+          "runtime": "111",
+          "genres": [
+              "Animation",
+              "Comedy",
+              "Family"
+          ],
+          "director": "Brad Bird, Jan Pinkava",
+          "actors": "Patton Oswalt, Ian Holm, Lou Romano, Brian Dennehy",
+          "plot": "A rat who can cook makes an unusual alliance with a young kitchen worker at a famous restaurant.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTMzODU0NTkxMF5BMl5BanBnXkFtZTcwMjQ4MzMzMw@@._V1_SX300.jpg"
+      },
+      {
+          "id": 7,
+          "title": "City of God",
+          "year": "2002",
+          "runtime": "130",
+          "genres": [
+              "Crime",
+              "Drama"
+          ],
+          "director": "Fernando Meirelles, Kátia Lund",
+          "actors": "Alexandre Rodrigues, Leandro Firmino, Phellipe Haagensen, Douglas Silva",
+          "plot": "Two boys growing up in a violent neighborhood of Rio de Janeiro take different paths: one becomes a photographer, the other a drug dealer.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjA4ODQ3ODkzNV5BMl5BanBnXkFtZTYwOTc4NDI3._V1_SX300.jpg"
+      },
+      {
+          "id": 8,
+          "title": "Memento",
+          "year": "2000",
+          "runtime": "113",
+          "genres": [
+              "Mystery",
+              "Thriller"
+          ],
+          "director": "Christopher Nolan",
+          "actors": "Guy Pearce, Carrie-Anne Moss, Joe Pantoliano, Mark Boone Junior",
+          "plot": "A man juggles searching for his wife's murderer and keeping his short-term memory loss from being an obstacle.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNThiYjM3MzktMDg3Yy00ZWQ3LTk3YWEtN2M0YmNmNWEwYTE3XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+      },
+      {
+          "id": 9,
+          "title": "The Intouchables",
+          "year": "2011",
+          "runtime": "112",
+          "genres": [
+              "Biography",
+              "Comedy",
+              "Drama"
+          ],
+          "director": "Olivier Nakache, Eric Toledano",
+          "actors": "François Cluzet, Omar Sy, Anne Le Ny, Audrey Fleurot",
+          "plot": "After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver.",
+          "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMTYxNDA3MDQwNl5BMl5BanBnXkFtZTcwNTU4Mzc1Nw@@._V1_SX300.jpg"
+      },
+      {
+          "id": 10,
+          "title": "Stardust",
+          "year": "2007",
+          "runtime": "127",
+          "genres": [
+              "Adventure",
+              "Family",
+              "Fantasy"
+          ],
+          "director": "Matthew Vaughn",
+          "actors": "Ian McKellen, Bimbo Hart, Alastair MacIntosh, David Kelly",
+          "plot": "In a countryside town bordering on a magical land, a young man makes a promise to his beloved that he'll retrieve a fallen star by venturing into the magical realm.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjkyMTE1OTYwNF5BMl5BanBnXkFtZTcwMDIxODYzMw@@._V1_SX300.jpg"
+      },
+      {
+          "id": 11,
+          "title": "Apocalypto",
+          "year": "2006",
+          "runtime": "139",
+          "genres": [
+              "Action",
+              "Adventure",
+              "Drama"
+          ],
+          "director": "Mel Gibson",
+          "actors": "Rudy Youngblood, Dalia Hernández, Jonathan Brewer, Morris Birdyellowhead",
+          "plot": "As the Mayan kingdom faces its decline, the rulers insist the key to prosperity is to build more temples and offer human sacrifices. Jaguar Paw, a young man captured for sacrifice, flees to avoid his fate.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNTM1NjYyNTY5OV5BMl5BanBnXkFtZTcwMjgwNTMzMQ@@._V1_SX300.jpg"
+      },
+      {
+          "id": 12,
+          "title": "Taxi Driver",
+          "year": "1976",
+          "runtime": "113",
+          "genres": [
+              "Crime",
+              "Drama"
+          ],
+          "director": "Martin Scorsese",
+          "actors": "Diahnne Abbott, Frank Adu, Victor Argo, Gino Ardito",
+          "plot": "A mentally unstable Vietnam War veteran works as a night-time taxi driver in New York City where the perceived decadence and sleaze feeds his urge for violent action, attempting to save a preadolescent prostitute in the process.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNGQxNDgzZWQtZTNjNi00M2RkLWExZmEtNmE1NjEyZDEwMzA5XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+      },
+      {
+          "id": 13,
+          "title": "No Country for Old Men",
+          "year": "2007",
+          "runtime": "122",
+          "genres": [
+              "Crime",
+              "Drama",
+              "Thriller"
+          ],
+          "director": "Ethan Coen, Joel Coen",
+          "actors": "Tommy Lee Jones, Javier Bardem, Josh Brolin, Woody Harrelson",
+          "plot": "Violence and mayhem ensue after a hunter stumbles upon a drug deal gone wrong and more than two million dollars in cash near the Rio Grande.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjA5Njk3MjM4OV5BMl5BanBnXkFtZTcwMTc5MTE1MQ@@._V1_SX300.jpg"
+      },
+      {
+          "id": 14,
+          "title": "Planet 51",
+          "year": "2009",
+          "runtime": "91",
+          "genres": [
+              "Animation",
+              "Adventure",
+              "Comedy"
+          ],
+          "director": "Jorge Blanco, Javier Abad, Marcos Martínez",
+          "actors": "Jessica Biel, John Cleese, Gary Oldman, Dwayne Johnson",
+          "plot": "An alien civilization is invaded by Astronaut Chuck Baker, who believes that the planet was uninhabited. Wanted by the military, Baker must get back to his ship before it goes into orbit without him.",
+          "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMTUyOTAyNTA5Ml5BMl5BanBnXkFtZTcwODU2OTM0Mg@@._V1_SX300.jpg"
+      },
+      {
+          "id": 15,
+          "title": "Looper",
+          "year": "2012",
+          "runtime": "119",
+          "genres": [
+              "Action",
+              "Crime",
+              "Drama"
+          ],
+          "director": "Rian Johnson",
+          "actors": "Joseph Gordon-Levitt, Bruce Willis, Emily Blunt, Paul Dano",
+          "plot": "In 2074, when the mob wants to get rid of someone, the target is sent into the past, where a hired gun awaits - someone like Joe - who one day learns the mob wants to 'close the loop' by sending back Joe's future self for assassination.",
+          "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMTY3NTY0MjEwNV5BMl5BanBnXkFtZTcwNTE3NDA1OA@@._V1_SX300.jpg"
+      },
+      {
+          "id": 16,
+          "title": "Corpse Bride",
+          "year": "2005",
+          "runtime": "77",
+          "genres": [
+              "Animation",
+              "Drama",
+              "Family"
+          ],
+          "director": "Tim Burton, Mike Johnson",
+          "actors": "Johnny Depp, Helena Bonham Carter, Emily Watson, Tracey Ullman",
+          "plot": "When a shy groom practices his wedding vows in the inadvertent presence of a deceased young woman, she rises from the grave assuming he has married her.",
+          "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMTk1MTY1NjU4MF5BMl5BanBnXkFtZTcwNjIzMTEzMw@@._V1_SX300.jpg"
+      },
+      {
+          "id": 17,
+          "title": "The Third Man",
+          "year": "1949",
+          "runtime": "93",
+          "genres": [
+              "Film-Noir",
+              "Mystery",
+              "Thriller"
+          ],
+          "director": "Carol Reed",
+          "actors": "Joseph Cotten, Alida Valli, Orson Welles, Trevor Howard",
+          "plot": "Pulp novelist Holly Martins travels to shadowy, postwar Vienna, only to find himself investigating the mysterious death of an old friend, Harry Lime.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjMwNzMzMTQ0Ml5BMl5BanBnXkFtZTgwNjExMzUwNjE@._V1_SX300.jpg"
+      },
+      {
+          "id": 18,
+          "title": "The Beach",
+          "year": "2000",
+          "runtime": "119",
+          "genres": [
+              "Adventure",
+              "Drama",
+              "Romance"
+          ],
+          "director": "Danny Boyle",
+          "actors": "Leonardo DiCaprio, Daniel York, Patcharawan Patarakijjanon, Virginie Ledoyen",
+          "plot": "Twenty-something Richard travels to Thailand and finds himself in possession of a strange map. Rumours state that it leads to a solitary beach paradise, a tropical bliss - excited and intrigued, he sets out to find it.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BN2ViYTFiZmUtOTIxZi00YzIxLWEyMzUtYjQwZGNjMjNhY2IwXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg"
+      },
+      {
+          "id": 19,
+          "title": "Scarface",
+          "year": "1983",
+          "runtime": "170",
+          "genres": [
+              "Crime",
+              "Drama"
+          ],
+          "director": "Brian De Palma",
+          "actors": "Al Pacino, Steven Bauer, Michelle Pfeiffer, Mary Elizabeth Mastrantonio",
+          "plot": "In Miami in 1980, a determined Cuban immigrant takes over a drug cartel and succumbs to greed.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjAzOTM4MzEwNl5BMl5BanBnXkFtZTgwMzU1OTc1MDE@._V1_SX300.jpg"
+      },
+      {
+          "id": 20,
+          "title": "Sid and Nancy",
+          "year": "1986",
+          "runtime": "112",
+          "genres": [
+              "Biography",
+              "Drama",
+              "Music"
+          ],
+          "director": "Alex Cox",
+          "actors": "Gary Oldman, Chloe Webb, David Hayman, Debby Bishop",
+          "plot": "Morbid biographical story of Sid Vicious, bassist with British punk group the Sex Pistols, and his girlfriend Nancy Spungen. When the Sex Pistols break up after their fateful US tour, ...",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjExNjA5NzY4M15BMl5BanBnXkFtZTcwNjQ2NzI5NA@@._V1_SX300.jpg"
+      },
+      {
+          "id": 21,
+          "title": "Black Swan",
+          "year": "2010",
+          "runtime": "108",
+          "genres": [
+              "Drama",
+              "Thriller"
+          ],
+          "director": "Darren Aronofsky",
+          "actors": "Natalie Portman, Mila Kunis, Vincent Cassel, Barbara Hershey",
+          "plot": "A committed dancer wins the lead role in a production of Tchaikovsky's \"Swan Lake\" only to find herself struggling to maintain her sanity.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNzY2NzI4OTE5MF5BMl5BanBnXkFtZTcwMjMyNDY4Mw@@._V1_SX300.jpg"
+      },
+      {
+          "id": 22,
+          "title": "Inception",
+          "year": "2010",
+          "runtime": "148",
+          "genres": [
+              "Action",
+              "Adventure",
+              "Sci-Fi"
+          ],
+          "director": "Christopher Nolan",
+          "actors": "Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page, Tom Hardy",
+          "plot": "A thief, who steals corporate secrets through use of dream-sharing technology, is given the inverse task of planting an idea into the mind of a CEO.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg"
+      },
+      {
+          "id": 23,
+          "title": "The Deer Hunter",
+          "year": "1978",
+          "runtime": "183",
+          "genres": [
+              "Drama",
+              "War"
+          ],
+          "director": "Michael Cimino",
+          "actors": "Robert De Niro, John Cazale, John Savage, Christopher Walken",
+          "plot": "An in-depth examination of the ways in which the U.S. Vietnam War impacts and disrupts the lives of people in a small industrial town in Pennsylvania.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTYzYmRmZTQtYjk2NS00MDdlLTkxMDAtMTE2YTM2ZmNlMTBkXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg"
+      },
+      {
+          "id": 24,
+          "title": "Chasing Amy",
+          "year": "1997",
+          "runtime": "113",
+          "genres": [
+              "Comedy",
+              "Drama",
+              "Romance"
+          ],
+          "director": "Kevin Smith",
+          "actors": "Ethan Suplee, Ben Affleck, Scott Mosier, Jason Lee",
+          "plot": "Holden and Banky are comic book artists. Everything's going good for them until they meet Alyssa, also a comic book artist. Holden falls for her, but his hopes are crushed when he finds out she's gay.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BZDM3MTg2MGUtZDM0MC00NzMwLWE5NjItOWFjNjA2M2I4YzgxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+      },
+      {
+          "id": 25,
+          "title": "Django Unchained",
+          "year": "2012",
+          "runtime": "165",
+          "genres": [
+              "Drama",
+              "Western"
+          ],
+          "director": "Quentin Tarantino",
+          "actors": "Jamie Foxx, Christoph Waltz, Leonardo DiCaprio, Kerry Washington",
+          "plot": "With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner.",
+          "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_SX300.jpg"
+      },
+      {
+          "id": 26,
+          "title": "The Silence of the Lambs",
+          "year": "1991",
+          "runtime": "118",
+          "genres": [
+              "Crime",
+              "Drama",
+              "Thriller"
+          ],
+          "director": "Jonathan Demme",
+          "actors": "Jodie Foster, Lawrence A. Bonney, Kasi Lemmons, Lawrence T. Wrentz",
+          "plot": "A young F.B.I. cadet must confide in an incarcerated and manipulative killer to receive his help on catching another serial killer who skins his victims.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ2NzkzMDI4OF5BMl5BanBnXkFtZTcwMDA0NzE1NA@@._V1_SX300.jpg"
+      },
+      {
+          "id": 27,
+          "title": "American Beauty",
+          "year": "1999",
+          "runtime": "122",
+          "genres": [
+              "Drama",
+              "Romance"
+          ],
+          "director": "Sam Mendes",
+          "actors": "Kevin Spacey, Annette Bening, Thora Birch, Wes Bentley",
+          "plot": "A sexually frustrated suburban father has a mid-life crisis after becoming infatuated with his daughter's best friend.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjM4NTI5NzYyNV5BMl5BanBnXkFtZTgwNTkxNTYxMTE@._V1_SX300.jpg"
+      },
+      {
+          "id": 28,
+          "title": "Snatch",
+          "year": "2000",
+          "runtime": "102",
+          "genres": [
+              "Comedy",
+              "Crime"
+          ],
+          "director": "Guy Ritchie",
+          "actors": "Benicio Del Toro, Dennis Farina, Vinnie Jones, Brad Pitt",
+          "plot": "Unscrupulous boxing promoters, violent bookmakers, a Russian gangster, incompetent amateur robbers, and supposedly Jewish jewelers fight to track down a priceless stolen diamond.",
+          "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMTA2NDYxOGYtYjU1Mi00Y2QzLTgxMTQtMWI1MGI0ZGQ5MmU4XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg"
+      },
+      {
+          "id": 29,
+          "title": "Midnight Express",
+          "year": "1978",
+          "runtime": "121",
+          "genres": [
+              "Crime",
+              "Drama",
+              "Thriller"
+          ],
+          "director": "Alan Parker",
+          "actors": "Brad Davis, Irene Miracle, Bo Hopkins, Paolo Bonacelli",
+          "plot": "Billy Hayes, an American college student, is caught smuggling drugs out of Turkey and thrown into prison.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQyMDA5MzkyOF5BMl5BanBnXkFtZTgwOTYwNTcxMTE@._V1_SX300.jpg"
+      },
+      {
+          "id": 30,
+          "title": "Pulp Fiction",
+          "year": "1994",
+          "runtime": "154",
+          "genres": [
+              "Crime",
+              "Drama"
+          ],
+          "director": "Quentin Tarantino",
+          "actors": "Tim Roth, Amanda Plummer, Laura Lovelace, John Travolta",
+          "plot": "The lives of two mob hit men, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTkxMTA5OTAzMl5BMl5BanBnXkFtZTgwNjA5MDc3NjE@._V1_SX300.jpg"
+      },
+      {
+          "id": 31,
+          "title": "Lock, Stock and Two Smoking Barrels",
+          "year": "1998",
+          "runtime": "107",
+          "genres": [
+              "Comedy",
+              "Crime"
+          ],
+          "director": "Guy Ritchie",
+          "actors": "Jason Flemyng, Dexter Fletcher, Nick Moran, Jason Statham",
+          "plot": "A botched card game in London triggers four friends, thugs, weed-growers, hard gangsters, loan sharks and debt collectors to collide with each other in a series of unexpected events, all for the sake of weed, cash and two antique shotguns.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTAyN2JmZmEtNjAyMy00NzYwLThmY2MtYWQ3OGNhNjExMmM4XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg"
+      },
+      {
+          "id": 32,
+          "title": "Lucky Number Slevin",
+          "year": "2006",
+          "runtime": "110",
+          "genres": [
+              "Crime",
+              "Drama",
+              "Mystery"
+          ],
+          "director": "Paul McGuigan",
+          "actors": "Josh Hartnett, Bruce Willis, Lucy Liu, Morgan Freeman",
+          "plot": "A case of mistaken identity lands Slevin into the middle of a war being plotted by two of the city's most rival crime bosses: The Rabbi and The Boss. Slevin is under constant surveillance by relentless Detective Brikowski as well as the infamous assassin Goodkat and finds himself having to hatch his own ingenious plot to get them before they get him.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMzc1OTEwMTk4OF5BMl5BanBnXkFtZTcwMTEzMDQzMQ@@._V1_SX300.jpg"
+      },
+      {
+          "id": 33,
+          "title": "Rear Window",
+          "year": "1954",
+          "runtime": "112",
+          "genres": [
+              "Mystery",
+              "Thriller"
+          ],
+          "director": "Alfred Hitchcock",
+          "actors": "James Stewart, Grace Kelly, Wendell Corey, Thelma Ritter",
+          "plot": "A wheelchair-bound photographer spies on his neighbours from his apartment window and becomes convinced one of them has committed murder.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNGUxYWM3M2MtMGM3Mi00ZmRiLWE0NGQtZjE5ODI2OTJhNTU0XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+      },
+      {
+          "id": 34,
+          "title": "Pan's Labyrinth",
+          "year": "2006",
+          "runtime": "118",
+          "genres": [
+              "Drama",
+              "Fantasy",
+              "War"
+          ],
+          "director": "Guillermo del Toro",
+          "actors": "Ivana Baquero, Sergi López, Maribel Verdú, Doug Jones",
+          "plot": "In the falangist Spain of 1944, the bookish young stepdaughter of a sadistic army officer escapes into an eerie but captivating fantasy world.",
+          "posterUrl": ""
+      },
+      {
+          "id": 35,
+          "title": "Shutter Island",
+          "year": "2010",
+          "runtime": "138",
+          "genres": [
+              "Mystery",
+              "Thriller"
+          ],
+          "director": "Martin Scorsese",
+          "actors": "Leonardo DiCaprio, Mark Ruffalo, Ben Kingsley, Max von Sydow",
+          "plot": "In 1954, a U.S. marshal investigates the disappearance of a murderess who escaped from a hospital for the criminally insane.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTMxMTIyNzMxMV5BMl5BanBnXkFtZTcwOTc4OTI3Mg@@._V1_SX300.jpg"
+      },
+      {
+          "id": 36,
+          "title": "Reservoir Dogs",
+          "year": "1992",
+          "runtime": "99",
+          "genres": [
+              "Crime",
+              "Drama",
+              "Thriller"
+          ],
+          "director": "Quentin Tarantino",
+          "actors": "Harvey Keitel, Tim Roth, Michael Madsen, Chris Penn",
+          "plot": "After a simple jewelry heist goes terribly wrong, the surviving criminals begin to suspect that one of them is a police informant.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNjE5ZDJiZTQtOGE2YS00ZTc5LTk0OGUtOTg2NjdjZmVlYzE2XkEyXkFqcGdeQXVyMzM4MjM0Nzg@._V1_SX300.jpg"
+      },
+      {
+          "id": 37,
+          "title": "The Shining",
+          "year": "1980",
+          "runtime": "146",
+          "genres": [
+              "Drama",
+              "Horror"
+          ],
+          "director": "Stanley Kubrick",
+          "actors": "Jack Nicholson, Shelley Duvall, Danny Lloyd, Scatman Crothers",
+          "plot": "A family heads to an isolated hotel for the winter where an evil and spiritual presence influences the father into violence, while his psychic son sees horrific forebodings from the past and of the future.",
+          "posterUrl": "http://ia.media-imdb.com/images/M/MV5BODMxMjE3NTA4Ml5BMl5BanBnXkFtZTgwNDc0NTIxMDE@._V1_SX300.jpg"
+      },
+      {
+          "id": 38,
+          "title": "Midnight in Paris",
+          "year": "2011",
+          "runtime": "94",
+          "genres": [
+              "Comedy",
+              "Fantasy",
+              "Romance"
+          ],
+          "director": "Woody Allen",
+          "actors": "Owen Wilson, Rachel McAdams, Kurt Fuller, Mimi Kennedy",
+          "plot": "While on a trip to Paris with his fiancée's family, a nostalgic screenwriter finds himself mysteriously going back to the 1920s everyday at midnight.",
+          "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMTM4NjY1MDQwMl5BMl5BanBnXkFtZTcwNTI3Njg3NA@@._V1_SX300.jpg"
+      },
+      {
+          "id": 39,
+          "title": "Les Misérables",
+          "year": "2012",
+          "runtime": "158",
+          "genres": [
+              "Drama",
+              "Musical",
+              "Romance"
+          ],
+          "director": "Tom Hooper",
+          "actors": "Hugh Jackman, Russell Crowe, Anne Hathaway, Amanda Seyfried",
+          "plot": "In 19th-century France, Jean Valjean, who for decades has been hunted by the ruthless policeman Javert after breaking parole, agrees to care for a factory worker's daughter. The decision changes their lives forever.",
+          "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMTQ4NDI3NDg4M15BMl5BanBnXkFtZTcwMjY5OTI1OA@@._V1_SX300.jpg"
+      },
+      {
+          "id": 40,
+          "title": "L.A. Confidential",
+          "year": "1997",
+          "runtime": "138",
+          "genres": [
+              "Crime",
+              "Drama",
+              "Mystery"
+          ],
+          "director": "Curtis Hanson",
+          "actors": "Kevin Spacey, Russell Crowe, Guy Pearce, James Cromwell",
+          "plot": "As corruption grows in 1950s LA, three policemen - one strait-laced, one brutal, and one sleazy - investigate a series of murders with their own brand of justice.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNWEwNDhhNWUtYWMzNi00ZTNhLWFiZDAtMjBjZmJhMTU0ZTY2XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg"
+      },
+      {
+          "id": 41,
+          "title": "Moneyball",
+          "year": "2011",
+          "runtime": "133",
+          "genres": [
+              "Biography",
+              "Drama",
+              "Sport"
+          ],
+          "director": "Bennett Miller",
+          "actors": "Brad Pitt, Jonah Hill, Philip Seymour Hoffman, Robin Wright",
+          "plot": "Oakland A's general manager Billy Beane's successful attempt to assemble a baseball team on a lean budget by employing computer-generated analysis to acquire new players.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjAxOTU3Mzc1M15BMl5BanBnXkFtZTcwMzk1ODUzNg@@._V1_SX300.jpg"
+      },
+      {
+          "id": 42,
+          "title": "The Hangover",
+          "year": "2009",
+          "runtime": "100",
+          "genres": [
+              "Comedy"
+          ],
+          "director": "Todd Phillips",
+          "actors": "Bradley Cooper, Ed Helms, Zach Galifianakis, Justin Bartha",
+          "plot": "Three buddies wake up from a bachelor party in Las Vegas, with no memory of the previous night and the bachelor missing. They make their way around the city in order to find their friend before his wedding.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTU1MDA1MTYwMF5BMl5BanBnXkFtZTcwMDcxMzA1Mg@@._V1_SX300.jpg"
+      },
+      {
+          "id": 43,
+          "title": "The Great Beauty",
+          "year": "2013",
+          "runtime": "141",
+          "genres": [
+              "Drama"
+          ],
+          "director": "Paolo Sorrentino",
+          "actors": "Toni Servillo, Carlo Verdone, Sabrina Ferilli, Carlo Buccirosso",
+          "plot": "Jep Gambardella has seduced his way through the lavish nightlife of Rome for decades, but after his 65th birthday and a shock from the past, Jep looks past the nightclubs and parties to find a timeless landscape of absurd, exquisite beauty.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ0ODg1OTQ2Nl5BMl5BanBnXkFtZTgwNTc2MDY1MDE@._V1_SX300.jpg"
+      },
+      {
+          "id": 44,
+          "title": "Gran Torino",
+          "year": "2008",
+          "runtime": "116",
+          "genres": [
+              "Drama"
+          ],
+          "director": "Clint Eastwood",
+          "actors": "Clint Eastwood, Christopher Carley, Bee Vang, Ahney Her",
+          "plot": "Disgruntled Korean War veteran Walt Kowalski sets out to reform his neighbor, a Hmong teenager who tried to steal Kowalski's prized possession: a 1972 Gran Torino.",
+          "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMTQyMTczMTAxMl5BMl5BanBnXkFtZTcwOTc1ODE0Mg@@._V1_SX300.jpg"
+      },
+      {
+          "id": 45,
+          "title": "Mary and Max",
+          "year": "2009",
+          "runtime": "92",
+          "genres": [
+              "Animation",
+              "Comedy",
+              "Drama"
+          ],
+          "director": "Adam Elliot",
+          "actors": "Toni Collette, Philip Seymour Hoffman, Barry Humphries, Eric Bana",
+          "plot": "A tale of friendship between two unlikely pen pals: Mary, a lonely, eight-year-old girl living in the suburbs of Melbourne, and Max, a forty-four-year old, severely obese man living in New York.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ1NDIyNTA1Nl5BMl5BanBnXkFtZTcwMjc2Njk3OA@@._V1_SX300.jpg"
+      },
+      {
+          "id": 46,
+          "title": "Flight",
+          "year": "2012",
+          "runtime": "138",
+          "genres": [
+              "Drama",
+              "Thriller"
+          ],
+          "director": "Robert Zemeckis",
+          "actors": "Nadine Velazquez, Denzel Washington, Carter Cabassa, Adam C. Edwards",
+          "plot": "An airline pilot saves almost all his passengers on his malfunctioning airliner which eventually crashed, but an investigation into the accident reveals something troubling.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTUxMjI1OTMxNl5BMl5BanBnXkFtZTcwNjc3NTY1OA@@._V1_SX300.jpg"
+      },
+      {
+          "id": 47,
+          "title": "One Flew Over the Cuckoo's Nest",
+          "year": "1975",
+          "runtime": "133",
+          "genres": [
+              "Drama"
+          ],
+          "director": "Milos Forman",
+          "actors": "Michael Berryman, Peter Brocco, Dean R. Brooks, Alonzo Brown",
+          "plot": "A criminal pleads insanity after getting into trouble again and once in the mental institution rebels against the oppressive nurse and rallies up the scared patients.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BYmJkODkwOTItZThjZC00MTE0LWIxNzQtYTM3MmQwMGI1OWFiXkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_SX300.jpg"
+      },
+      {
+          "id": 48,
+          "title": "Requiem for a Dream",
+          "year": "2000",
+          "runtime": "102",
+          "genres": [
+              "Drama"
+          ],
+          "director": "Darren Aronofsky",
+          "actors": "Ellen Burstyn, Jared Leto, Jennifer Connelly, Marlon Wayans",
+          "plot": "The drug-induced utopias of four Coney Island people are shattered when their addictions run deep.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTkzODMzODYwOF5BMl5BanBnXkFtZTcwODM2NjA2NQ@@._V1_SX300.jpg"
+      },
+      {
+          "id": 49,
+          "title": "The Truman Show",
+          "year": "1998",
+          "runtime": "103",
+          "genres": [
+              "Comedy",
+              "Drama",
+              "Sci-Fi"
+          ],
+          "director": "Peter Weir",
+          "actors": "Jim Carrey, Laura Linney, Noah Emmerich, Natascha McElhone",
+          "plot": "An insurance salesman/adjuster discovers his entire life is actually a television show.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMDIzODcyY2EtMmY2MC00ZWVlLTgwMzAtMjQwOWUyNmJjNTYyXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg"
+      },
+      {
+          "id": 50,
+          "title": "The Artist",
+          "year": "2011",
+          "runtime": "100",
+          "genres": [
+              "Comedy",
+              "Drama",
+              "Romance"
+          ],
+          "director": "Michel Hazanavicius",
+          "actors": "Jean Dujardin, Bérénice Bejo, John Goodman, James Cromwell",
+          "plot": "A silent movie star meets a young dancer, but the arrival of talking pictures sends their careers in opposite directions.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMzk0NzQxMTM0OV5BMl5BanBnXkFtZTcwMzU4MDYyNQ@@._V1_SX300.jpg"
+      },
+      {
+          "id": 51,
+          "title": "Forrest Gump",
+          "year": "1994",
+          "runtime": "142",
+          "genres": [
+              "Comedy",
+              "Drama"
+          ],
+          "director": "Robert Zemeckis",
+          "actors": "Tom Hanks, Rebecca Williams, Sally Field, Michael Conner Humphreys",
+          "plot": "Forrest Gump, while not intelligent, has accidentally been present at many historic moments, but his true love, Jenny Curran, eludes him.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BYThjM2MwZGMtMzg3Ny00NGRkLWE4M2EtYTBiNWMzOTY0YTI4XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_SX300.jpg"
+      },
+      {
+          "id": 52,
+          "title": "The Hobbit: The Desolation of Smaug",
+          "year": "2013",
+          "runtime": "161",
+          "genres": [
+              "Adventure",
+              "Fantasy"
+          ],
+          "director": "Peter Jackson",
+          "actors": "Ian McKellen, Martin Freeman, Richard Armitage, Ken Stott",
+          "plot": "The dwarves, along with Bilbo Baggins and Gandalf the Grey, continue their quest to reclaim Erebor, their homeland, from Smaug. Bilbo Baggins is in possession of a mysterious and magical ring.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMzU0NDY0NDEzNV5BMl5BanBnXkFtZTgwOTIxNDU1MDE@._V1_SX300.jpg"
+      },
+      {
+          "id": 53,
+          "title": "Vicky Cristina Barcelona",
+          "year": "2008",
+          "runtime": "96",
+          "genres": [
+              "Drama",
+              "Romance"
+          ],
+          "director": "Woody Allen",
+          "actors": "Rebecca Hall, Scarlett Johansson, Christopher Evan Welch, Chris Messina",
+          "plot": "Two girlfriends on a summer holiday in Spain become enamored with the same painter, unaware that his ex-wife, with whom he has a tempestuous relationship, is about to re-enter the picture.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTU2NDQ4MTg2MV5BMl5BanBnXkFtZTcwNDUzNjU3MQ@@._V1_SX300.jpg"
+      },
+      {
+          "id": 54,
+          "title": "Slumdog Millionaire",
+          "year": "2008",
+          "runtime": "120",
+          "genres": [
+              "Drama",
+              "Romance"
+          ],
+          "director": "Danny Boyle, Loveleen Tandan",
+          "actors": "Dev Patel, Saurabh Shukla, Anil Kapoor, Rajendranath Zutshi",
+          "plot": "A Mumbai teen reflects on his upbringing in the slums when he is accused of cheating on the Indian Version of \"Who Wants to be a Millionaire?\"",
+          "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMTU2NTA5NzI0N15BMl5BanBnXkFtZTcwMjUxMjYxMg@@._V1_SX300.jpg"
+      },
+      {
+          "id": 55,
+          "title": "Lost in Translation",
+          "year": "2003",
+          "runtime": "101",
+          "genres": [
+              "Drama"
+          ],
+          "director": "Sofia Coppola",
+          "actors": "Scarlett Johansson, Bill Murray, Akiko Takeshita, Kazuyoshi Minamimagoe",
+          "plot": "A faded movie star and a neglected young woman form an unlikely bond after crossing paths in Tokyo.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTI2NDI5ODk4N15BMl5BanBnXkFtZTYwMTI3NTE3._V1_SX300.jpg"
+      },
+      {
+          "id": 56,
+          "title": "Match Point",
+          "year": "2005",
+          "runtime": "119",
+          "genres": [
+              "Drama",
+              "Romance",
+              "Thriller"
+          ],
+          "director": "Woody Allen",
+          "actors": "Jonathan Rhys Meyers, Alexander Armstrong, Paul Kaye, Matthew Goode",
+          "plot": "At a turning point in his life, a former tennis pro falls for an actress who happens to be dating his friend and soon-to-be brother-in-law.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTMzNzY4MzE5NF5BMl5BanBnXkFtZTcwMzQ1MDMzMQ@@._V1_SX300.jpg"
+      },
+      {
+          "id": 57,
+          "title": "Psycho",
+          "year": "1960",
+          "runtime": "109",
+          "genres": [
+              "Horror",
+              "Mystery",
+              "Thriller"
+          ],
+          "director": "Alfred Hitchcock",
+          "actors": "Anthony Perkins, Vera Miles, John Gavin, Janet Leigh",
+          "plot": "A Phoenix secretary embezzles $40,000 from her employer's client, goes on the run, and checks into a remote motel run by a young man under the domination of his mother.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMDI3OWRmOTEtOWJhYi00N2JkLTgwNGItMjdkN2U0NjFiZTYwXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+      },
+      {
+          "id": 58,
+          "title": "North by Northwest",
+          "year": "1959",
+          "runtime": "136",
+          "genres": [
+              "Action",
+              "Adventure",
+              "Crime"
+          ],
+          "director": "Alfred Hitchcock",
+          "actors": "Cary Grant, Eva Marie Saint, James Mason, Jessie Royce Landis",
+          "plot": "A hapless New York advertising executive is mistaken for a government agent by a group of foreign spies, and is pursued across the country while he looks for a way to survive.",
+          "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMjQwMTQ0MzgwNl5BMl5BanBnXkFtZTgwNjc4ODE4MzE@._V1_SX300.jpg"
+      },
+      {
+          "id": 59,
+          "title": "Madagascar: Escape 2 Africa",
+          "year": "2008",
+          "runtime": "89",
+          "genres": [
+              "Animation",
+              "Action",
+              "Adventure"
+          ],
+          "director": "Eric Darnell, Tom McGrath",
+          "actors": "Ben Stiller, Chris Rock, David Schwimmer, Jada Pinkett Smith",
+          "plot": "The animals try to fly back to New York City, but crash-land on an African wildlife refuge, where Alex is reunited with his parents.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjExMDA4NDcwMl5BMl5BanBnXkFtZTcwODAxNTQ3MQ@@._V1_SX300.jpg"
+      },
+      {
+          "id": 60,
+          "title": "Despicable Me 2",
+          "year": "2013",
+          "runtime": "98",
+          "genres": [
+              "Animation",
+              "Adventure",
+              "Comedy"
+          ],
+          "director": "Pierre Coffin, Chris Renaud",
+          "actors": "Steve Carell, Kristen Wiig, Benjamin Bratt, Miranda Cosgrove",
+          "plot": "When Gru, the world's most super-bad turned super-dad has been recruited by a team of officials to stop lethal muscle and a host of Gru's own, He has to fight back with new gadgetry, cars, and more minion madness.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjExNjAyNTcyMF5BMl5BanBnXkFtZTgwODQzMjQ3MDE@._V1_SX300.jpg"
+      },
+      {
+          "id": 61,
+          "title": "Downfall",
+          "year": "2004",
+          "runtime": "156",
+          "genres": [
+              "Biography",
+              "Drama",
+              "History"
+          ],
+          "director": "Oliver Hirschbiegel",
+          "actors": "Bruno Ganz, Alexandra Maria Lara, Corinna Harfouch, Ulrich Matthes",
+          "plot": "Traudl Junge, the final secretary for Adolf Hitler, tells of the Nazi dictator's final days in his Berlin bunker at the end of WWII.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTM1OTI1MjE2Nl5BMl5BanBnXkFtZTcwMTEwMzc4NA@@._V1_SX300.jpg"
+      },
+      {
+          "id": 62,
+          "title": "Madagascar",
+          "year": "2005",
+          "runtime": "86",
+          "genres": [
+              "Animation",
+              "Adventure",
+              "Comedy"
+          ],
+          "director": "Eric Darnell, Tom McGrath",
+          "actors": "Ben Stiller, Chris Rock, David Schwimmer, Jada Pinkett Smith",
+          "plot": "Spoiled by their upbringing with no idea what wild life is really like, four animals from New York Central Zoo escape, unwittingly assisted by four absconding penguins, and find themselves in Madagascar, among a bunch of merry lemurs",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTY4NDUwMzQxMF5BMl5BanBnXkFtZTcwMDgwNjgyMQ@@._V1_SX300.jpg"
+      },
+      {
+          "id": 63,
+          "title": "Madagascar 3: Europe's Most Wanted",
+          "year": "2012",
+          "runtime": "93",
+          "genres": [
+              "Animation",
+              "Adventure",
+              "Comedy"
+          ],
+          "director": "Eric Darnell, Tom McGrath, Conrad Vernon",
+          "actors": "Ben Stiller, Chris Rock, David Schwimmer, Jada Pinkett Smith",
+          "plot": "Alex, Marty, Gloria and Melman are still fighting to get home to their beloved Big Apple. Their journey takes them through Europe where they find the perfect cover: a traveling circus, which they reinvent - Madagascar style.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTM2MTIzNzk2MF5BMl5BanBnXkFtZTcwMDcwMzQxNw@@._V1_SX300.jpg"
+      },
+      {
+          "id": 64,
+          "title": "God Bless America",
+          "year": "2011",
+          "runtime": "105",
+          "genres": [
+              "Comedy",
+              "Crime"
+          ],
+          "director": "Bobcat Goldthwait",
+          "actors": "Joel Murray, Tara Lynne Barr, Melinda Page Hamilton, Mackenzie Brooke Smith",
+          "plot": "On a mission to rid society of its most repellent citizens, terminally ill Frank makes an unlikely accomplice in 16-year-old Roxy.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQwMTc1MzA4NF5BMl5BanBnXkFtZTcwNzQwMTgzNw@@._V1_SX300.jpg"
+      },
+      {
+          "id": 65,
+          "title": "The Social Network",
+          "year": "2010",
+          "runtime": "120",
+          "genres": [
+              "Biography",
+              "Drama"
+          ],
+          "director": "David Fincher",
+          "actors": "Jesse Eisenberg, Rooney Mara, Bryan Barter, Dustin Fitzsimons",
+          "plot": "Harvard student Mark Zuckerberg creates the social networking site that would become known as Facebook, but is later sued by two brothers who claimed he stole their idea, and the co-founder who was later squeezed out of the business.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTM2ODk0NDAwMF5BMl5BanBnXkFtZTcwNTM1MDc2Mw@@._V1_SX300.jpg"
+      },
+      {
+          "id": 66,
+          "title": "The Pianist",
+          "year": "2002",
+          "runtime": "150",
+          "genres": [
+              "Biography",
+              "Drama",
+              "War"
+          ],
+          "director": "Roman Polanski",
+          "actors": "Adrien Brody, Emilia Fox, Michal Zebrowski, Ed Stoppard",
+          "plot": "A Polish Jewish musician struggles to survive the destruction of the Warsaw ghetto of World War II.",
+          "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMTc4OTkyOTA3OF5BMl5BanBnXkFtZTYwMDIxNjk5._V1_SX300.jpg"
+      },
+      {
+          "id": 67,
+          "title": "Alive",
+          "year": "1993",
+          "runtime": "120",
+          "genres": [
+              "Adventure",
+              "Biography",
+              "Drama"
+          ],
+          "director": "Frank Marshall",
+          "actors": "Ethan Hawke, Vincent Spano, Josh Hamilton, Bruce Ramsay",
+          "plot": "Uruguayan rugby team stranded in the snow swept Andes are forced to use desperate measures to survive after a plane crash.",
+          "posterUrl": ""
+      },
+      {
+          "id": 68,
+          "title": "Casablanca",
+          "year": "1942",
+          "runtime": "102",
+          "genres": [
+              "Drama",
+              "Romance",
+              "War"
+          ],
+          "director": "Michael Curtiz",
+          "actors": "Humphrey Bogart, Ingrid Bergman, Paul Henreid, Claude Rains",
+          "plot": "In Casablanca, Morocco in December 1941, a cynical American expatriate meets a former lover, with unforeseen complications.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjQwNDYyNTk2N15BMl5BanBnXkFtZTgwMjQ0OTMyMjE@._V1_SX300.jpg"
+      },
+      {
+          "id": 69,
+          "title": "American Gangster",
+          "year": "2007",
+          "runtime": "157",
+          "genres": [
+              "Biography",
+              "Crime",
+              "Drama"
+          ],
+          "director": "Ridley Scott",
+          "actors": "Denzel Washington, Russell Crowe, Chiwetel Ejiofor, Josh Brolin",
+          "plot": "In 1970s America, a detective works to bring down the drug empire of Frank Lucas, a heroin kingpin from Manhattan, who is smuggling the drug into the country from the Far East.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTkyNzY5MDA5MV5BMl5BanBnXkFtZTcwMjg4MzI3MQ@@._V1_SX300.jpg"
+      },
+      {
+          "id": 70,
+          "title": "Catch Me If You Can",
+          "year": "2002",
+          "runtime": "141",
+          "genres": [
+              "Biography",
+              "Crime",
+              "Drama"
+          ],
+          "director": "Steven Spielberg",
+          "actors": "Leonardo DiCaprio, Tom Hanks, Christopher Walken, Martin Sheen",
+          "plot": "The true story of Frank Abagnale Jr. who, before his 19th birthday, successfully conned millions of dollars' worth of checks as a Pan Am pilot, doctor, and legal prosecutor.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTY5MzYzNjc5NV5BMl5BanBnXkFtZTYwNTUyNTc2._V1_SX300.jpg"
+      },
+      {
+          "id": 71,
+          "title": "American History X",
+          "year": "1998",
+          "runtime": "119",
+          "genres": [
+              "Crime",
+              "Drama"
+          ],
+          "director": "Tony Kaye",
+          "actors": "Edward Norton, Edward Furlong, Beverly D'Angelo, Jennifer Lien",
+          "plot": "A former neo-nazi skinhead tries to prevent his younger brother from going down the same wrong path that he did.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BZjA0MTM4MTQtNzY5MC00NzY3LWI1ZTgtYzcxMjkyMzU4MDZiXkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_SX300.jpg"
+      },
+      {
+          "id": 72,
+          "title": "Casino",
+          "year": "1995",
+          "runtime": "178",
+          "genres": [
+              "Biography",
+              "Crime",
+              "Drama"
+          ],
+          "director": "Martin Scorsese",
+          "actors": "Robert De Niro, Sharon Stone, Joe Pesci, James Woods",
+          "plot": "Greed, deception, money, power, and murder occur between two best friends, a mafia underboss and a casino owner, for a trophy wife over a gambling empire.",
+          "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMTcxOWYzNDYtYmM4YS00N2NkLTk0NTAtNjg1ODgwZjAxYzI3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg"
+      },
+      {
+          "id": 73,
+          "title": "Pirates of the Caribbean: At World's End",
+          "year": "2007",
+          "runtime": "169",
+          "genres": [
+              "Action",
+              "Adventure",
+              "Fantasy"
+          ],
+          "director": "Gore Verbinski",
+          "actors": "Johnny Depp, Geoffrey Rush, Orlando Bloom, Keira Knightley",
+          "plot": "Captain Barbossa, Will Turner and Elizabeth Swann must sail off the edge of the map, navigate treachery and betrayal, find Jack Sparrow, and make their final alliances for one last decisive battle.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjIyNjkxNzEyMl5BMl5BanBnXkFtZTYwMjc3MDE3._V1_SX300.jpg"
+      },
+      {
+          "id": 74,
+          "title": "Pirates of the Caribbean: On Stranger Tides",
+          "year": "2011",
+          "runtime": "136",
+          "genres": [
+              "Action",
+              "Adventure",
+              "Fantasy"
+          ],
+          "director": "Rob Marshall",
+          "actors": "Johnny Depp, Penélope Cruz, Geoffrey Rush, Ian McShane",
+          "plot": "Jack Sparrow and Barbossa embark on a quest to find the elusive fountain of youth, only to discover that Blackbeard and his daughter are after it too.",
+          "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMjE5MjkwODI3Nl5BMl5BanBnXkFtZTcwNjcwMDk4NA@@._V1_SX300.jpg"
+      },
+      {
+          "id": 75,
+          "title": "Crash",
+          "year": "2004",
+          "runtime": "112",
+          "genres": [
+              "Crime",
+              "Drama",
+              "Thriller"
+          ],
+          "director": "Paul Haggis",
+          "actors": "Karina Arroyave, Dato Bakhtadze, Sandra Bullock, Don Cheadle",
+          "plot": "Los Angeles citizens with vastly separate lives collide in interweaving stories of race, loss and redemption.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BOTk1OTA1MjIyNV5BMl5BanBnXkFtZTcwODQxMTkyMQ@@._V1_SX300.jpg"
+      },
+      {
+          "id": 76,
+          "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+          "year": "2003",
+          "runtime": "143",
+          "genres": [
+              "Action",
+              "Adventure",
+              "Fantasy"
+          ],
+          "director": "Gore Verbinski",
+          "actors": "Johnny Depp, Geoffrey Rush, Orlando Bloom, Keira Knightley",
+          "plot": "Blacksmith Will Turner teams up with eccentric pirate \"Captain\" Jack Sparrow to save his love, the governor's daughter, from Jack's former pirate allies, who are now undead.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjAyNDM4MTc2N15BMl5BanBnXkFtZTYwNDk0Mjc3._V1_SX300.jpg"
+      },
+      {
+          "id": 77,
+          "title": "The Lord of the Rings: The Return of the King",
+          "year": "2003",
+          "runtime": "201",
+          "genres": [
+              "Action",
+              "Adventure",
+              "Drama"
+          ],
+          "director": "Peter Jackson",
+          "actors": "Noel Appleby, Ali Astin, Sean Astin, David Aston",
+          "plot": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjE4MjA1NTAyMV5BMl5BanBnXkFtZTcwNzM1NDQyMQ@@._V1_SX300.jpg"
+      },
+      {
+          "id": 78,
+          "title": "Oldboy",
+          "year": "2003",
+          "runtime": "120",
+          "genres": [
+              "Drama",
+              "Mystery",
+              "Thriller"
+          ],
+          "director": "Chan-wook Park",
+          "actors": "Min-sik Choi, Ji-tae Yu, Hye-jeong Kang, Dae-han Ji",
+          "plot": "After being kidnapped and imprisoned for 15 years, Oh Dae-Su is released, only to find that he must find his captor in 5 days.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTI3NTQyMzU5M15BMl5BanBnXkFtZTcwMTM2MjgyMQ@@._V1_SX300.jpg"
+      },
+      {
+          "id": 79,
+          "title": "Chocolat",
+          "year": "2000",
+          "runtime": "121",
+          "genres": [
+              "Drama",
+              "Romance"
+          ],
+          "director": "Lasse Hallström",
+          "actors": "Alfred Molina, Carrie-Anne Moss, Aurelien Parent Koenig, Antonio Gil",
+          "plot": "A woman and her daughter open a chocolate shop in a small French village that shakes up the rigid morality of the community.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjA4MDI3NTQwMV5BMl5BanBnXkFtZTcwNjIzNDcyMQ@@._V1_SX300.jpg"
+      },
+      {
+          "id": 80,
+          "title": "Casino Royale",
+          "year": "2006",
+          "runtime": "144",
+          "genres": [
+              "Action",
+              "Adventure",
+              "Thriller"
+          ],
+          "director": "Martin Campbell",
+          "actors": "Daniel Craig, Eva Green, Mads Mikkelsen, Judi Dench",
+          "plot": "Armed with a licence to kill, Secret Agent James Bond sets out on his first mission as 007 and must defeat a weapons dealer in a high stakes game of poker at Casino Royale, but things are not what they seem.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTM5MjI4NDExNF5BMl5BanBnXkFtZTcwMDM1MjMzMQ@@._V1_SX300.jpg"
+      },
+      {
+          "id": 81,
+          "title": "WALL·E",
+          "year": "2008",
+          "runtime": "98",
+          "genres": [
+              "Animation",
+              "Adventure",
+              "Family"
+          ],
+          "director": "Andrew Stanton",
+          "actors": "Ben Burtt, Elissa Knight, Jeff Garlin, Fred Willard",
+          "plot": "In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTczOTA3MzY2N15BMl5BanBnXkFtZTcwOTYwNjE2MQ@@._V1_SX300.jpg"
+      },
+      {
+          "id": 82,
+          "title": "The Wolf of Wall Street",
+          "year": "2013",
+          "runtime": "180",
+          "genres": [
+              "Biography",
+              "Comedy",
+              "Crime"
+          ],
+          "director": "Martin Scorsese",
+          "actors": "Leonardo DiCaprio, Jonah Hill, Margot Robbie, Matthew McConaughey",
+          "plot": "Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_SX300.jpg"
+      },
+      {
+          "id": 83,
+          "title": "Hellboy II: The Golden Army",
+          "year": "2008",
+          "runtime": "120",
+          "genres": [
+              "Action",
+              "Adventure",
+              "Fantasy"
+          ],
+          "director": "Guillermo del Toro",
+          "actors": "Ron Perlman, Selma Blair, Doug Jones, John Alexander",
+          "plot": "The mythical world starts a rebellion against humanity in order to rule the Earth, so Hellboy and his team must save the world from the rebellious creatures.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjA5NzgyMjc2Nl5BMl5BanBnXkFtZTcwOTU3MDI3MQ@@._V1_SX300.jpg"
+      },
+      {
+          "id": 84,
+          "title": "Sunset Boulevard",
+          "year": "1950",
+          "runtime": "110",
+          "genres": [
+              "Drama",
+              "Film-Noir",
+              "Romance"
+          ],
+          "director": "Billy Wilder",
+          "actors": "William Holden, Gloria Swanson, Erich von Stroheim, Nancy Olson",
+          "plot": "A hack screenwriter writes a screenplay for a former silent-film star who has faded into Hollywood obscurity.",
+          "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMTc3NDYzODAwNV5BMl5BanBnXkFtZTgwODg1MTczMTE@._V1_SX300.jpg"
+      },
+      {
+          "id": 85,
+          "title": "I-See-You.Com",
+          "year": "2006",
+          "runtime": "92",
+          "genres": [
+              "Comedy"
+          ],
+          "director": "Eric Steven Stahl",
+          "actors": "Beau Bridges, Rosanna Arquette, Mathew Botuchis, Shiri Appleby",
+          "plot": "A 17-year-old boy buys mini-cameras and displays the footage online at I-see-you.com. The cash rolls in as the site becomes a major hit. Everyone seems to have fun until it all comes crashing down....",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTYwMDUzNzA5Nl5BMl5BanBnXkFtZTcwMjQ2Njk3MQ@@._V1_SX300.jpg"
+      },
+      {
+          "id": 86,
+          "title": "The Grand Budapest Hotel",
+          "year": "2014",
+          "runtime": "99",
+          "genres": [
+              "Adventure",
+              "Comedy",
+              "Crime"
+          ],
+          "director": "Wes Anderson",
+          "actors": "Ralph Fiennes, F. Murray Abraham, Mathieu Amalric, Adrien Brody",
+          "plot": "The adventures of Gustave H, a legendary concierge at a famous hotel from the fictional Republic of Zubrowka between the first and second World Wars, and Zero Moustafa, the lobby boy who becomes his most trusted friend.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMzM5NjUxOTEyMl5BMl5BanBnXkFtZTgwNjEyMDM0MDE@._V1_SX300.jpg"
+      },
+      {
+          "id": 87,
+          "title": "The Hitchhiker's Guide to the Galaxy",
+          "year": "2005",
+          "runtime": "109",
+          "genres": [
+              "Adventure",
+              "Comedy",
+              "Sci-Fi"
+          ],
+          "director": "Garth Jennings",
+          "actors": "Bill Bailey, Anna Chancellor, Warwick Davis, Yasiin Bey",
+          "plot": "Mere seconds before the Earth is to be demolished by an alien construction crew, journeyman Arthur Dent is swept off the planet by his friend Ford Prefect, a researcher penning a new edition of \"The Hitchhiker's Guide to the Galaxy.\"",
+          "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMjEwOTk4NjU2MF5BMl5BanBnXkFtZTYwMDA3NzI3._V1_SX300.jpg"
+      },
+      {
+          "id": 88,
+          "title": "Once Upon a Time in America",
+          "year": "1984",
+          "runtime": "229",
+          "genres": [
+              "Crime",
+              "Drama"
+          ],
+          "director": "Sergio Leone",
+          "actors": "Robert De Niro, James Woods, Elizabeth McGovern, Joe Pesci",
+          "plot": "A former Prohibition-era Jewish gangster returns to the Lower East Side of Manhattan over thirty years later, where he once again must confront the ghosts and regrets of his old life.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMGFkNWI4MTMtNGQ0OC00MWVmLTk3MTktOGYxN2Y2YWVkZWE2XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg"
+      },
+      {
+          "id": 89,
+          "title": "Oblivion",
+          "year": "2013",
+          "runtime": "124",
+          "genres": [
+              "Action",
+              "Adventure",
+              "Mystery"
+          ],
+          "director": "Joseph Kosinski",
+          "actors": "Tom Cruise, Morgan Freeman, Olga Kurylenko, Andrea Riseborough",
+          "plot": "A veteran assigned to extract Earth's remaining resources begins to question what he knows about his mission and himself.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQwMDY0MTA4MF5BMl5BanBnXkFtZTcwNzI3MDgxOQ@@._V1_SX300.jpg"
+      },
+      {
+          "id": 90,
+          "title": "V for Vendetta",
+          "year": "2005",
+          "runtime": "132",
+          "genres": [
+              "Action",
+              "Drama",
+              "Thriller"
+          ],
+          "director": "James McTeigue",
+          "actors": "Natalie Portman, Hugo Weaving, Stephen Rea, Stephen Fry",
+          "plot": "In a future British tyranny, a shadowy freedom fighter, known only by the alias of \"V\", plots to overthrow it with the help of a young woman.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BOTI5ODc3NzExNV5BMl5BanBnXkFtZTcwNzYxNzQzMw@@._V1_SX300.jpg"
+      },
+      {
+          "id": 91,
+          "title": "Gattaca",
+          "year": "1997",
+          "runtime": "106",
+          "genres": [
+              "Drama",
+              "Sci-Fi",
+              "Thriller"
+          ],
+          "director": "Andrew Niccol",
+          "actors": "Ethan Hawke, Uma Thurman, Gore Vidal, Xander Berkeley",
+          "plot": "A genetically inferior man assumes the identity of a superior one in order to pursue his lifelong dream of space travel.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNDQxOTc0MzMtZmRlOS00OWQ5LWI2ZDctOTAwNmMwOTYxYzlhXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+      },
+      {
+          "id": 92,
+          "title": "Silver Linings Playbook",
+          "year": "2012",
+          "runtime": "122",
+          "genres": [
+              "Comedy",
+              "Drama",
+              "Romance"
+          ],
+          "director": "David O. Russell",
+          "actors": "Bradley Cooper, Jennifer Lawrence, Robert De Niro, Jacki Weaver",
+          "plot": "After a stint in a mental institution, former teacher Pat Solitano moves back in with his parents and tries to reconcile with his ex-wife. Things get more challenging when Pat meets Tiffany, a mysterious girl with problems of her own.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTM2MTI5NzA3MF5BMl5BanBnXkFtZTcwODExNTc0OA@@._V1_SX300.jpg"
+      },
+      {
+          "id": 93,
+          "title": "Alice in Wonderland",
+          "year": "2010",
+          "runtime": "108",
+          "genres": [
+              "Adventure",
+              "Family",
+              "Fantasy"
+          ],
+          "director": "Tim Burton",
+          "actors": "Johnny Depp, Mia Wasikowska, Helena Bonham Carter, Anne Hathaway",
+          "plot": "Nineteen-year-old Alice returns to the magical world from her childhood adventure, where she reunites with her old friends and learns of her true destiny: to end the Red Queen's reign of terror.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTMwNjAxMTc0Nl5BMl5BanBnXkFtZTcwODc3ODk5Mg@@._V1_SX300.jpg"
+      },
+      {
+          "id": 94,
+          "title": "Gandhi",
+          "year": "1982",
+          "runtime": "191",
+          "genres": [
+              "Biography",
+              "Drama"
+          ],
+          "director": "Richard Attenborough",
+          "actors": "Ben Kingsley, Candice Bergen, Edward Fox, John Gielgud",
+          "plot": "Gandhi's character is fully explained as a man of nonviolence. Through his patience, he is able to drive the British out of the subcontinent. And the stubborn nature of Jinnah and his commitment towards Pakistan is portrayed.",
+          "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMzJiZDRmOWUtYjE2MS00Mjc1LTg1ZDYtNTQxYWJkZTg1OTM4XkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_SX300.jpg"
+      },
+      {
+          "id": 95,
+          "title": "Pacific Rim",
+          "year": "2013",
+          "runtime": "131",
+          "genres": [
+              "Action",
+              "Adventure",
+              "Sci-Fi"
+          ],
+          "director": "Guillermo del Toro",
+          "actors": "Charlie Hunnam, Diego Klattenhoff, Idris Elba, Rinko Kikuchi",
+          "plot": "As a war between humankind and monstrous sea creatures wages on, a former pilot and a trainee are paired up to drive a seemingly obsolete special weapon in a desperate effort to save the world from the apocalypse.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTY3MTI5NjQ4Nl5BMl5BanBnXkFtZTcwOTU1OTU0OQ@@._V1_SX300.jpg"
+      },
+      {
+          "id": 96,
+          "title": "Kiss Kiss Bang Bang",
+          "year": "2005",
+          "runtime": "103",
+          "genres": [
+              "Comedy",
+              "Crime",
+              "Mystery"
+          ],
+          "director": "Shane Black",
+          "actors": "Robert Downey Jr., Val Kilmer, Michelle Monaghan, Corbin Bernsen",
+          "plot": "A murder mystery brings together a private eye, a struggling actress, and a thief masquerading as an actor.",
+          "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMTY5NDExMDA3M15BMl5BanBnXkFtZTYwNTc2MzA3._V1_SX300.jpg"
+      },
+      {
+          "id": 97,
+          "title": "The Quiet American",
+          "year": "2002",
+          "runtime": "101",
+          "genres": [
+              "Drama",
+              "Mystery",
+              "Romance"
+          ],
+          "director": "Phillip Noyce",
+          "actors": "Michael Caine, Brendan Fraser, Do Thi Hai Yen, Rade Serbedzija",
+          "plot": "An older British reporter vies with a young U.S. doctor for the affections of a beautiful Vietnamese woman.",
+          "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMjE2NTUxNTE3Nl5BMl5BanBnXkFtZTYwNTczMTg5._V1_SX300.jpg"
+      },
+      {
+          "id": 98,
+          "title": "Cloud Atlas",
+          "year": "2012",
+          "runtime": "172",
+          "genres": [
+              "Drama",
+              "Sci-Fi"
+          ],
+          "director": "Tom Tykwer, Lana Wachowski, Lilly Wachowski",
+          "actors": "Tom Hanks, Halle Berry, Jim Broadbent, Hugo Weaving",
+          "plot": "An exploration of how the actions of individual lives impact one another in the past, present and future, as one soul is shaped from a killer into a hero, and an act of kindness ripples across centuries to inspire a revolution.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTczMTgxMjc4NF5BMl5BanBnXkFtZTcwNjM5MTA2OA@@._V1_SX300.jpg"
+      },
+      {
+          "id": 99,
+          "title": "The Impossible",
+          "year": "2012",
+          "runtime": "114",
+          "genres": [
+              "Drama",
+              "Thriller"
+          ],
+          "director": "J.A. Bayona",
+          "actors": "Naomi Watts, Ewan McGregor, Tom Holland, Samuel Joslin",
+          "plot": "The story of a tourist family in Thailand caught in the destruction and chaotic aftermath of the 2004 Indian Ocean tsunami.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjA5NTA3NzQ5Nl5BMl5BanBnXkFtZTcwOTYxNjY0OA@@._V1_SX300.jpg"
+      },
+      {
+          "id": 100,
+          "title": "All Quiet on the Western Front",
+          "year": "1930",
+          "runtime": "136",
+          "genres": [
+              "Drama",
+              "War"
+          ],
+          "director": "Lewis Milestone",
+          "actors": "Louis Wolheim, Lew Ayres, John Wray, Arnold Lucy",
+          "plot": "A young soldier faces profound disillusionment in the soul-destroying horror of World War I.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNTM5OTg2NDY1NF5BMl5BanBnXkFtZTcwNTQ4MTMwNw@@._V1_SX300.jpg"
+      },
+      {
+          "id": 101,
+          "title": "The English Patient",
+          "year": "1996",
+          "runtime": "162",
+          "genres": [
+              "Drama",
+              "Romance",
+              "War"
+          ],
+          "director": "Anthony Minghella",
+          "actors": "Ralph Fiennes, Juliette Binoche, Willem Dafoe, Kristin Scott Thomas",
+          "plot": "At the close of WWII, a young nurse tends to a badly-burned plane crash victim. His past is shown in flashbacks, revealing an involvement in a fateful love affair.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNDg2OTcxNDE0OF5BMl5BanBnXkFtZTgwOTg2MDM0MDE@._V1_SX300.jpg"
+      },
+      {
+          "id": 102,
+          "title": "Dallas Buyers Club",
+          "year": "2013",
+          "runtime": "117",
+          "genres": [
+              "Biography",
+              "Drama"
+          ],
+          "director": "Jean-Marc Vallée",
+          "actors": "Matthew McConaughey, Jennifer Garner, Jared Leto, Denis O'Hare",
+          "plot": "In 1985 Dallas, electrician and hustler Ron Woodroof works around the system to help AIDS patients get the medication they need after he is diagnosed with the disease.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTYwMTA4MzgyNF5BMl5BanBnXkFtZTgwMjEyMjE0MDE@._V1_SX300.jpg"
+      },
+      {
+          "id": 103,
+          "title": "Frida",
+          "year": "2002",
+          "runtime": "123",
+          "genres": [
+              "Biography",
+              "Drama",
+              "Romance"
+          ],
+          "director": "Julie Taymor",
+          "actors": "Salma Hayek, Mía Maestro, Alfred Molina, Antonio Banderas",
+          "plot": "A biography of artist Frida Kahlo, who channeled the pain of a crippling injury and her tempestuous marriage into her work.",
+          "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMTMyODUyMDY1OV5BMl5BanBnXkFtZTYwMDA2OTU3._V1_SX300.jpg"
+      },
+      {
+          "id": 104,
+          "title": "Before Sunrise",
+          "year": "1995",
+          "runtime": "105",
+          "genres": [
+              "Drama",
+              "Romance"
+          ],
+          "director": "Richard Linklater",
+          "actors": "Ethan Hawke, Julie Delpy, Andrea Eckert, Hanno Pöschl",
+          "plot": "A young man and woman meet on a train in Europe, and wind up spending one evening together in Vienna. Unfortunately, both know that this will probably be their only night together.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQyMTM3MTQxMl5BMl5BanBnXkFtZTcwMDAzNjQ4Mg@@._V1_SX300.jpg"
+      },
+      {
+          "id": 105,
+          "title": "The Rum Diary",
+          "year": "2011",
+          "runtime": "120",
+          "genres": [
+              "Comedy",
+              "Drama"
+          ],
+          "director": "Bruce Robinson",
+          "actors": "Johnny Depp, Aaron Eckhart, Michael Rispoli, Amber Heard",
+          "plot": "American journalist Paul Kemp takes on a freelance job in Puerto Rico for a local newspaper during the 1960s and struggles to find a balance between island culture and the expatriates who live there.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTM5ODA4MjYxM15BMl5BanBnXkFtZTcwMTM3NTE5Ng@@._V1_SX300.jpg"
+      },
+      {
+          "id": 106,
+          "title": "The Last Samurai",
+          "year": "2003",
+          "runtime": "154",
+          "genres": [
+              "Action",
+              "Drama",
+              "History"
+          ],
+          "director": "Edward Zwick",
+          "actors": "Ken Watanabe, Tom Cruise, William Atherton, Chad Lindberg",
+          "plot": "An American military advisor embraces the Samurai culture he was hired to destroy after he is captured in battle.",
+          "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMzkyNzQ1Mzc0NV5BMl5BanBnXkFtZTcwODg3MzUzMw@@._V1_SX300.jpg"
+      },
+      {
+          "id": 107,
+          "title": "Chinatown",
+          "year": "1974",
+          "runtime": "130",
+          "genres": [
+              "Drama",
+              "Mystery",
+              "Thriller"
+          ],
+          "director": "Roman Polanski",
+          "actors": "Jack Nicholson, Faye Dunaway, John Huston, Perry Lopez",
+          "plot": "A private detective hired to expose an adulterer finds himself caught up in a web of deceit, corruption and murder.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BN2YyNDE5NzItMjAwNC00MGQxLTllNjktZGIzMWFkZjA3OWQ0XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg"
+      },
+      {
+          "id": 108,
+          "title": "Calvary",
+          "year": "2014",
+          "runtime": "102",
+          "genres": [
+              "Comedy",
+              "Drama"
+          ],
+          "director": "John Michael McDonagh",
+          "actors": "Brendan Gleeson, Chris O'Dowd, Kelly Reilly, Aidan Gillen",
+          "plot": "After he is threatened during a confession, a good-natured priest must battle the dark forces closing in around him.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTc3MjQ1MjE2M15BMl5BanBnXkFtZTgwNTMzNjE4MTE@._V1_SX300.jpg"
+      },
+      {
+          "id": 109,
+          "title": "Before Sunset",
+          "year": "2004",
+          "runtime": "80",
+          "genres": [
+              "Drama",
+              "Romance"
+          ],
+          "director": "Richard Linklater",
+          "actors": "Ethan Hawke, Julie Delpy, Vernon Dobtcheff, Louise Lemoine Torrès",
+          "plot": "Nine years after Jesse and Celine first met, they encounter each other again on the French leg of Jesse's book tour.",
+          "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMTQ1MjAwNTM5Ml5BMl5BanBnXkFtZTYwNDM0MTc3._V1_SX300.jpg"
+      },
+      {
+          "id": 110,
+          "title": "Spirited Away",
+          "year": "2001",
+          "runtime": "125",
+          "genres": [
+              "Animation",
+              "Adventure",
+              "Family"
+          ],
+          "director": "Hayao Miyazaki",
+          "actors": "Rumi Hiiragi, Miyu Irino, Mari Natsuki, Takashi Naitô",
+          "plot": "During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and spirits, and where humans are changed into beasts.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjYxMDcyMzIzNl5BMl5BanBnXkFtZTYwNDg2MDU3._V1_SX300.jpg"
+      },
+      {
+          "id": 111,
+          "title": "Indochine",
+          "year": "1992",
+          "runtime": "159",
+          "genres": [
+              "Drama",
+              "Romance"
+          ],
+          "director": "Régis Wargnier",
+          "actors": "Catherine Deneuve, Vincent Perez, Linh Dan Pham, Jean Yanne",
+          "plot": "This story is set in 1930, at the time when French colonial rule in Indochina is ending. A widowed French woman who works in the rubber fields, raises a Vietnamese princess as if she was ...",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTM1MTkzNzA3NF5BMl5BanBnXkFtZTYwNTI2MzU5._V1_SX300.jpg"
+      },
+      {
+          "id": 112,
+          "title": "Birdman or (The Unexpected Virtue of Ignorance)",
+          "year": "2014",
+          "runtime": "119",
+          "genres": [
+              "Comedy",
+              "Drama",
+              "Romance"
+          ],
+          "director": "Alejandro G. Iñárritu",
+          "actors": "Michael Keaton, Emma Stone, Kenny Chin, Jamahl Garrison-Lowe",
+          "plot": "Illustrated upon the progress of his latest Broadway play, a former popular actor's struggle to cope with his current life as a wasted actor is shown.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BODAzNDMxMzAxOV5BMl5BanBnXkFtZTgwMDMxMjA4MjE@._V1_SX300.jpg"
+      },
+      {
+          "id": 113,
+          "title": "Boyhood",
+          "year": "2014",
+          "runtime": "165",
+          "genres": [
+              "Drama"
+          ],
+          "director": "Richard Linklater",
+          "actors": "Ellar Coltrane, Patricia Arquette, Elijah Smith, Lorelei Linklater",
+          "plot": "The life of Mason, from early childhood to his arrival at college.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTYzNDc2MDc0N15BMl5BanBnXkFtZTgwOTcwMDQ5MTE@._V1_SX300.jpg"
+      },
+      {
+          "id": 114,
+          "title": "12 Angry Men",
+          "year": "1957",
+          "runtime": "96",
+          "genres": [
+              "Crime",
+              "Drama"
+          ],
+          "director": "Sidney Lumet",
+          "actors": "Martin Balsam, John Fiedler, Lee J. Cobb, E.G. Marshall",
+          "plot": "A jury holdout attempts to prevent a miscarriage of justice by forcing his colleagues to reconsider the evidence.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BODQwOTc5MDM2N15BMl5BanBnXkFtZTcwODQxNTEzNA@@._V1_SX300.jpg"
+      },
+      {
+          "id": 115,
+          "title": "The Imitation Game",
+          "year": "2014",
+          "runtime": "114",
+          "genres": [
+              "Biography",
+              "Drama",
+              "Thriller"
+          ],
+          "director": "Morten Tyldum",
+          "actors": "Benedict Cumberbatch, Keira Knightley, Matthew Goode, Rory Kinnear",
+          "plot": "During World War II, mathematician Alan Turing tries to crack the enigma code with help from fellow mathematicians.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNDkwNTEyMzkzNl5BMl5BanBnXkFtZTgwNTAwNzk3MjE@._V1_SX300.jpg"
+      },
+      {
+          "id": 116,
+          "title": "Interstellar",
+          "year": "2014",
+          "runtime": "169",
+          "genres": [
+              "Adventure",
+              "Drama",
+              "Sci-Fi"
+          ],
+          "director": "Christopher Nolan",
+          "actors": "Ellen Burstyn, Matthew McConaughey, Mackenzie Foy, John Lithgow",
+          "plot": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjIxNTU4MzY4MF5BMl5BanBnXkFtZTgwMzM4ODI3MjE@._V1_SX300.jpg"
+      },
+      {
+          "id": 117,
+          "title": "Big Nothing",
+          "year": "2006",
+          "runtime": "86",
+          "genres": [
+              "Comedy",
+              "Crime",
+              "Thriller"
+          ],
+          "director": "Jean-Baptiste Andrea",
+          "actors": "David Schwimmer, Simon Pegg, Alice Eve, Natascha McElhone",
+          "plot": "A frustrated, unemployed teacher joining forces with a scammer and his girlfriend in a blackmailing scheme.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTY5NTc2NjYwOV5BMl5BanBnXkFtZTcwMzk5OTY0MQ@@._V1_SX300.jpg"
+      },
+      {
+          "id": 118,
+          "title": "Das Boot",
+          "year": "1981",
+          "runtime": "149",
+          "genres": [
+              "Adventure",
+              "Drama",
+              "Thriller"
+          ],
+          "director": "Wolfgang Petersen",
+          "actors": "Jürgen Prochnow, Herbert Grönemeyer, Klaus Wennemann, Hubertus Bengsch",
+          "plot": "The claustrophobic world of a WWII German U-boat; boredom, filth, and sheer terror.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjE5Mzk5OTQ0Nl5BMl5BanBnXkFtZTYwNzUwMTQ5._V1_SX300.jpg"
+      },
+      {
+          "id": 119,
+          "title": "Shrek 2",
+          "year": "2004",
+          "runtime": "93",
+          "genres": [
+              "Animation",
+              "Adventure",
+              "Comedy"
+          ],
+          "director": "Andrew Adamson, Kelly Asbury, Conrad Vernon",
+          "actors": "Mike Myers, Eddie Murphy, Cameron Diaz, Julie Andrews",
+          "plot": "Princess Fiona's parents invite her and Shrek to dinner to celebrate her marriage. If only they knew the newlyweds were both ogres.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTk4MTMwNjI4M15BMl5BanBnXkFtZTcwMjExMzUyMQ@@._V1_SX300.jpg"
+      },
+      {
+          "id": 120,
+          "title": "Sin City",
+          "year": "2005",
+          "runtime": "124",
+          "genres": [
+              "Crime",
+              "Thriller"
+          ],
+          "director": "Frank Miller, Robert Rodriguez, Quentin Tarantino",
+          "actors": "Jessica Alba, Devon Aoki, Alexis Bledel, Powers Boothe",
+          "plot": "A film that explores the dark and miserable town, Basin City, and tells the story of three different people, all caught up in violent corruption.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BODZmYjMwNzEtNzVhNC00ZTRmLTk2M2UtNzE1MTQ2ZDAxNjc2XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+      },
+      {
+          "id": 121,
+          "title": "Nebraska",
+          "year": "2013",
+          "runtime": "115",
+          "genres": [
+              "Adventure",
+              "Comedy",
+              "Drama"
+          ],
+          "director": "Alexander Payne",
+          "actors": "Bruce Dern, Will Forte, June Squibb, Bob Odenkirk",
+          "plot": "An aging, booze-addled father makes the trip from Montana to Nebraska with his estranged son in order to claim a million-dollar Mega Sweepstakes Marketing prize.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTU2Mjk2NDkyMl5BMl5BanBnXkFtZTgwNTk0NzcyMDE@._V1_SX300.jpg"
+      },
+      {
+          "id": 122,
+          "title": "Shrek",
+          "year": "2001",
+          "runtime": "90",
+          "genres": [
+              "Animation",
+              "Adventure",
+              "Comedy"
+          ],
+          "director": "Andrew Adamson, Vicky Jenson",
+          "actors": "Mike Myers, Eddie Murphy, Cameron Diaz, John Lithgow",
+          "plot": "After his swamp is filled with magical creatures, an ogre agrees to rescue a princess for a villainous lord in order to get his land back.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTk2NTE1NTE0M15BMl5BanBnXkFtZTgwNjY4NTYxMTE@._V1_SX300.jpg"
+      },
+      {
+          "id": 123,
+          "title": "Mr. & Mrs. Smith",
+          "year": "2005",
+          "runtime": "120",
+          "genres": [
+              "Action",
+              "Comedy",
+              "Crime"
+          ],
+          "director": "Doug Liman",
+          "actors": "Brad Pitt, Angelina Jolie, Vince Vaughn, Adam Brody",
+          "plot": "A bored married couple is surprised to learn that they are both assassins hired by competing agencies to kill each other.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTUxMzcxNzQzOF5BMl5BanBnXkFtZTcwMzQxNjUyMw@@._V1_SX300.jpg"
+      },
+      {
+          "id": 124,
+          "title": "Original Sin",
+          "year": "2001",
+          "runtime": "116",
+          "genres": [
+              "Drama",
+              "Mystery",
+              "Romance"
+          ],
+          "director": "Michael Cristofer",
+          "actors": "Antonio Banderas, Angelina Jolie, Thomas Jane, Jack Thompson",
+          "plot": "A woman along with her lover, plan to con a rich man by marrying him and on earning his trust running away with all his money. Everything goes as planned until she actually begins to fall in love with him.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BODg3Mjg0MDY4M15BMl5BanBnXkFtZTcwNjY5MDQ2NA@@._V1_SX300.jpg"
+      },
+      {
+          "id": 125,
+          "title": "Shrek Forever After",
+          "year": "2010",
+          "runtime": "93",
+          "genres": [
+              "Animation",
+              "Adventure",
+              "Comedy"
+          ],
+          "director": "Mike Mitchell",
+          "actors": "Mike Myers, Eddie Murphy, Cameron Diaz, Antonio Banderas",
+          "plot": "Rumpelstiltskin tricks a mid-life crisis burdened Shrek into allowing himself to be erased from existence and cast in a dark alternate timeline where Rumpel rules supreme.",
+          "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMTY0OTU1NzkxMl5BMl5BanBnXkFtZTcwMzI2NDUzMw@@._V1_SX300.jpg"
+      },
+      {
+          "id": 126,
+          "title": "Before Midnight",
+          "year": "2013",
+          "runtime": "109",
+          "genres": [
+              "Drama",
+              "Romance"
+          ],
+          "director": "Richard Linklater",
+          "actors": "Ethan Hawke, Julie Delpy, Seamus Davey-Fitzpatrick, Jennifer Prior",
+          "plot": "We meet Jesse and Celine nine years on in Greece. Almost two decades have passed since their first meeting on that train bound for Vienna.",
+          "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMjA5NzgxODE2NF5BMl5BanBnXkFtZTcwNTI1NTI0OQ@@._V1_SX300.jpg"
+      },
+      {
+          "id": 127,
+          "title": "Despicable Me",
+          "year": "2010",
+          "runtime": "95",
+          "genres": [
+              "Animation",
+              "Adventure",
+              "Comedy"
+          ],
+          "director": "Pierre Coffin, Chris Renaud",
+          "actors": "Steve Carell, Jason Segel, Russell Brand, Julie Andrews",
+          "plot": "When a criminal mastermind uses a trio of orphan girls as pawns for a grand scheme, he finds their love is profoundly changing him for the better.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTY3NjY0MTQ0Nl5BMl5BanBnXkFtZTcwMzQ2MTc0Mw@@._V1_SX300.jpg"
+      },
+      {
+          "id": 128,
+          "title": "Troy",
+          "year": "2004",
+          "runtime": "163",
+          "genres": [
+              "Adventure"
+          ],
+          "director": "Wolfgang Petersen",
+          "actors": "Julian Glover, Brian Cox, Nathan Jones, Adoni Maropis",
+          "plot": "An adaptation of Homer's great epic, the film follows the assault on Troy by the united Greek forces and chronicles the fates of the men involved.",
+          "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMTk5MzU1MDMwMF5BMl5BanBnXkFtZTcwNjczODMzMw@@._V1_SX300.jpg"
+      },
+      {
+          "id": 129,
+          "title": "The Hobbit: An Unexpected Journey",
+          "year": "2012",
+          "runtime": "169",
+          "genres": [
+              "Adventure",
+              "Fantasy"
+          ],
+          "director": "Peter Jackson",
+          "actors": "Ian McKellen, Martin Freeman, Richard Armitage, Ken Stott",
+          "plot": "A reluctant hobbit, Bilbo Baggins, sets out to the Lonely Mountain with a spirited group of dwarves to reclaim their mountain home - and the gold within it - from the dragon Smaug.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTcwNTE4MTUxMl5BMl5BanBnXkFtZTcwMDIyODM4OA@@._V1_SX300.jpg"
+      },
+      {
+          "id": 130,
+          "title": "The Great Gatsby",
+          "year": "2013",
+          "runtime": "143",
+          "genres": [
+              "Drama",
+              "Romance"
+          ],
+          "director": "Baz Luhrmann",
+          "actors": "Lisa Adam, Frank Aldridge, Amitabh Bachchan, Steve Bisley",
+          "plot": "A writer and wall street trader, Nick, finds himself drawn to the past and lifestyle of his millionaire neighbor, Jay Gatsby.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTkxNTk1ODcxNl5BMl5BanBnXkFtZTcwMDI1OTMzOQ@@._V1_SX300.jpg"
+      },
+      {
+          "id": 131,
+          "title": "Ice Age",
+          "year": "2002",
+          "runtime": "81",
+          "genres": [
+              "Animation",
+              "Adventure",
+              "Comedy"
+          ],
+          "director": "Chris Wedge, Carlos Saldanha",
+          "actors": "Ray Romano, John Leguizamo, Denis Leary, Goran Visnjic",
+          "plot": "Set during the Ice Age, a sabertooth tiger, a sloth, and a wooly mammoth find a lost human infant, and they try to return him to his tribe.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjEyNzI1ODA0MF5BMl5BanBnXkFtZTYwODIxODY3._V1_SX300.jpg"
+      },
+      {
+          "id": 132,
+          "title": "The Lord of the Rings: The Fellowship of the Ring",
+          "year": "2001",
+          "runtime": "178",
+          "genres": [
+              "Action",
+              "Adventure",
+              "Drama"
+          ],
+          "director": "Peter Jackson",
+          "actors": "Alan Howard, Noel Appleby, Sean Astin, Sala Baker",
+          "plot": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle Earth from the Dark Lord Sauron.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNTEyMjAwMDU1OV5BMl5BanBnXkFtZTcwNDQyNTkxMw@@._V1_SX300.jpg"
+      },
+      {
+          "id": 133,
+          "title": "The Lord of the Rings: The Two Towers",
+          "year": "2002",
+          "runtime": "179",
+          "genres": [
+              "Action",
+              "Adventure",
+              "Drama"
+          ],
+          "director": "Peter Jackson",
+          "actors": "Bruce Allpress, Sean Astin, John Bach, Sala Baker",
+          "plot": "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTAyNDU0NjY4NTheQTJeQWpwZ15BbWU2MDk4MTY2Nw@@._V1_SX300.jpg"
+      },
+      {
+          "id": 134,
+          "title": "Ex Machina",
+          "year": "2015",
+          "runtime": "108",
+          "genres": [
+              "Drama",
+              "Mystery",
+              "Sci-Fi"
+          ],
+          "director": "Alex Garland",
+          "actors": "Domhnall Gleeson, Corey Johnson, Oscar Isaac, Alicia Vikander",
+          "plot": "A young programmer is selected to participate in a ground-breaking experiment in synthetic intelligence by evaluating the human qualities of a breath-taking humanoid A.I.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTUxNzc0OTIxMV5BMl5BanBnXkFtZTgwNDI3NzU2NDE@._V1_SX300.jpg"
+      },
+      {
+          "id": 135,
+          "title": "The Theory of Everything",
+          "year": "2014",
+          "runtime": "123",
+          "genres": [
+              "Biography",
+              "Drama",
+              "Romance"
+          ],
+          "director": "James Marsh",
+          "actors": "Eddie Redmayne, Felicity Jones, Tom Prior, Sophie Perry",
+          "plot": "A look at the relationship between the famous physicist Stephen Hawking and his wife.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTAwMTU4MDA3NDNeQTJeQWpwZ15BbWU4MDk4NTMxNTIx._V1_SX300.jpg"
+      },
+      {
+          "id": 136,
+          "title": "Shogun",
+          "year": "1980",
+          "runtime": "60",
+          "genres": [
+              "Adventure",
+              "Drama",
+              "History"
+          ],
+          "director": "N/A",
+          "actors": "Richard Chamberlain, Toshirô Mifune, Yôko Shimada, Furankî Sakai",
+          "plot": "A English navigator becomes both a player and pawn in the complex political games in feudal Japan.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTY1ODI4NzYxMl5BMl5BanBnXkFtZTcwNDA4MzUxMQ@@._V1_SX300.jpg"
+      },
+      {
+          "id": 137,
+          "title": "Spotlight",
+          "year": "2015",
+          "runtime": "128",
+          "genres": [
+              "Biography",
+              "Crime",
+              "Drama"
+          ],
+          "director": "Tom McCarthy",
+          "actors": "Mark Ruffalo, Michael Keaton, Rachel McAdams, Liev Schreiber",
+          "plot": "The true story of how the Boston Globe uncovered the massive scandal of child molestation and cover-up within the local Catholic Archdiocese, shaking the entire Catholic Church to its core.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjIyOTM5OTIzNV5BMl5BanBnXkFtZTgwMDkzODE2NjE@._V1_SX300.jpg"
+      },
+      {
+          "id": 138,
+          "title": "Vertigo",
+          "year": "1958",
+          "runtime": "128",
+          "genres": [
+              "Mystery",
+              "Romance",
+              "Thriller"
+          ],
+          "director": "Alfred Hitchcock",
+          "actors": "James Stewart, Kim Novak, Barbara Bel Geddes, Tom Helmore",
+          "plot": "A San Francisco detective suffering from acrophobia investigates the strange activities of an old friend's wife, all the while becoming dangerously obsessed with her.",
+          "posterUrl": "http://ia.media-imdb.com/images/M/MV5BNzY0NzQyNzQzOF5BMl5BanBnXkFtZTcwMTgwNTk4OQ@@._V1_SX300.jpg"
+      },
+      {
+          "id": 139,
+          "title": "Whiplash",
+          "year": "2014",
+          "runtime": "107",
+          "genres": [
+              "Drama",
+              "Music"
+          ],
+          "director": "Damien Chazelle",
+          "actors": "Miles Teller, J.K. Simmons, Paul Reiser, Melissa Benoist",
+          "plot": "A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTU4OTQ3MDUyMV5BMl5BanBnXkFtZTgwOTA2MjU0MjE@._V1_SX300.jpg"
+      },
+      {
+          "id": 140,
+          "title": "The Lives of Others",
+          "year": "2006",
+          "runtime": "137",
+          "genres": [
+              "Drama",
+              "Thriller"
+          ],
+          "director": "Florian Henckel von Donnersmarck",
+          "actors": "Martina Gedeck, Ulrich Mühe, Sebastian Koch, Ulrich Tukur",
+          "plot": "In 1984 East Berlin, an agent of the secret police, conducting surveillance on a writer and his lover, finds himself becoming increasingly absorbed by their lives.",
+          "posterUrl": "http://ia.media-imdb.com/images/M/MV5BNDUzNjYwNDYyNl5BMl5BanBnXkFtZTcwNjU3ODQ0MQ@@._V1_SX300.jpg"
+      },
+      {
+          "id": 141,
+          "title": "Hotel Rwanda",
+          "year": "2004",
+          "runtime": "121",
+          "genres": [
+              "Drama",
+              "History",
+              "War"
+          ],
+          "director": "Terry George",
+          "actors": "Xolani Mali, Don Cheadle, Desmond Dube, Hakeem Kae-Kazim",
+          "plot": "Paul Rusesabagina was a hotel manager who housed over a thousand Tutsi refugees during their struggle against the Hutu militia in Rwanda.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTI2MzQyNTc1M15BMl5BanBnXkFtZTYwMjExNjc3._V1_SX300.jpg"
+      },
+      {
+          "id": 142,
+          "title": "The Martian",
+          "year": "2015",
+          "runtime": "144",
+          "genres": [
+              "Adventure",
+              "Drama",
+              "Sci-Fi"
+          ],
+          "director": "Ridley Scott",
+          "actors": "Matt Damon, Jessica Chastain, Kristen Wiig, Jeff Daniels",
+          "plot": "An astronaut becomes stranded on Mars after his team assume him dead, and must rely on his ingenuity to find a way to signal to Earth that he is alive.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTc2MTQ3MDA1Nl5BMl5BanBnXkFtZTgwODA3OTI4NjE@._V1_SX300.jpg"
+      },
+      {
+          "id": 143,
+          "title": "To Kill a Mockingbird",
+          "year": "1962",
+          "runtime": "129",
+          "genres": [
+              "Crime",
+              "Drama"
+          ],
+          "director": "Robert Mulligan",
+          "actors": "Gregory Peck, John Megna, Frank Overton, Rosemary Murphy",
+          "plot": "Atticus Finch, a lawyer in the Depression-era South, defends a black man against an undeserved rape charge, and his kids against prejudice.",
+          "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMjA4MzI1NDY2Nl5BMl5BanBnXkFtZTcwMTcyODc5Mw@@._V1_SX300.jpg"
+      },
+      {
+          "id": 144,
+          "title": "The Hateful Eight",
+          "year": "2015",
+          "runtime": "187",
+          "genres": [
+              "Crime",
+              "Drama",
+              "Mystery"
+          ],
+          "director": "Quentin Tarantino",
+          "actors": "Samuel L. Jackson, Kurt Russell, Jennifer Jason Leigh, Walton Goggins",
+          "plot": "In the dead of a Wyoming winter, a bounty hunter and his prisoner find shelter in a cabin currently inhabited by a collection of nefarious characters.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjA1MTc1NTg5NV5BMl5BanBnXkFtZTgwOTM2MDEzNzE@._V1_SX300.jpg"
+      },
+      {
+          "id": 145,
+          "title": "A Separation",
+          "year": "2011",
+          "runtime": "123",
+          "genres": [
+              "Drama",
+              "Mystery"
+          ],
+          "director": "Asghar Farhadi",
+          "actors": "Peyman Moaadi, Leila Hatami, Sareh Bayat, Shahab Hosseini",
+          "plot": "A married couple are faced with a difficult decision - to improve the life of their child by moving to another country or to stay in Iran and look after a deteriorating parent who has Alzheimer's disease.",
+          "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMTYzMzU4NDUwOF5BMl5BanBnXkFtZTcwMTM5MjA5Ng@@._V1_SX300.jpg"
+      },
+      {
+          "id": 146,
+          "title": "The Big Short",
+          "year": "2015",
+          "runtime": "130",
+          "genres": [
+              "Biography",
+              "Comedy",
+              "Drama"
+          ],
+          "director": "Adam McKay",
+          "actors": "Ryan Gosling, Rudy Eisenzopf, Casey Groves, Charlie Talbert",
+          "plot": "Four denizens in the world of high-finance predict the credit and housing bubble collapse of the mid-2000s, and decide to take on the big banks for their greed and lack of foresight.",
+          "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNDc4MThhN2EtZjMzNC00ZDJmLThiZTgtNThlY2UxZWMzNjdkXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg"
+      }
   ]
+}
